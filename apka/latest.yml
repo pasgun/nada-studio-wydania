@@ -1,8 +1,8 @@
-version: 1.0.1
+version: 1.0.2
 files:
-  - url: Nada-Studio-Setup-1.0.1.exe
-    sha512: iYuXUjOcYbRMf164Hzf5KyyVBqBI9LCB35gm0oE9MvbNaXgk15IIAHYAQjKsfK9GpNq9s21cw1KAvfM/lPcIDw==
-    size: 83043981
-path: Nada-Studio-Setup-1.0.1.exe
-sha512: iYuXUjOcYbRMf164Hzf5KyyVBqBI9LCB35gm0oE9MvbNaXgk15IIAHYAQjKsfK9GpNq9s21cw1KAvfM/lPcIDw==
-releaseDate: '2026-10-27T12:45:00.554Z'
+  - url: Nada-Studio-Setup-1.0.2.exe
+    sha512: 7F4ERrnj8jkfVPzDgZMuBaasQm+MhQCt9xc/Cjv/qhm4IwjEfAVCrpCmAMGDu3GkF3214xQaAHU5wC1zuf3lPQ==
+    size: 83006105
+path: Nada-Studio-Setup-1.0.2.exe
+sha512: 7F4ERrnj8jkfVPzDgZMuBaasQm+MhQCt9xc/Cjv/qhm4IwjEfAVCrpCmAMGDu3GkF3214xQaAHU5wC1zuf3lPQ==
+releaseDate: '2026-10-27T12:54:29.427Z'

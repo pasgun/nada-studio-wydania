@@ -1,9 +1,9 @@
 {
- "wersja": "19.1",
- "data": "2026-10-27 13:43",
- "plik": "silnik-19.1.zip",
- "sha256": "1ee115e953e19a202b8c7738cef95012f800739f213444fd350caf6657405658",
- "rozmiar": 1548572,
+ "wersja": "19.2",
+ "data": "2026-10-27 13:53",
+ "plik": "silnik-19.2.zip",
+ "sha256": "62e69f11eefd891acab85120bbcc71371e21a647114c807f75d6def414de6ba1",
+ "rozmiar": 1548591,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "2033a19e8ae7293cff9ead6a78f881b0f6a6e95d15915b1818e6a163b7910446",
@@ -33,7 +33,7 @@
   "AGENTS.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
   "CLAUDE.md": "c750274e78a74715826e7f6bc2694bebf14b6fd778cb1941aad7f0c3c2a8a7b0",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "686be713d544312da1990b37c6fddca709e44939a53df9cf4bf99e79c5f942a7",
+  "WERSJA.txt": "465bbc1785cddf030844c05e8087bf1c78c8d25aaf459d71d3043f694e1fad3f",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -129,11 +129,9 @@
   "premiere/pisownia.js": "7dad72cf21db7ac466bf51d612b76bffc5d332a27f193c5deac281a7f882e98f",
   "requirements.txt": "f843cd56d5204dcab074d200c3016ca7a4ff94ea611e4d9042bf18cc7718d1e1",
   "studio/i18n/en.json": "f271915022f47b00255460e2b3a156b232b5cc56aeb0a96bfeca1505c7075687",
-  "studio/studio.html": "c530d0815fc3c2d797c7e70c0a5da3a10ff6625a69c5a8b861b10d551b2f94ac"
+  "studio/studio.html": "bac650b873f1f395ced6ead2d8c3181bb6ee46d839505fc76b94cfbd6b94bc2c"
  },
  "zmiany": [
-  "wersja angielska: gdy w apce wybrany jest angielski, mózg rozmawia po angielsku (_system/jezyk.txt), Studio i kreator po angielsku",
-  "własne stocki użytkownika (dodawane w kreatorze apki): Pexels i Pixabay pobierane same (narzedzia/stock_api.py), serwisy bez API działają jak Envato (folder stock_reczny/<serwis>/)",
-  "nowe, symetryczne logo"
+  "przywrócone poprzednie logo w Studio"
  ]
 }
