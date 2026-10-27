@@ -1,16 +1,16 @@
 {
- "wersja": "19.0",
- "data": "2026-10-27 13:07",
- "plik": "silnik-19.0.zip",
- "sha256": "e0d79d7af9c5a796b126314d6515d8105a8039aa539b35bf7b39bb357c601e20",
- "rozmiar": 1507449,
+ "wersja": "19.1",
+ "data": "2026-10-27 13:43",
+ "plik": "silnik-19.1.zip",
+ "sha256": "1ee115e953e19a202b8c7738cef95012f800739f213444fd350caf6657405658",
+ "rozmiar": 1548572,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "2033a19e8ae7293cff9ead6a78f881b0f6a6e95d15915b1818e6a163b7910446",
   "npm_animacje": "6ab06082a4d919222baaca09052ad5d4febcd097722d679aa689204e48816871",
   "npm_psd": "a81115dd7fceaae3841b73512578e85925e7661ceb22c1fb20a98006d08579d0",
   "panel_adobe": "1129a4f30486f3b30856b4c37062dad24c04655455b5d9a777b131702077d12a",
-  "davinci": "0c0b1316bd2bdeaf7efdb306c8df589944c1588c5c99533e46f716bb3b9b4f21"
+  "davinci": "e4eecd0b0e38ebff8e041dca4f9eba5d94dc3967d5f00698267b479d4f10a069"
  },
  "pliki": {
   ".claude/settings.json": "e5190f3683d5dfa0a46628d610c5856b2fa96a790dcf7159759b16fe9672c27d",
@@ -30,20 +30,20 @@
   ".claude/skills/tlumaczenie/SKILL.md": "6b9a112ad06ff9c4973a8eecf625a818691c6a992b5aaf3ce6472a85d8e66595",
   ".claude/skills/transkrypcja/SKILL.md": "688f42a2f66df0a636d2bf78bfb549ce7322b1b114b361443f57aa5e91353c42",
   ".env.przyklad": "6f37395330beb28969e1f49d72dba5579bb8e5990442681e4ef8fe0e1a7a98ca",
-  "AGENTS.md": "e8ef6f355cb2366eae6e89e2c4df7d7c09781d2ced2a94e39c338709504c41e6",
-  "CLAUDE.md": "c845d388ecb3547a0d81e525ebc8bb86944d33fb9223c08878cc53659639e0fe",
-  "GEMINI.md": "e8ef6f355cb2366eae6e89e2c4df7d7c09781d2ced2a94e39c338709504c41e6",
-  "WERSJA.txt": "f2584ea3322e78abb3c7be6b4520942dfd003a8c5fbcca3c58c3d174abb3bfb1",
+  "AGENTS.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
+  "CLAUDE.md": "c750274e78a74715826e7f6bc2694bebf14b6fd778cb1941aad7f0c3c2a8a7b0",
+  "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
+  "WERSJA.txt": "686be713d544312da1990b37c6fddca709e44939a53df9cf4bf99e79c5f942a7",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
-  "davinci/skrypty/Napisy SRT.lua": "885bb08f58e29bb10d1b8ee178e313cff86af9dceeed924b1ab9e1e8c942bf7e",
-  "davinci/skrypty/Tnij cisze i wpadki.lua": "8fa83b18f4f9ac06d24a1782aeb97ae88a1783e8e26966407a81f7b9ddb5b9e1",
-  "davinci/skrypty/Wczytaj wyniki.lua": "fd92ee948e65d22a5a918f7f00c979a70ad9e8972ff87565ca716c88c9f869bc",
-  "davinci/skrypty/nada_wspolne.lib": "1ffd10024ec1fbb6116333293b666da34bbdec776acc5b0579355cfb75895f05",
+  "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
+  "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
+  "davinci/skrypty/Wczytaj wyniki.lua": "ad6d4193b3cd05076faf0f086d92bee48627ac2acd5467c54edf37548fb23fed",
+  "davinci/skrypty/nada_wspolne.lib": "af6bbabb032451bcb4bc989149fbf518d49b06471d5a8fad0e666cd97784b7bc",
   "davinci/wtyczka/index.html": "9021849613a67f1494f615559a8701404665e5637d6371b1201b505175662bc5",
-  "davinci/wtyczka/main.js": "6ab4c1e2069f6ab5a00214717e7dc386b3a68271b847652c60316f5888f78ed6",
+  "davinci/wtyczka/main.js": "cf01243d5a7e5f2ccee0e0b6711135f422e1b1d429c34b56f51604a04bfbdd14",
   "davinci/wtyczka/manifest.xml": "1f307874b679232433547f3f08af21c71b5d2b11824786959b293631705e46c6",
-  "davinci/wtyczka/panel.js": "931c355ad20ef6c14cf14d75aaa9cc50fae03b1dec4e07741c3ddb9de60b9aca",
-  "davinci/wtyczka/preload.js": "3d36b6fcd635a99fbbf35d0fc8075c7b50c5239dc0c9d04b3373ff3126383580",
+  "davinci/wtyczka/panel.js": "2874f8b02c7b7de3b788e87c9cdd5e42e5e6599f64056ee84377f9a69194d1de",
+  "davinci/wtyczka/preload.js": "56c1f575e9e7952d579d1df0d049c595e9e21ad7aa9d3a2b626650bd0e230ff0",
   "davinci/wtyczka/styl.css": "f3fbaa1cd5cd9fb01c787df8e0e683df9307c52b40f1cea78053e0cd78112f43",
   "narzedzia/aftermovie.py": "ebc3f90240513437939c00d20fd8c682e00b07a74c440876a61a4fc927ebe625",
   "narzedzia/analiza.py": "d19e38bd561ce93ad29c9414a0cafb34bddbcb5a6d3f14e0708c59fd484c3f18",
@@ -109,6 +109,7 @@
   "narzedzia/sciezki.py": "bfdb86cbec32209d508b4b20580f41e7bb9ff6f1bdd641c1863f88fba956f5d2",
   "narzedzia/sprawdz.py": "56ce39887e1ffee0c7586416444db61a8da6d70fe0b432d2bfc3c7aaaa11b3b1",
   "narzedzia/stock.py": "c8223b2eaed71c513a9776f82997b68313c7474b41d8054295c92be9bcd77376",
+  "narzedzia/stock_api.py": "b2b78235d4158d4c36177568b51d1dd84fc4779a8676bed1459d32b30d336769",
   "narzedzia/szablony/ae_buduj.jsx": "817c0ee812dfd451c3f0001b84a66faaab18678fab88d02ace45625bb1700d5a",
   "narzedzia/szablony/render.js": "2c81b8d6004787d9e8d5c9fca1801071f304dc0eea4de83095fad6a73b6595e3",
   "narzedzia/szablony/szablony.js": "74bc313a897e0900cf1c4e906c8862ade8b8f33870196fe55dec9cf4a4392383",
@@ -127,10 +128,12 @@
   "premiere/panel.js": "45cbe35ddbff57e8084ac47225996cd394106374798b31e75cf3b27bc06ccbb1",
   "premiere/pisownia.js": "7dad72cf21db7ac466bf51d612b76bffc5d332a27f193c5deac281a7f882e98f",
   "requirements.txt": "f843cd56d5204dcab074d200c3016ca7a4ff94ea611e4d9042bf18cc7718d1e1",
-  "studio/studio.html": "bac650b873f1f395ced6ead2d8c3181bb6ee46d839505fc76b94cfbd6b94bc2c"
+  "studio/i18n/en.json": "f271915022f47b00255460e2b3a156b232b5cc56aeb0a96bfeca1505c7075687",
+  "studio/studio.html": "c530d0815fc3c2d797c7e70c0a5da3a10ff6625a69c5a8b861b10d551b2f94ac"
  },
  "zmiany": [
-  "silnik jako część apki Nada Studio (Windows): aktualizacje z GitHuba jednym przyciskiem, kopia poprzedniej wersji i cofanie",
-  "programy zainstalowane przez apkę (Python, ffmpeg, Node, Claude Code, Antigravity) widoczne dla wszystkich narzędzi i panelu Premiere (_system/sciezki.json)"
+  "wersja angielska: gdy w apce wybrany jest angielski, mózg rozmawia po angielsku (_system/jezyk.txt), Studio i kreator po angielsku",
+  "własne stocki użytkownika (dodawane w kreatorze apki): Pexels i Pixabay pobierane same (narzedzia/stock_api.py), serwisy bez API działają jak Envato (folder stock_reczny/<serwis>/)",
+  "nowe, symetryczne logo"
  ]
 }
