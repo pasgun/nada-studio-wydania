@@ -1,9 +1,9 @@
 {
- "wersja": "19.4",
- "data": "2026-10-27 15:07",
- "plik": "silnik-19.4.zip",
- "sha256": "dd9aaccf6c389d68748e7fed8e53f8b3c72ab8f183536276335bc038251561e6",
- "rozmiar": 1563989,
+ "wersja": "19.5",
+ "data": "2026-10-27 15:42",
+ "plik": "silnik-19.5.zip",
+ "sha256": "ded4eb6916955f1225f7af238bf17b787b7ea8f9a1e1f9b50073c4ba48845450",
+ "rozmiar": 1564925,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "2033a19e8ae7293cff9ead6a78f881b0f6a6e95d15915b1818e6a163b7910446",
@@ -33,7 +33,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "45b7ea0483c4ca4a6d67f68abce0239dd3ab1a781f97cff9f5a92d0c144feaa3",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "51f7b0d303a4d88de07c479d4487cc313b6b21f2f56a6ec725db73d6a14015fa",
+  "WERSJA.txt": "7fb397260c208c24fa5917fba8e57e0a03518920c2ab8a844b0d6553f81fbd84",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -129,13 +129,10 @@
   "premiere/panel.js": "45cbe35ddbff57e8084ac47225996cd394106374798b31e75cf3b27bc06ccbb1",
   "premiere/pisownia.js": "7dad72cf21db7ac466bf51d612b76bffc5d332a27f193c5deac281a7f882e98f",
   "requirements.txt": "f843cd56d5204dcab074d200c3016ca7a4ff94ea611e4d9042bf18cc7718d1e1",
-  "studio/i18n/en.json": "f4b86bca9854aaf965a51bd27913ad408e0f93941dab3482c6dd9d6e2b990fbc",
-  "studio/studio.html": "f94931d487b907621448a4954600425b798720f352cc42a98adedafcbfa8591e"
+  "studio/i18n/en.json": "f7e88e5a5809e19615b98bbae76f2130db15de669894c38945d07e0e67cce1e2",
+  "studio/studio.html": "fb686eb21d435ed68737fca7409a317f4e07e02bab4e7267296c732c16c64a6b"
  },
  "zmiany": [
-  "Terminarz: domyślnie tydzień; nowy widok Rok (12 miesięcy, kropki przy dniach z wpisami), skok do dowolnego dnia, pod tygodniem „Później” z 3 miesięcy",
-  "Kalendarz Google w apce przez prywatny adres iCal (Ustawienia > Kalendarz Google), tylko podgląd",
-  "Ustawienia: Profil na górze, Klucze API drugie, reszta zwijana; bez sekcji „Wygląd całości”",
-  "Dashboard i Klienci: logotypy na białych kafelkach z cieniem, pełne nazwy klientów"
+  "Ustawienia w Studio: sekcja „Apka i programy” (programy, logowanie i mózgi, klucze, stocki, panele, folder pracy, aktualizacje, język) zamiast schowanego menu"
  ]
 }
