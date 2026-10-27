@@ -1,20 +1,20 @@
 {
- "wersja": "19.5",
- "data": "2026-10-27 15:42",
- "plik": "silnik-19.5.zip",
- "sha256": "ded4eb6916955f1225f7af238bf17b787b7ea8f9a1e1f9b50073c4ba48845450",
- "rozmiar": 1564925,
+ "wersja": "19.6",
+ "data": "2026-10-27 22:13",
+ "plik": "silnik-19.6.zip",
+ "sha256": "89cc52f3148d0099c2ce4b400a75a3c04d603a04246e161b459db12dd22739eb",
+ "rozmiar": 1578076,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "2033a19e8ae7293cff9ead6a78f881b0f6a6e95d15915b1818e6a163b7910446",
   "npm_animacje": "6ab06082a4d919222baaca09052ad5d4febcd097722d679aa689204e48816871",
   "npm_psd": "a81115dd7fceaae3841b73512578e85925e7661ceb22c1fb20a98006d08579d0",
   "panel_adobe": "241b7ddbc4e1e55f55e91968001de6979932b5c13aa2ccfd30bd8ceb7b6f27a5",
-  "davinci": "d7dd3650efd928a354c3b2e9efdb4e363d72f742c800b88b8589af70404e60c7"
+  "davinci": "0150ecc7497408e734e654a8ec48699d57d1f3b28899b6fc618769f1f9bac3b8"
  },
  "pliki": {
   ".claude/settings.json": "e5190f3683d5dfa0a46628d610c5856b2fa96a790dcf7159759b16fe9672c27d",
-  ".claude/skills/aftermovie/SKILL.md": "c2b3064e71b9b0f02b4aa0a33fd67c5fe474b96f8ef62782e67309e2d690993b",
+  ".claude/skills/aftermovie/SKILL.md": "d55279bf92a1d280cb39562c7f3aaf57488e7cb4151bb59c6922fab1586076a1",
   ".claude/skills/animacje/SKILL.md": "53736fc516e82c67eb34b400f6dbc0335c224df7b1d5ff2a00f03c94f7d9e403",
   ".claude/skills/brandbook/SKILL.md": "72dd4ca3f5514890ecd98db0bf776377f2721db3f087f73a90bc1a8abbe0b8e2",
   ".claude/skills/ciecie/SKILL.md": "4fb5b052b5ca1103fd38bfaed2942d9579ee01d0747ba05998aec6c03642b432",
@@ -31,20 +31,20 @@
   ".claude/skills/transkrypcja/SKILL.md": "688f42a2f66df0a636d2bf78bfb549ce7322b1b114b361443f57aa5e91353c42",
   ".env.przyklad": "6f37395330beb28969e1f49d72dba5579bb8e5990442681e4ef8fe0e1a7a98ca",
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
-  "CLAUDE.md": "45b7ea0483c4ca4a6d67f68abce0239dd3ab1a781f97cff9f5a92d0c144feaa3",
+  "CLAUDE.md": "aaa30324e93d2cab8731b5b2b67b0b537dfaf280634a23993cb17d4b816a6107",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "7fb397260c208c24fa5917fba8e57e0a03518920c2ab8a844b0d6553f81fbd84",
+  "WERSJA.txt": "cd490aad32cdab2b072602759ba584780d059067a524a184cbe46c3bdaff203c",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
   "davinci/skrypty/Wczytaj wyniki.lua": "ad6d4193b3cd05076faf0f086d92bee48627ac2acd5467c54edf37548fb23fed",
   "davinci/skrypty/nada_wspolne.lib": "af6bbabb032451bcb4bc989149fbf518d49b06471d5a8fad0e666cd97784b7bc",
-  "davinci/wtyczka/index.html": "3674955b5172f23fa56a15f40e1e5cf0021756753a5803178eb1ceeb06928653",
-  "davinci/wtyczka/main.js": "cf01243d5a7e5f2ccee0e0b6711135f422e1b1d429c34b56f51604a04bfbdd14",
+  "davinci/wtyczka/index.html": "66a8928ba490ea57505af3caa4d0dc6130d2db71d197881e4e40a2de8e069192",
+  "davinci/wtyczka/main.js": "00ff66318667e6d487a8650085ea6439c4dbfa47de58ca19e2f012bffaf4760f",
   "davinci/wtyczka/manifest.xml": "1f307874b679232433547f3f08af21c71b5d2b11824786959b293631705e46c6",
-  "davinci/wtyczka/panel.js": "10c960fa3720d76d7e33072fb36f9335ba0de8a7bf0b68b5a3450e337a02a029",
-  "davinci/wtyczka/preload.js": "56c1f575e9e7952d579d1df0d049c595e9e21ad7aa9d3a2b626650bd0e230ff0",
-  "davinci/wtyczka/styl.css": "deaf2e22c0a1b51e1373614299a3e63b1ed7b70b6d58ef2d0e072a500df48d21",
+  "davinci/wtyczka/panel.js": "deb9aefbbe3a916e25b501f2e7a7d7e2e4ac891326cf89993c1433bbeeab07a6",
+  "davinci/wtyczka/preload.js": "1efe53b9436233cb89067ab6e7d8439e61d6f0dc6dc56dced4d4c517870fc60a",
+  "davinci/wtyczka/styl.css": "2719d249fd5d9e0b58b6f755c7c6b7c16235bbe8dbb3c22cf3ecc5e3e1da360e",
   "narzedzia/aftermovie.py": "ebc3f90240513437939c00d20fd8c682e00b07a74c440876a61a4fc927ebe625",
   "narzedzia/analiza.py": "d19e38bd561ce93ad29c9414a0cafb34bddbcb5a6d3f14e0708c59fd484c3f18",
   "narzedzia/animacje/ae_mogrt.jsx": "e497b118861c88957da21af5aa525c57fe436c08dd04ab5df680f23b42ce9424",
@@ -59,7 +59,7 @@
   "narzedzia/bity.py": "d3127b9acde7f5bcbb03311a062db0b180ae18f8a68e0e3059b481de8036a12f",
   "narzedzia/brandbook.py": "98faaf6b00178337ba8661696c48091936392b7b2beae06727853f547ac6c33e",
   "narzedzia/ciecie.py": "8b281387a2325519906b333f50ddfca1878f247aa00ac6cef3c22edc65b113c9",
-  "narzedzia/davinci_most.py": "acf78dc7e162d05e0f3e97aad8870b5c3d0ed00d7121404c1216512bbff369da",
+  "narzedzia/davinci_most.py": "3fe08f9ada69083c3f9847cb7dda8891778f8a011a42cd041233b45dc8e83ed6",
   "narzedzia/dzwiek.py": "83352995ed9a25a3e9364c87fbc8ebcfbd7e4e9d2aa9498094c7b1e19fc2b428",
   "narzedzia/dzwieki/CZYTAJ.txt": "17117afb8a60300b17f95f7652e292c46b88845cc2aaa83328bdd59c71028cb5",
   "narzedzia/dzwieki/flash_1.wav": "f5fca3f9441932999f763363110abf26c2bfae9ffd55110a3c5f9fa8db265471",
@@ -133,6 +133,6 @@
   "studio/studio.html": "fb686eb21d435ed68737fca7409a317f4e07e02bab4e7267296c732c16c64a6b"
  },
  "zmiany": [
-  "Ustawienia w Studio: sekcja „Apka i programy” (programy, logowanie i mózgi, klucze, stocki, panele, folder pracy, aktualizacje, język) zamiast schowanego menu"
+  "panel DaVinci: nowe zakładki Animacje, Szablony, Napisy (w stylu rolek), Aftermovie (w tle, wybór mózgu), Stock (Magnific do Media Pool) i Multicam podcastu; wybór klienta na górze panelu"
  ]
 }
