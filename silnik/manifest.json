@@ -1,15 +1,15 @@
 {
- "wersja": "19.6",
- "data": "2026-10-27 22:13",
- "plik": "silnik-19.6.zip",
- "sha256": "89cc52f3148d0099c2ce4b400a75a3c04d603a04246e161b459db12dd22739eb",
- "rozmiar": 1578076,
+ "wersja": "19.7",
+ "data": "2026-10-27 23:21",
+ "plik": "silnik-19.7.zip",
+ "sha256": "37457e68d702395dea640db88e1b43972e451bde5a6be1bba6f10c78ad2bbf64",
+ "rozmiar": 1579056,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "2033a19e8ae7293cff9ead6a78f881b0f6a6e95d15915b1818e6a163b7910446",
   "npm_animacje": "6ab06082a4d919222baaca09052ad5d4febcd097722d679aa689204e48816871",
   "npm_psd": "a81115dd7fceaae3841b73512578e85925e7661ceb22c1fb20a98006d08579d0",
-  "panel_adobe": "241b7ddbc4e1e55f55e91968001de6979932b5c13aa2ccfd30bd8ceb7b6f27a5",
+  "panel_adobe": "ed4e754342e9bbd6db576ebae79f1434f9b9b8390eddf744c1b02ed1ab2b7df0",
   "davinci": "0150ecc7497408e734e654a8ec48699d57d1f3b28899b6fc618769f1f9bac3b8"
  },
  "pliki": {
@@ -31,9 +31,9 @@
   ".claude/skills/transkrypcja/SKILL.md": "688f42a2f66df0a636d2bf78bfb549ce7322b1b114b361443f57aa5e91353c42",
   ".env.przyklad": "6f37395330beb28969e1f49d72dba5579bb8e5990442681e4ef8fe0e1a7a98ca",
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
-  "CLAUDE.md": "aaa30324e93d2cab8731b5b2b67b0b537dfaf280634a23993cb17d4b816a6107",
+  "CLAUDE.md": "a052393a98968effc46f5a2c3fb7de0f61d48e7e2f4370e9ed4508f04f07b14f",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "cd490aad32cdab2b072602759ba584780d059067a524a184cbe46c3bdaff203c",
+  "WERSJA.txt": "03714f30cf623eba9d6b270bee19b7a1810f11ab4c37274f7872f42718466cb0",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -58,7 +58,7 @@
   "narzedzia/audio_asystent.py": "a3c183850a01177f90c37b01884c56932fd853c0a84d2a358c92e600218a14de",
   "narzedzia/bity.py": "d3127b9acde7f5bcbb03311a062db0b180ae18f8a68e0e3059b481de8036a12f",
   "narzedzia/brandbook.py": "98faaf6b00178337ba8661696c48091936392b7b2beae06727853f547ac6c33e",
-  "narzedzia/ciecie.py": "8b281387a2325519906b333f50ddfca1878f247aa00ac6cef3c22edc65b113c9",
+  "narzedzia/ciecie.py": "dd79e8e2eb96c019a4180580f2097c24fd6ba7b38900c7eadffba320f619be64",
   "narzedzia/davinci_most.py": "3fe08f9ada69083c3f9847cb7dda8891778f8a011a42cd041233b45dc8e83ed6",
   "narzedzia/dzwiek.py": "83352995ed9a25a3e9364c87fbc8ebcfbd7e4e9d2aa9498094c7b1e19fc2b428",
   "narzedzia/dzwieki/CZYTAJ.txt": "17117afb8a60300b17f95f7652e292c46b88845cc2aaa83328bdd59c71028cb5",
@@ -124,7 +124,7 @@
   "premiere/.debug": "f4107daa16ebb7c5c0fcc077998e2c4786ffe340e69fcc1f43cbc6a5872a78c6",
   "premiere/CSXS/manifest.xml": "b56df67964c72c205bc5f7d8c7f31ea5fed61ef4b77e01c6f8f759ce05c1cb1c",
   "premiere/host/host.jsx": "bc46670afdf861d08037efe1e90719f4f6220f8b87a8a5ecf57c82fb3c10af18",
-  "premiere/index.html": "1576686c8370409d330dbb734c62413798084d6733043827c467049bf22248ba",
+  "premiere/index.html": "3c9ba4af27a5d52402e5a9ad6581f265b6961623dd1d56a3095a15f5bc6fde4a",
   "premiere/kolor.js": "3660edaf01b26859d1390ef42c933883c3a26ecbb3a860fb1612b7ebff1f8673",
   "premiere/panel.js": "45cbe35ddbff57e8084ac47225996cd394106374798b31e75cf3b27bc06ccbb1",
   "premiere/pisownia.js": "7dad72cf21db7ac466bf51d612b76bffc5d332a27f193c5deac281a7f882e98f",
@@ -133,6 +133,7 @@
   "studio/studio.html": "fb686eb21d435ed68737fca7409a317f4e07e02bab4e7267296c732c16c64a6b"
  },
  "zmiany": [
-  "panel DaVinci: nowe zakładki Animacje, Szablony, Napisy (w stylu rolek), Aftermovie (w tle, wybór mózgu), Stock (Magnific do Media Pool) i Multicam podcastu; wybór klienta na górze panelu"
+  "cięcie ciszy i wpadek: naprawiony rozjazd obrazu i dźwięku po imporcie do Premiere (kawałki klipów miały w pliku stare, dokładne czasy Premiere, którym Premiere wierzy bardziej niż zwykłym); ta sama poprawka w multicamie",
+  "cięcie ciszy i wpadek: zablokowane ścieżki (kłódka) zostają bez cięć, w oryginalnej długości; reszta ścieżek (kamery, dźwięk, zagnieżdżone sekwencje, też wyłączone) tnie się w tych samych miejscach"
  ]
 }
