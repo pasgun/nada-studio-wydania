@@ -1,16 +1,16 @@
 {
- "wersja": "19.2",
- "data": "2026-10-27 13:53",
- "plik": "silnik-19.2.zip",
- "sha256": "62e69f11eefd891acab85120bbcc71371e21a647114c807f75d6def414de6ba1",
- "rozmiar": 1548591,
+ "wersja": "19.3",
+ "data": "2026-10-27 14:37",
+ "plik": "silnik-19.3.zip",
+ "sha256": "80a23b535c8b1d9516e1dd7d5a27f3285e621c2bd2e0b299a4e682812d3e3a7a",
+ "rozmiar": 1561783,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "2033a19e8ae7293cff9ead6a78f881b0f6a6e95d15915b1818e6a163b7910446",
   "npm_animacje": "6ab06082a4d919222baaca09052ad5d4febcd097722d679aa689204e48816871",
   "npm_psd": "a81115dd7fceaae3841b73512578e85925e7661ceb22c1fb20a98006d08579d0",
   "panel_adobe": "1129a4f30486f3b30856b4c37062dad24c04655455b5d9a777b131702077d12a",
-  "davinci": "e4eecd0b0e38ebff8e041dca4f9eba5d94dc3967d5f00698267b479d4f10a069"
+  "davinci": "d7dd3650efd928a354c3b2e9efdb4e363d72f742c800b88b8589af70404e60c7"
  },
  "pliki": {
   ".claude/settings.json": "e5190f3683d5dfa0a46628d610c5856b2fa96a790dcf7159759b16fe9672c27d",
@@ -30,21 +30,21 @@
   ".claude/skills/tlumaczenie/SKILL.md": "6b9a112ad06ff9c4973a8eecf625a818691c6a992b5aaf3ce6472a85d8e66595",
   ".claude/skills/transkrypcja/SKILL.md": "688f42a2f66df0a636d2bf78bfb549ce7322b1b114b361443f57aa5e91353c42",
   ".env.przyklad": "6f37395330beb28969e1f49d72dba5579bb8e5990442681e4ef8fe0e1a7a98ca",
-  "AGENTS.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "CLAUDE.md": "c750274e78a74715826e7f6bc2694bebf14b6fd778cb1941aad7f0c3c2a8a7b0",
+  "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
+  "CLAUDE.md": "45b7ea0483c4ca4a6d67f68abce0239dd3ab1a781f97cff9f5a92d0c144feaa3",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "465bbc1785cddf030844c05e8087bf1c78c8d25aaf459d71d3043f694e1fad3f",
+  "WERSJA.txt": "3731c1dd3b3cd72498dc075aaeb6bb98a58bb6204c51affcfc6b48e91f2cca4f",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
   "davinci/skrypty/Wczytaj wyniki.lua": "ad6d4193b3cd05076faf0f086d92bee48627ac2acd5467c54edf37548fb23fed",
   "davinci/skrypty/nada_wspolne.lib": "af6bbabb032451bcb4bc989149fbf518d49b06471d5a8fad0e666cd97784b7bc",
-  "davinci/wtyczka/index.html": "9021849613a67f1494f615559a8701404665e5637d6371b1201b505175662bc5",
+  "davinci/wtyczka/index.html": "3674955b5172f23fa56a15f40e1e5cf0021756753a5803178eb1ceeb06928653",
   "davinci/wtyczka/main.js": "cf01243d5a7e5f2ccee0e0b6711135f422e1b1d429c34b56f51604a04bfbdd14",
   "davinci/wtyczka/manifest.xml": "1f307874b679232433547f3f08af21c71b5d2b11824786959b293631705e46c6",
-  "davinci/wtyczka/panel.js": "2874f8b02c7b7de3b788e87c9cdd5e42e5e6599f64056ee84377f9a69194d1de",
+  "davinci/wtyczka/panel.js": "10c960fa3720d76d7e33072fb36f9335ba0de8a7bf0b68b5a3450e337a02a029",
   "davinci/wtyczka/preload.js": "56c1f575e9e7952d579d1df0d049c595e9e21ad7aa9d3a2b626650bd0e230ff0",
-  "davinci/wtyczka/styl.css": "f3fbaa1cd5cd9fb01c787df8e0e683df9307c52b40f1cea78053e0cd78112f43",
+  "davinci/wtyczka/styl.css": "deaf2e22c0a1b51e1373614299a3e63b1ed7b70b6d58ef2d0e072a500df48d21",
   "narzedzia/aftermovie.py": "ebc3f90240513437939c00d20fd8c682e00b07a74c440876a61a4fc927ebe625",
   "narzedzia/analiza.py": "d19e38bd561ce93ad29c9414a0cafb34bddbcb5a6d3f14e0708c59fd484c3f18",
   "narzedzia/animacje/ae_mogrt.jsx": "e497b118861c88957da21af5aa525c57fe436c08dd04ab5df680f23b42ce9424",
@@ -86,11 +86,12 @@
   "narzedzia/lektor.py": "3d7b427b96f9f9c18d550ccaca7c76eedcf19365bdd150d180e16ba013d4acfb",
   "narzedzia/limity.py": "67c4ac74305304d92448c1378c2db0038c90bbd462dcd33adbf8acb34bf527cc",
   "narzedzia/marka.py": "da416b37531b916bf46db39a8adbce38f44ed69c00e44297846c904dd1600f45",
-  "narzedzia/mcp_studio.py": "acd529b93675d330c7036380bed182e79af840f9796a66a481b204361abff5af",
+  "narzedzia/mcp_studio.py": "e2840a17edb92be0aeefb446d14ec57eb03b9452a73fd94484d8a1ffef117a2c",
   "narzedzia/miniatury.py": "cac04fe3f3aef69d717ef29935e4ddd36d766e7c8608877a4ca60eab11cdec1c",
   "narzedzia/montaz.py": "7303cc2eba78546d3983c21dc74f4e82f2643a8f294af022ea3144b0c1d4266f",
   "narzedzia/mowa.py": "8067c46dbbf5ccc17d468145086c4ca62f69d93727f508c89ea8fc9f57608387",
   "narzedzia/mozg.py": "ca453fb4db3aa2b28b269d4edc3114637b889d0fa825102308fca185f5c0d5de",
+  "narzedzia/mozgi_inne.py": "837a0f506a82795f8dea371ac03415e60c9eb3daffc74aed8f9505fc156449d1",
   "narzedzia/multicam.py": "9f7ce70d2d4f325ee3fb8f9812f88054836942f4d4a18860af17470e15f51bc8",
   "narzedzia/napisy.py": "37e6f7531aa8165c8c554c1cadecacf560cef01bee713114eecd4a08608d2ac2",
   "narzedzia/napisy_podglad.js": "dcd750982dda8f6a1c859a565b945511e603c8807fef97f1ac9db158987a466f",
@@ -128,10 +129,13 @@
   "premiere/panel.js": "45cbe35ddbff57e8084ac47225996cd394106374798b31e75cf3b27bc06ccbb1",
   "premiere/pisownia.js": "7dad72cf21db7ac466bf51d612b76bffc5d332a27f193c5deac281a7f882e98f",
   "requirements.txt": "f843cd56d5204dcab074d200c3016ca7a4ff94ea611e4d9042bf18cc7718d1e1",
-  "studio/i18n/en.json": "f271915022f47b00255460e2b3a156b232b5cc56aeb0a96bfeca1505c7075687",
-  "studio/studio.html": "bac650b873f1f395ced6ead2d8c3181bb6ee46d839505fc76b94cfbd6b94bc2c"
+  "studio/i18n/en.json": "fcc7d7f511d40396abaf31a29b95fda11a15afacfe57f5537f0b9929d79dc22d",
+  "studio/studio.html": "a5282769263216420e22ddf97cc61ff9e7585d110c5d488a48a9f7d0b9b8adb6"
  },
  "zmiany": [
-  "przywrócone poprzednie logo w Studio"
+  "inne mózgi poza Claude i Gemini (Codex, GitHub Copilot CLI, Gemini CLI, Qwen Code, OpenCode albo własny program): dodawane w apce, z testem, czy podołają (narzedzia/mozgi_inne.py); do wyboru w Console i przy zadaniu",
+  "Studio: mniejsze kafelki narzędzi, klientów (z odstępami i ramką) i zadań; w opisach narzędzi pracę wykonuje Studio",
+  "Terminarz: tydzień z podsumowaniem, a pod nim „Później” (4 kolejne tygodnie) i „Po terminie”",
+  "panel DaVinci: bez dublowania funkcji DaVinci (napisy z mowy, IntelliCut, Audio Assistant); zostają wyniki i wycinanie wpadek, nowa zakładka „W DaVinci”"
  ]
 }
