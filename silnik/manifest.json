@@ -1,15 +1,15 @@
 {
- "wersja": "19.8",
- "data": "2026-10-28 00:23",
- "plik": "silnik-19.8.zip",
- "sha256": "8b145fb9cac947b0d04ee30012c7c3a3738a6e1384e8a1a4be82fdbfa60ef02a",
- "rozmiar": 1709825,
+ "wersja": "19.9",
+ "data": "2026-10-28 00:37",
+ "plik": "silnik-19.9.zip",
+ "sha256": "9d1500946f75230d235de0fe3eaf0a1c68e0f72e7404dab2ff255274c25c1c0d",
+ "rozmiar": 1714317,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "2033a19e8ae7293cff9ead6a78f881b0f6a6e95d15915b1818e6a163b7910446",
   "npm_animacje": "6ab06082a4d919222baaca09052ad5d4febcd097722d679aa689204e48816871",
   "npm_psd": "a81115dd7fceaae3841b73512578e85925e7661ceb22c1fb20a98006d08579d0",
-  "panel_adobe": "bfa77a3a9e023508f5587f6e1bfded96ecc77290389c5e32edf9fb47f4fed342",
+  "panel_adobe": "dfcf356af88ccca5d2e130e499ed3c61f06e0dcbfe69977d50050177d23fb00f",
   "davinci": "0150ecc7497408e734e654a8ec48699d57d1f3b28899b6fc618769f1f9bac3b8"
  },
  "pliki": {
@@ -31,9 +31,9 @@
   ".claude/skills/transkrypcja/SKILL.md": "688f42a2f66df0a636d2bf78bfb549ce7322b1b114b361443f57aa5e91353c42",
   ".env.przyklad": "6f37395330beb28969e1f49d72dba5579bb8e5990442681e4ef8fe0e1a7a98ca",
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
-  "CLAUDE.md": "ae57b1ab69724c09edc41adb4107a904b67d71a990aca3d106de3fbf8483255f",
+  "CLAUDE.md": "3f3fed581064e3e7e08b84b003ba430e5d40436c9992d098ee85687fbacc3039",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "ccee482614fe6c95036d5c554e110c7bb2fdce1a95ee6f5cf8d9d90159fa0f31",
+  "WERSJA.txt": "f6adfa9b6804684c5f5e9a058a5e9d82d5974c781951880967775301ab2f8b60",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -61,7 +61,7 @@
   "narzedzia/audio_modele/bd.rnnn": "ae3f7411e1e6a884f839a4a145c394408398f09854dbc1216ee02faafc98a17b",
   "narzedzia/bity.py": "d3127b9acde7f5bcbb03311a062db0b180ae18f8a68e0e3059b481de8036a12f",
   "narzedzia/brandbook.py": "98faaf6b00178337ba8661696c48091936392b7b2beae06727853f547ac6c33e",
-  "narzedzia/ciecie.py": "dd79e8e2eb96c019a4180580f2097c24fd6ba7b38900c7eadffba320f619be64",
+  "narzedzia/ciecie.py": "0dfc24efc874e86a9970adac9123854a4c53ce9bf30451c053518caa1a0427fd",
   "narzedzia/davinci_most.py": "3fe08f9ada69083c3f9847cb7dda8891778f8a011a42cd041233b45dc8e83ed6",
   "narzedzia/dzwiek.py": "83352995ed9a25a3e9364c87fbc8ebcfbd7e4e9d2aa9498094c7b1e19fc2b428",
   "narzedzia/dzwieki/CZYTAJ.txt": "17117afb8a60300b17f95f7652e292c46b88845cc2aaa83328bdd59c71028cb5",
@@ -126,22 +126,18 @@
   "narzedzia/wzor.py": "0441c7a1891ea27b86d450e4f1a0147375d8eabbaae210161630af984623f903",
   "premiere/.debug": "f4107daa16ebb7c5c0fcc077998e2c4786ffe340e69fcc1f43cbc6a5872a78c6",
   "premiere/CSXS/manifest.xml": "b56df67964c72c205bc5f7d8c7f31ea5fed61ef4b77e01c6f8f759ce05c1cb1c",
-  "premiere/host/host.jsx": "bc46670afdf861d08037efe1e90719f4f6220f8b87a8a5ecf57c82fb3c10af18",
-  "premiere/index.html": "877c758a448d09823f599025f3a2f2d0e81c14230d8d5c21ee20967c3046bbbc",
+  "premiere/host/host.jsx": "c1d99008d59ae5a8ce6bcab08ac9f4dfb22f5cd1562f9cea2d7c56b94ecf0d5c",
+  "premiere/index.html": "176f52c1d26de91004c915862331afe0473580aeb6dead14a9264a2ae3fc53d6",
   "premiere/kolor.js": "3660edaf01b26859d1390ef42c933883c3a26ecbb3a860fb1612b7ebff1f8673",
-  "premiere/panel.js": "8118aaf7374e6572ef5897c70a166fce55bb9ebd5ff04cca59a4fd2a6fb979c4",
+  "premiere/panel.js": "7a648f8ee5dc182d3b0b948db1820bae43f78c4d4b3935f4e3ea882a18b47d6b",
   "premiere/pisownia.js": "7dad72cf21db7ac466bf51d612b76bffc5d332a27f193c5deac281a7f882e98f",
   "requirements.txt": "f843cd56d5204dcab074d200c3016ca7a4ff94ea611e4d9042bf18cc7718d1e1",
   "studio/i18n/en.json": "f7e88e5a5809e19615b98bbae76f2130db15de669894c38945d07e0e67cce1e2",
   "studio/studio.html": "fb686eb21d435ed68737fca7409a317f4e07e02bab4e7267296c732c16c64a6b"
  },
  "zmiany": [
-  "asystent audio jak AI Audio Assistant w DaVinci i więcej: diagnoza każdego nagrania mowy (szum, pogłos, buczenie 50/60 Hz, przestery, syczenie) i obróbka „Auto” dobrana osobno do każdego mikrofonu",
-  "mowa: naprawa przesterów, usuwanie buczenia, odszumianie siecią neuronową (RNNoise, na tym komputerze), usuwanie pogłosu, dopasowanie barwy mikrofonów do siebie i korekcja (dudnienie, czytelność), de-esser, wyrównanie fraz (leveler), kompresja, bramka między słowami; przy kilku mikrofonach przebicia cudzego głosu są przyciszane, a nie podbijane",
-  "muzyka ściszana pod mową z „miejscem na głos”, tło (atmosfera) jako osobny rodzaj ścieżki, ta sama mowa na dwóch ścieżkach liczona raz",
-  "mastering pod standard: YouTube, podcast, TV EBU R128, TV ATSC, Netflix (głośność mowy), z limiterem szczytów (true peak)",
-  "na oś jeden miks albo osobne ścieżki: mowa, muzyka, efekty, tło; raport, co zostało zrobione z każdą ścieżką",
-  "opcja: izolacja głosu AI ElevenLabs (zużywa kredyty, tylko po zaznaczeniu)",
-  "każdy krok zachowuje położenie dźwięku w czasie (opóźnienia filtrów są mierzone i cofane), więc mowa zostaje zgrana z obrazem"
+  "cięcie ciszy i wpadek w panelu Premiere tnie kopię Twojej sekwencji w samym Premiere (jak żyletką na wszystkich odblokowanych ścieżkach), zamiast budować nową z pliku XML: zostają efekty (Lumetri, Transform, zoomy z klatkami kluczowymi), ustawienia kanałów audio (np. tylko lewy kanał), głośności i wszystko, co było ustawione na klipach",
+  "po cięciu obraz i dźwięk są znowu połączone w pary, stare markery przesuwają się razem z cięciami, nowe stoją przy wpadkach",
+  "gdy Premiere nie pozwoli ciąć skryptem, panel wczytuje jak dotąd sekwencję z pliku XML i mówi, że część efektów może zginąć"
  ]
 }
