@@ -1,15 +1,15 @@
 {
- "wersja": "19.3",
- "data": "2026-10-27 14:37",
- "plik": "silnik-19.3.zip",
- "sha256": "80a23b535c8b1d9516e1dd7d5a27f3285e621c2bd2e0b299a4e682812d3e3a7a",
- "rozmiar": 1561783,
+ "wersja": "19.4",
+ "data": "2026-10-27 15:07",
+ "plik": "silnik-19.4.zip",
+ "sha256": "dd9aaccf6c389d68748e7fed8e53f8b3c72ab8f183536276335bc038251561e6",
+ "rozmiar": 1563989,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "2033a19e8ae7293cff9ead6a78f881b0f6a6e95d15915b1818e6a163b7910446",
   "npm_animacje": "6ab06082a4d919222baaca09052ad5d4febcd097722d679aa689204e48816871",
   "npm_psd": "a81115dd7fceaae3841b73512578e85925e7661ceb22c1fb20a98006d08579d0",
-  "panel_adobe": "1129a4f30486f3b30856b4c37062dad24c04655455b5d9a777b131702077d12a",
+  "panel_adobe": "241b7ddbc4e1e55f55e91968001de6979932b5c13aa2ccfd30bd8ceb7b6f27a5",
   "davinci": "d7dd3650efd928a354c3b2e9efdb4e363d72f742c800b88b8589af70404e60c7"
  },
  "pliki": {
@@ -33,7 +33,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "45b7ea0483c4ca4a6d67f68abce0239dd3ab1a781f97cff9f5a92d0c144feaa3",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "3731c1dd3b3cd72498dc075aaeb6bb98a58bb6204c51affcfc6b48e91f2cca4f",
+  "WERSJA.txt": "51f7b0d303a4d88de07c479d4487cc313b6b21f2f56a6ec725db73d6a14015fa",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -124,18 +124,18 @@
   "premiere/.debug": "f4107daa16ebb7c5c0fcc077998e2c4786ffe340e69fcc1f43cbc6a5872a78c6",
   "premiere/CSXS/manifest.xml": "b56df67964c72c205bc5f7d8c7f31ea5fed61ef4b77e01c6f8f759ce05c1cb1c",
   "premiere/host/host.jsx": "bc46670afdf861d08037efe1e90719f4f6220f8b87a8a5ecf57c82fb3c10af18",
-  "premiere/index.html": "547842f04782ce879dcd1e7e7fdb993cebcfa0b8755190fa2386f13cda5acbdd",
+  "premiere/index.html": "1576686c8370409d330dbb734c62413798084d6733043827c467049bf22248ba",
   "premiere/kolor.js": "3660edaf01b26859d1390ef42c933883c3a26ecbb3a860fb1612b7ebff1f8673",
   "premiere/panel.js": "45cbe35ddbff57e8084ac47225996cd394106374798b31e75cf3b27bc06ccbb1",
   "premiere/pisownia.js": "7dad72cf21db7ac466bf51d612b76bffc5d332a27f193c5deac281a7f882e98f",
   "requirements.txt": "f843cd56d5204dcab074d200c3016ca7a4ff94ea611e4d9042bf18cc7718d1e1",
-  "studio/i18n/en.json": "fcc7d7f511d40396abaf31a29b95fda11a15afacfe57f5537f0b9929d79dc22d",
-  "studio/studio.html": "a5282769263216420e22ddf97cc61ff9e7585d110c5d488a48a9f7d0b9b8adb6"
+  "studio/i18n/en.json": "f4b86bca9854aaf965a51bd27913ad408e0f93941dab3482c6dd9d6e2b990fbc",
+  "studio/studio.html": "f94931d487b907621448a4954600425b798720f352cc42a98adedafcbfa8591e"
  },
  "zmiany": [
-  "inne mózgi poza Claude i Gemini (Codex, GitHub Copilot CLI, Gemini CLI, Qwen Code, OpenCode albo własny program): dodawane w apce, z testem, czy podołają (narzedzia/mozgi_inne.py); do wyboru w Console i przy zadaniu",
-  "Studio: mniejsze kafelki narzędzi, klientów (z odstępami i ramką) i zadań; w opisach narzędzi pracę wykonuje Studio",
-  "Terminarz: tydzień z podsumowaniem, a pod nim „Później” (4 kolejne tygodnie) i „Po terminie”",
-  "panel DaVinci: bez dublowania funkcji DaVinci (napisy z mowy, IntelliCut, Audio Assistant); zostają wyniki i wycinanie wpadek, nowa zakładka „W DaVinci”"
+  "Terminarz: domyślnie tydzień; nowy widok Rok (12 miesięcy, kropki przy dniach z wpisami), skok do dowolnego dnia, pod tygodniem „Później” z 3 miesięcy",
+  "Kalendarz Google w apce przez prywatny adres iCal (Ustawienia > Kalendarz Google), tylko podgląd",
+  "Ustawienia: Profil na górze, Klucze API drugie, reszta zwijana; bez sekcji „Wygląd całości”",
+  "Dashboard i Klienci: logotypy na białych kafelkach z cieniem, pełne nazwy klientów"
  ]
 }
