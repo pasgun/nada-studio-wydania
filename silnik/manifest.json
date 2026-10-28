@@ -1,15 +1,15 @@
 {
- "wersja": "19.12",
- "data": "2026-10-28 11:35",
- "plik": "silnik-19.12.zip",
- "sha256": "45d6458bfe686e163e814a4a11a79478ee9863a898de57669667e6135d75ddc0",
- "rozmiar": 1717553,
+ "wersja": "19.13",
+ "data": "2026-10-28 11:49",
+ "plik": "silnik-19.13.zip",
+ "sha256": "8eb23d109960e9479265f7ec065d8523ecad32f3047403ae06810d41c9c35178",
+ "rozmiar": 1721529,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "2033a19e8ae7293cff9ead6a78f881b0f6a6e95d15915b1818e6a163b7910446",
   "npm_animacje": "6ab06082a4d919222baaca09052ad5d4febcd097722d679aa689204e48816871",
   "npm_psd": "a81115dd7fceaae3841b73512578e85925e7661ceb22c1fb20a98006d08579d0",
-  "panel_adobe": "6b513c37d9c4171909655a6c99de0d065520c0a9518556a8cb92036b011e52b9",
+  "panel_adobe": "fbd6208ac14b4bef8b1c77515d712d104918dda2c131cefd7a9d6d6cb23a8b0a",
   "davinci": "0150ecc7497408e734e654a8ec48699d57d1f3b28899b6fc618769f1f9bac3b8"
  },
  "pliki": {
@@ -31,9 +31,9 @@
   ".claude/skills/transkrypcja/SKILL.md": "688f42a2f66df0a636d2bf78bfb549ce7322b1b114b361443f57aa5e91353c42",
   ".env.przyklad": "6f37395330beb28969e1f49d72dba5579bb8e5990442681e4ef8fe0e1a7a98ca",
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
-  "CLAUDE.md": "3f3fed581064e3e7e08b84b003ba430e5d40436c9992d098ee85687fbacc3039",
+  "CLAUDE.md": "67f74043526bbbc8bbd3f38299b066e87767a63086c0843a1491d82049e8620b",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "37aea3713fc8f704074223c5a209d4a1549edb38bbabca5b2de306fbd651d873",
+  "WERSJA.txt": "27a3a43c455f661844cb5290b9ea612b8c0a483442b89ff31c917a6ec2ae2f36",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -55,13 +55,13 @@
   "narzedzia/animacje/wlasne/CZYTAJ.txt": "be4ec3c546c11a8f58fe9f59c9924a29890aaa8506c73763cbf88ecb19f5feae",
   "narzedzia/animacje/z_mowy.md": "397eadfa696c65f89c12cbe4672d0b93befe3ce25a1cd900cd107b2b8139cade",
   "narzedzia/animacje.py": "7471da90d606a63089d0c10f7edaa6d070668b85d847d3c7149f9add8848801f",
-  "narzedzia/audio_asystent.py": "8914bdf284a9b4be4d30bdfffbd6ddcb1057526ebcc2cf071c3f7a8c9f24712a",
+  "narzedzia/audio_asystent.py": "87587792e890913c0ab08c345670b8526db2776e2e1d8a417585fa843fce60a5",
   "narzedzia/audio_dsp.py": "6be2f0ebecf47a0abef21ac640c4994062b4c6e03deee325fdc9335059540ca6",
   "narzedzia/audio_modele/CZYTAJ.txt": "4abe06586bf84edd53675dac8dc5ab0ca84f7317077e356d1477c2715984cb1d",
   "narzedzia/audio_modele/bd.rnnn": "ae3f7411e1e6a884f839a4a145c394408398f09854dbc1216ee02faafc98a17b",
   "narzedzia/bity.py": "d3127b9acde7f5bcbb03311a062db0b180ae18f8a68e0e3059b481de8036a12f",
   "narzedzia/brandbook.py": "98faaf6b00178337ba8661696c48091936392b7b2beae06727853f547ac6c33e",
-  "narzedzia/ciecie.py": "3a35ed7aee59636a87c4e5b6694227fadbdf33a185b8b69aceb048624617db32",
+  "narzedzia/ciecie.py": "99a375ce7888fed53f180c0486a416bccb60d8595859814482d625555290e0ac",
   "narzedzia/davinci_most.py": "3fe08f9ada69083c3f9847cb7dda8891778f8a011a42cd041233b45dc8e83ed6",
   "narzedzia/dzwiek.py": "83352995ed9a25a3e9364c87fbc8ebcfbd7e4e9d2aa9498094c7b1e19fc2b428",
   "narzedzia/dzwieki/CZYTAJ.txt": "17117afb8a60300b17f95f7652e292c46b88845cc2aaa83328bdd59c71028cb5",
@@ -126,16 +126,20 @@
   "narzedzia/wzor.py": "0441c7a1891ea27b86d450e4f1a0147375d8eabbaae210161630af984623f903",
   "premiere/.debug": "f4107daa16ebb7c5c0fcc077998e2c4786ffe340e69fcc1f43cbc6a5872a78c6",
   "premiere/CSXS/manifest.xml": "b56df67964c72c205bc5f7d8c7f31ea5fed61ef4b77e01c6f8f759ce05c1cb1c",
-  "premiere/host/host.jsx": "23ab18cd9c1c5af96693dd311a4dea7becfc8de9dac29bb79a69559ef71a0068",
+  "premiere/host/host.jsx": "b50c7d6e08baf2d0c5b0830a9fc1aa735ccc4d7355516ba421b0ef9fb69145e4",
   "premiere/index.html": "5e9d6c48715babec0fe73dcffea4d583f17a013b45332a3fa311088ca10cb436",
   "premiere/kolor.js": "3660edaf01b26859d1390ef42c933883c3a26ecbb3a860fb1612b7ebff1f8673",
-  "premiere/panel.js": "deffec06dcf2e63aa58ef1cd6c89a09bc089e86a4bd44587bc79f6e534b595b2",
+  "premiere/panel.js": "68560f9e9515b35af5658c6be6c74de0666b8a901d59aaa5da85d75cdc5fe75a",
   "premiere/pisownia.js": "7dad72cf21db7ac466bf51d612b76bffc5d332a27f193c5deac281a7f882e98f",
   "requirements.txt": "f843cd56d5204dcab074d200c3016ca7a4ff94ea611e4d9042bf18cc7718d1e1",
   "studio/i18n/en.json": "f7e88e5a5809e19615b98bbae76f2130db15de669894c38945d07e0e67cce1e2",
   "studio/studio.html": "fb686eb21d435ed68737fca7409a317f4e07e02bab4e7267296c732c16c64a6b"
  },
  "zmiany": [
-  "asystent audio: naprawiony błąd „PermissionError: Odmowa dostępu” na Windowsie przy obróbce mowy (pliki robocze były jeszcze otwarte, gdy narzędzie chciało je podmienić); sprawdzone testem, który udaje blokady plików Windowsa"
+  "asystent audio i cięcie ciszy pracują na dźwięku z osi tak, jak gra w Premiere: panel eksportuje z Premiere każdą ścieżkę osobno (a do rozpoznania mowy cały miks, który słychać), więc liczą się Twoje ustawienia kanałów (np. tylko lewy kanał, Fill Left), głośności klipów i ścieżek, efekty audio i wyciszenia; nic nie jest czytane z oryginalnych plików (np. BRAW) z pominięciem tych ustawień",
+  "z pliku sekwencji brane jest już tylko to, gdzie leżą klipy i z jakiego nagrania są (każde nagranie dostaje osobną diagnozę i obróbkę)",
+  "gdy Premiere nie da się wyeksportować dźwięku (brak presetu WAV), panel mówi o tym wprost i dopiero wtedy czyta pliki",
+  "lepsze rozpoznanie rodzaju ścieżki: dźwięk z kamery i nagrań ekranu to mowa, a mowę od muzyki odróżnia barwa i rytm (wcześniej czysta mowa potrafiła wyjść jako muzyka)",
+  "duże pliki WAV z Premiere są usuwane po zrobieniu miksu i po rozpoznaniu mowy"
  ]
 }
