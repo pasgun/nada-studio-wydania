@@ -1,9 +1,9 @@
 {
- "wersja": "19.11",
- "data": "2026-10-28 11:05",
- "plik": "silnik-19.11.zip",
- "sha256": "943e2ebd8685040ec3567ab2214e526ea0a8087e0e38242bc933a7bc97f3eda0",
- "rozmiar": 1717114,
+ "wersja": "19.12",
+ "data": "2026-10-28 11:35",
+ "plik": "silnik-19.12.zip",
+ "sha256": "45d6458bfe686e163e814a4a11a79478ee9863a898de57669667e6135d75ddc0",
+ "rozmiar": 1717553,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "2033a19e8ae7293cff9ead6a78f881b0f6a6e95d15915b1818e6a163b7910446",
@@ -33,7 +33,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "3f3fed581064e3e7e08b84b003ba430e5d40436c9992d098ee85687fbacc3039",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "45a8f1e7b44496f0ae80c5e18aa784a6d94ead0f0982b162f75488f85cfd1049",
+  "WERSJA.txt": "37aea3713fc8f704074223c5a209d4a1549edb38bbabca5b2de306fbd651d873",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -55,8 +55,8 @@
   "narzedzia/animacje/wlasne/CZYTAJ.txt": "be4ec3c546c11a8f58fe9f59c9924a29890aaa8506c73763cbf88ecb19f5feae",
   "narzedzia/animacje/z_mowy.md": "397eadfa696c65f89c12cbe4672d0b93befe3ce25a1cd900cd107b2b8139cade",
   "narzedzia/animacje.py": "7471da90d606a63089d0c10f7edaa6d070668b85d847d3c7149f9add8848801f",
-  "narzedzia/audio_asystent.py": "84ff0ed2898be59729fbbe75e0ad34784c46c74d14546222c2a8a27bcabcbbe7",
-  "narzedzia/audio_dsp.py": "200080f5d1adec8301024c747a8fc2e32bb509de9559f72c5c7dcdbdd6eaa9f7",
+  "narzedzia/audio_asystent.py": "8914bdf284a9b4be4d30bdfffbd6ddcb1057526ebcc2cf071c3f7a8c9f24712a",
+  "narzedzia/audio_dsp.py": "6be2f0ebecf47a0abef21ac640c4994062b4c6e03deee325fdc9335059540ca6",
   "narzedzia/audio_modele/CZYTAJ.txt": "4abe06586bf84edd53675dac8dc5ab0ca84f7317077e356d1477c2715984cb1d",
   "narzedzia/audio_modele/bd.rnnn": "ae3f7411e1e6a884f839a4a145c394408398f09854dbc1216ee02faafc98a17b",
   "narzedzia/bity.py": "d3127b9acde7f5bcbb03311a062db0b180ae18f8a68e0e3059b481de8036a12f",
@@ -136,8 +136,6 @@
   "studio/studio.html": "fb686eb21d435ed68737fca7409a317f4e07e02bab4e7267296c732c16c64a6b"
  },
  "zmiany": [
-  "numery ścieżek audio jak w Premiere: Premiere zapisuje ścieżkę stereo w pliku XML jako dwie ścieżki (po jednej na kanał), przez co asystent audio pokazywał np. A6–A10, których w projekcie nie ma; teraz numery i nazwy ścieżek są takie jak w projekcie (panel pokazuje też nazwę ścieżki, jeśli ją zmieniłeś, i oznaczenie „wyciszona (M)”)",
-  "ta sama poprawka naprawia pomijanie wyciszonych ścieżek i wyciszanie oryginałów po miksie (trafiały w złe ścieżki), łączenie obrazu z dźwiękiem po cięciu ciszy w samym Premiere i wybór mikrofonów w multicamie",
-  "ścieżka stereo w asystencie audio zostaje stereo (muzyka nie zamienia się w mono), a dźwięk tylko z jednego kanału na obu słuchawkach liczy się raz"
+  "asystent audio: naprawiony błąd „PermissionError: Odmowa dostępu” na Windowsie przy obróbce mowy (pliki robocze były jeszcze otwarte, gdy narzędzie chciało je podmienić); sprawdzone testem, który udaje blokady plików Windowsa"
  ]
 }
