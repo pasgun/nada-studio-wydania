@@ -1,9 +1,9 @@
 {
- "wersja": "19.24",
- "data": "2026-10-28 16:33",
- "plik": "silnik-19.24.zip",
- "sha256": "ed39f2ecbd98cc3d58bab54d349c8bc5e0848211379cca12b341107a9b8c3d3f",
- "rozmiar": 1748206,
+ "wersja": "19.25",
+ "data": "2026-10-28 20:31",
+ "plik": "silnik-19.25.zip",
+ "sha256": "a4712f02342cabdbacc90d2c079e2b1205c5d0c44bcefc30eaeb9025327e2801",
+ "rozmiar": 1748297,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "a0220103bb5453778c5c172beb5a6bea861242aba109e67ca718d191bab2a88d",
@@ -33,7 +33,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "298f53d8e40756c866024c722b43c9d4981dbd4af4ea92e193378e227215faf0",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "223814b1e077326adbbdc22286c7c9a48ddbe74888310cd0e641eede7335b765",
+  "WERSJA.txt": "99f112517551b16c97dbac9d0365bc1906541607113a03d04e7685df9e351f1e",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -134,9 +134,9 @@
   "premiere/pisownia.js": "7dad72cf21db7ac466bf51d612b76bffc5d332a27f193c5deac281a7f882e98f",
   "requirements.txt": "f948410896ce1d7fd57b36d2a2aec787e8a4558ddf5fdf42c0f0b61d6e12ba46",
   "studio/i18n/en.json": "f7e88e5a5809e19615b98bbae76f2130db15de669894c38945d07e0e67cce1e2",
-  "studio/studio.html": "25143dcb019c60bb61f98dd82fc57db1464425d5fea8f62ec05e4851b31ace24"
+  "studio/studio.html": "f1f9c841cf6b40254f0037899f1e17093a9ab7cdc985a7462ba26b9b96ba1608"
  },
  "zmiany": [
-  "Wyniki zadania w Studio: przyciski projektów z folderu zadania, zależnie od tego, co zadanie zrobiło: „Otwórz w Premiere” (oś XML albo .prproj; XML Premiere wczyta jako nowy projekt), „Otwórz w After Effects” (.aep), „Otwórz w Photoshopie” (.psd/.psb), „Otwórz w DaVinci” (.drp)"
+  "Wyniki zadania: przyciski projektów stoją pod „Otwórz folder w Eksploratorze”, jeden pod drugim, z prostymi oznaczeniami programów (Pr, Ae, Ps, DR) zamiast obrazków"
  ]
 }
