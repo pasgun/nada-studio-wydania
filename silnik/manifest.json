@@ -1,15 +1,15 @@
 {
- "wersja": "19.9",
- "data": "2026-10-28 00:37",
- "plik": "silnik-19.9.zip",
- "sha256": "9d1500946f75230d235de0fe3eaf0a1c68e0f72e7404dab2ff255274c25c1c0d",
- "rozmiar": 1714317,
+ "wersja": "19.10",
+ "data": "2026-10-28 01:18",
+ "plik": "silnik-19.10.zip",
+ "sha256": "1c3dc9d5b47c63c6e3f93a1df8b1c9a31fcd2ccb8eaf3a76680a32209fd87cbe",
+ "rozmiar": 1715823,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "2033a19e8ae7293cff9ead6a78f881b0f6a6e95d15915b1818e6a163b7910446",
   "npm_animacje": "6ab06082a4d919222baaca09052ad5d4febcd097722d679aa689204e48816871",
   "npm_psd": "a81115dd7fceaae3841b73512578e85925e7661ceb22c1fb20a98006d08579d0",
-  "panel_adobe": "dfcf356af88ccca5d2e130e499ed3c61f06e0dcbfe69977d50050177d23fb00f",
+  "panel_adobe": "45e98e557462888b3517bc42a6a0d1e35572fe14a8b5d19c9dc2598c1a941877",
   "davinci": "0150ecc7497408e734e654a8ec48699d57d1f3b28899b6fc618769f1f9bac3b8"
  },
  "pliki": {
@@ -33,7 +33,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "3f3fed581064e3e7e08b84b003ba430e5d40436c9992d098ee85687fbacc3039",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "f6adfa9b6804684c5f5e9a058a5e9d82d5974c781951880967775301ab2f8b60",
+  "WERSJA.txt": "8dabbcee5b5dafea2ae103bb8a11be257a893079714a9fd48d6936d4b822f89b",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -55,13 +55,13 @@
   "narzedzia/animacje/wlasne/CZYTAJ.txt": "be4ec3c546c11a8f58fe9f59c9924a29890aaa8506c73763cbf88ecb19f5feae",
   "narzedzia/animacje/z_mowy.md": "397eadfa696c65f89c12cbe4672d0b93befe3ce25a1cd900cd107b2b8139cade",
   "narzedzia/animacje.py": "7471da90d606a63089d0c10f7edaa6d070668b85d847d3c7149f9add8848801f",
-  "narzedzia/audio_asystent.py": "2aa9c7f5ff86dafdd92b217184f5abff4d9c62b6217929b709915d18257f9a03",
+  "narzedzia/audio_asystent.py": "3c93a1332d6d6d8a73c13f065c058499871ad397aef1be3f9c15a7c294a7e347",
   "narzedzia/audio_dsp.py": "200080f5d1adec8301024c747a8fc2e32bb509de9559f72c5c7dcdbdd6eaa9f7",
   "narzedzia/audio_modele/CZYTAJ.txt": "4abe06586bf84edd53675dac8dc5ab0ca84f7317077e356d1477c2715984cb1d",
   "narzedzia/audio_modele/bd.rnnn": "ae3f7411e1e6a884f839a4a145c394408398f09854dbc1216ee02faafc98a17b",
   "narzedzia/bity.py": "d3127b9acde7f5bcbb03311a062db0b180ae18f8a68e0e3059b481de8036a12f",
   "narzedzia/brandbook.py": "98faaf6b00178337ba8661696c48091936392b7b2beae06727853f547ac6c33e",
-  "narzedzia/ciecie.py": "0dfc24efc874e86a9970adac9123854a4c53ce9bf30451c053518caa1a0427fd",
+  "narzedzia/ciecie.py": "c4d4374e6056578ed1365a77b629d9feb30afc6d14b15390fbd05c76f7b5c860",
   "narzedzia/davinci_most.py": "3fe08f9ada69083c3f9847cb7dda8891778f8a011a42cd041233b45dc8e83ed6",
   "narzedzia/dzwiek.py": "83352995ed9a25a3e9364c87fbc8ebcfbd7e4e9d2aa9498094c7b1e19fc2b428",
   "narzedzia/dzwieki/CZYTAJ.txt": "17117afb8a60300b17f95f7652e292c46b88845cc2aaa83328bdd59c71028cb5",
@@ -126,18 +126,17 @@
   "narzedzia/wzor.py": "0441c7a1891ea27b86d450e4f1a0147375d8eabbaae210161630af984623f903",
   "premiere/.debug": "f4107daa16ebb7c5c0fcc077998e2c4786ffe340e69fcc1f43cbc6a5872a78c6",
   "premiere/CSXS/manifest.xml": "b56df67964c72c205bc5f7d8c7f31ea5fed61ef4b77e01c6f8f759ce05c1cb1c",
-  "premiere/host/host.jsx": "c1d99008d59ae5a8ce6bcab08ac9f4dfb22f5cd1562f9cea2d7c56b94ecf0d5c",
-  "premiere/index.html": "176f52c1d26de91004c915862331afe0473580aeb6dead14a9264a2ae3fc53d6",
+  "premiere/host/host.jsx": "23ab18cd9c1c5af96693dd311a4dea7becfc8de9dac29bb79a69559ef71a0068",
+  "premiere/index.html": "255b79e7814fcbf5b025ae5d0c462353cdf9c78aa98b2edd8d12cef500c18e61",
   "premiere/kolor.js": "3660edaf01b26859d1390ef42c933883c3a26ecbb3a860fb1612b7ebff1f8673",
-  "premiere/panel.js": "7a648f8ee5dc182d3b0b948db1820bae43f78c4d4b3935f4e3ea882a18b47d6b",
+  "premiere/panel.js": "d69f296d187f1a2e0240a5c3d711cd708e805305fef04f22c2c76b12cf6cc389",
   "premiere/pisownia.js": "7dad72cf21db7ac466bf51d612b76bffc5d332a27f193c5deac281a7f882e98f",
   "requirements.txt": "f843cd56d5204dcab074d200c3016ca7a4ff94ea611e4d9042bf18cc7718d1e1",
   "studio/i18n/en.json": "f7e88e5a5809e19615b98bbae76f2130db15de669894c38945d07e0e67cce1e2",
   "studio/studio.html": "fb686eb21d435ed68737fca7409a317f4e07e02bab4e7267296c732c16c64a6b"
  },
  "zmiany": [
-  "cięcie ciszy i wpadek w panelu Premiere tnie kopię Twojej sekwencji w samym Premiere (jak żyletką na wszystkich odblokowanych ścieżkach), zamiast budować nową z pliku XML: zostają efekty (Lumetri, Transform, zoomy z klatkami kluczowymi), ustawienia kanałów audio (np. tylko lewy kanał), głośności i wszystko, co było ustawione na klipach",
-  "po cięciu obraz i dźwięk są znowu połączone w pary, stare markery przesuwają się razem z cięciami, nowe stoją przy wpadkach",
-  "gdy Premiere nie pozwoli ciąć skryptem, panel wczytuje jak dotąd sekwencję z pliku XML i mówi, że część efektów może zginąć"
+  "asystent audio i cięcie ciszy pomijają ścieżki wyciszone w Premiere (przycisk M), np. dźwięk z kamery, którego nie używasz; opcja „Pomijaj wyciszone ścieżki (M)” jest domyślnie włączona (Premiere nie zapisuje wyciszenia w pliku XML, więc panel pyta o nie Premiere)",
+  "asystent audio: ta sama mowa na dwóch ścieżkach (ten sam plik i kanał) od razu ma „Pomiń” z wyjaśnieniem; jedno nagranie pokazane raz, nawet gdy na osi jest pocięte na kilka fragmentów"
  ]
 }
