@@ -1,15 +1,15 @@
 {
- "wersja": "19.21",
- "data": "2026-10-28 16:03",
- "plik": "silnik-19.21.zip",
- "sha256": "b28f699e745dda8ff9917894b57168ecdcc95bbd7163a15bb9ca2c8911f5435b",
- "rozmiar": 1743838,
+ "wersja": "19.22",
+ "data": "2026-10-28 16:21",
+ "plik": "silnik-19.22.zip",
+ "sha256": "ddb7da6ebea1adf5c7613e24cfe20cd93363d0a95a369e2f89cae8ab6011ccec",
+ "rozmiar": 1745382,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "a0220103bb5453778c5c172beb5a6bea861242aba109e67ca718d191bab2a88d",
   "npm_animacje": "6ab06082a4d919222baaca09052ad5d4febcd097722d679aa689204e48816871",
   "npm_psd": "a81115dd7fceaae3841b73512578e85925e7661ceb22c1fb20a98006d08579d0",
-  "panel_adobe": "8c82dab739538b8774dfbe229a72619ea589d6509fcabf0880a238b5209c73fb",
+  "panel_adobe": "819eaa6d3112d36c447b6f65a917afc62c39259643a3592eaaa46ea5efeebde0",
   "davinci": "0150ecc7497408e734e654a8ec48699d57d1f3b28899b6fc618769f1f9bac3b8"
  },
  "pliki": {
@@ -33,7 +33,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "4fe08efbbcd01e32902e4afe9744a42fcb0827d65d8d7c212d1d6ea6047ae8b1",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "1cde4c52208e13ae941bcdd49c86c83e2caa5c316b9360bfda34383ffddd2db4",
+  "WERSJA.txt": "85bcf3e5b546405e3d0face77053c9dd6c20c2e82bf628077faa6e29f61e1a72",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -63,7 +63,7 @@
   "narzedzia/brandbook.py": "98faaf6b00178337ba8661696c48091936392b7b2beae06727853f547ac6c33e",
   "narzedzia/ciecie.py": "99a375ce7888fed53f180c0486a416bccb60d8595859814482d625555290e0ac",
   "narzedzia/davinci_most.py": "3fe08f9ada69083c3f9847cb7dda8891778f8a011a42cd041233b45dc8e83ed6",
-  "narzedzia/dzwiek.py": "6beb23f0d46a7bed1542f5ab9df456d9d42a1e5212d546c98023e14642e0e1b4",
+  "narzedzia/dzwiek.py": "f3df504e900f329bd4bb318643a73ef696208d63dde080e02a3a5db8cea32531",
   "narzedzia/dzwieki/CZYTAJ.txt": "17117afb8a60300b17f95f7652e292c46b88845cc2aaa83328bdd59c71028cb5",
   "narzedzia/dzwieki/flash_1.wav": "f5fca3f9441932999f763363110abf26c2bfae9ffd55110a3c5f9fa8db265471",
   "narzedzia/dzwieki/hit_1.wav": "9da064f01fcdf8d2c4a8fe01e95f6c36ab1a433bba73d55db8d47b583e44d693",
@@ -128,16 +128,17 @@
   "premiere/.debug": "f4107daa16ebb7c5c0fcc077998e2c4786ffe340e69fcc1f43cbc6a5872a78c6",
   "premiere/CSXS/manifest.xml": "b56df67964c72c205bc5f7d8c7f31ea5fed61ef4b77e01c6f8f759ce05c1cb1c",
   "premiere/host/host.jsx": "5d544d0f1abef8d0c8ccefecda844c3af23e4dd369bd1406a3c3fd9952aab4f0",
-  "premiere/index.html": "f3b445ef5f045a71404d022147eceb1682f465bcba1e36ac6744a5337c7b0383",
+  "premiere/index.html": "b6ecbbf871cd545517d357422a8e6dd644f251b75903763a9d50ecac8bd77510",
   "premiere/kolor.js": "3660edaf01b26859d1390ef42c933883c3a26ecbb3a860fb1612b7ebff1f8673",
-  "premiere/panel.js": "9f10d2f7723bc3bf0eb486f128a00707d7f67632bbe03deb32066a6bded4bf25",
+  "premiere/panel.js": "2255a0d2e1b9e3b46046e6d4600e6e6c2f9726b4b47ea0bc2ad2dde7b1a44511",
   "premiere/pisownia.js": "7dad72cf21db7ac466bf51d612b76bffc5d332a27f193c5deac281a7f882e98f",
   "requirements.txt": "f948410896ce1d7fd57b36d2a2aec787e8a4558ddf5fdf42c0f0b61d6e12ba46",
   "studio/i18n/en.json": "f7e88e5a5809e19615b98bbae76f2130db15de669894c38945d07e0e67cce1e2",
   "studio/studio.html": "1a3081a684433faf168a6c88326031ccd0a4c63f502c85e5f0e1c220a0a9e9db"
  },
  "zmiany": [
-  "Zadania w Studio: „Zobacz wyniki” w kolorach strony (obramowany, bez białego podświetlenia), zaraz po „Wykonaj”; przycisk mózgu (Claude, Gemini…) w prawym górnym rogu kafelka, obok nazwy klienta, w pomarańczowym kolorze Studio (kliknięcie zmienia mózg)",
-  "Wyniki zadania: przycisk „Otwórz folder w Eksploratorze”"
+  "Poprawa dźwięku zaznaczonych klipów: nowa obróbka jak w asystencie audio. Najpierw diagnoza (szum, pogłos, buczenie), potem tylko potrzebne kroki, każdy bez przesunięcia w czasie; dobre nagranie zostaje prawie nietknięte; głośność taka sama jak oryginału na osi; głos na oba kanały",
+  "naprawione: czysty dźwięk był opóźniony o ok. 25 ms względem oryginału i obrazu, a domieszka oryginału (suwak siły) dawała przez to echo i „podwójny” głos; do tego mocne ściskanie i normalizacja każdego klipu z osobna",
+  "domyślnie obróbka lokalna (za darmo); ElevenLabs tylko dla mocno brudnych nagrań, też wyrównany w czasie"
  ]
 }
