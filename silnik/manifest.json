@@ -1,15 +1,15 @@
 {
- "wersja": "19.19",
- "data": "2026-10-28 15:30",
- "plik": "silnik-19.19.zip",
- "sha256": "ea462d783628317a6af8e7f078681c49d0ec991aa57fe9a496160a8895d39e2e",
- "rozmiar": 1741953,
+ "wersja": "19.20",
+ "data": "2026-10-28 15:42",
+ "plik": "silnik-19.20.zip",
+ "sha256": "3a739c751cf319531b74b90dd6136f8921c679146b8e891ab2d508e6bed986ad",
+ "rozmiar": 1743265,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "a0220103bb5453778c5c172beb5a6bea861242aba109e67ca718d191bab2a88d",
   "npm_animacje": "6ab06082a4d919222baaca09052ad5d4febcd097722d679aa689204e48816871",
   "npm_psd": "a81115dd7fceaae3841b73512578e85925e7661ceb22c1fb20a98006d08579d0",
-  "panel_adobe": "aca799b81154d194c580826144d347920811a6bc5ea03a630e18275d083b995b",
+  "panel_adobe": "8c82dab739538b8774dfbe229a72619ea589d6509fcabf0880a238b5209c73fb",
   "davinci": "0150ecc7497408e734e654a8ec48699d57d1f3b28899b6fc618769f1f9bac3b8"
  },
  "pliki": {
@@ -33,7 +33,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "4fe08efbbcd01e32902e4afe9744a42fcb0827d65d8d7c212d1d6ea6047ae8b1",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "f61c90cd55e098116aca8c5adfeed23b22a4f2c2ba9ff026433f5c0b925e9eb3",
+  "WERSJA.txt": "e657fb20dd2b34e7e2ab3ef5030d82aa248e539360d1f054a0b8433902a8cb0a",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -115,9 +115,9 @@
   "narzedzia/sprawdz.py": "56ce39887e1ffee0c7586416444db61a8da6d70fe0b432d2bfc3c7aaaa11b3b1",
   "narzedzia/stock.py": "c8223b2eaed71c513a9776f82997b68313c7474b41d8054295c92be9bcd77376",
   "narzedzia/stock_api.py": "b2b78235d4158d4c36177568b51d1dd84fc4779a8676bed1459d32b30d336769",
-  "narzedzia/szablony/ae_buduj.jsx": "817c0ee812dfd451c3f0001b84a66faaab18678fab88d02ace45625bb1700d5a",
+  "narzedzia/szablony/ae_buduj.jsx": "5c184c61e4c28b8e20eecd8ab458c285580c01b77bf583e32669b275422c8f0a",
   "narzedzia/szablony/render.js": "2c81b8d6004787d9e8d5c9fca1801071f304dc0eea4de83095fad6a73b6595e3",
-  "narzedzia/szablony/szablony.js": "74bc313a897e0900cf1c4e906c8862ade8b8f33870196fe55dec9cf4a4392383",
+  "narzedzia/szablony/szablony.js": "2339d364f730bb02e41d382f7aa779131f40d21ec6bcdfde86ab28c2d23dc2cb",
   "narzedzia/szablony.py": "fd93b933d8a458f8f2ce0292c473153a91444a22fbceba4b92cabf7b0b5a885a",
   "narzedzia/tlumacz.py": "c44d2e4ace6ede41b698c5befe4c2d14ec735618959820456f1bd21418ec00a7",
   "narzedzia/transkrypcja.py": "c59faf6402ddda7645adc4bfb58ed21c8cd46c7e8439baf746414a5a0f4292f6",
@@ -130,16 +130,14 @@
   "premiere/host/host.jsx": "5d544d0f1abef8d0c8ccefecda844c3af23e4dd369bd1406a3c3fd9952aab4f0",
   "premiere/index.html": "f3b445ef5f045a71404d022147eceb1682f465bcba1e36ac6744a5337c7b0383",
   "premiere/kolor.js": "3660edaf01b26859d1390ef42c933883c3a26ecbb3a860fb1612b7ebff1f8673",
-  "premiere/panel.js": "9a2d1c1c20f1ead8f971db3fd9122c0bacfc027c38fb0792a2c4fe77576d70b1",
+  "premiere/panel.js": "9f10d2f7723bc3bf0eb486f128a00707d7f67632bbe03deb32066a6bded4bf25",
   "premiere/pisownia.js": "7dad72cf21db7ac466bf51d612b76bffc5d332a27f193c5deac281a7f882e98f",
   "requirements.txt": "f948410896ce1d7fd57b36d2a2aec787e8a4558ddf5fdf42c0f0b61d6e12ba46",
   "studio/i18n/en.json": "f7e88e5a5809e19615b98bbae76f2130db15de669894c38945d07e0e67cce1e2",
   "studio/studio.html": "244a5b0030766a16daae700d90bf740f7c7e493a2a27a7460854f23616715a59"
  },
  "zmiany": [
-  "Animacje i szablony w panelu: edycja z osi trwa tylko, dopóki ta animacja jest zaznaczona; po odznaczeniu panel jej już nie zmienia, a „Wstaw” kładzie nową animację w nowym miejscu (wcześniej zmiany w panelu i „Wstaw” poprawiały ostatnio edytowaną animację, nawet odznaczoną); po poprawce nowa wersja zostaje zaznaczona na osi",
-  "Animacje: pocięta żyletką albo przycięta od początku animacja nie jest już sama przerysowywana (zostaje tak, jak ją ustawiłeś); dopasowanie długości działa przy wydłużaniu i skracaniu końca",
-  "Zadania w Studio: po skończeniu zadania w kafelku jest pole „Coś poprawić?” i przycisk „Wyślij poprawkę” (Claude poprawia w tym samym zleceniu, zadanie wraca do produkcji); gdy Claude pyta, w kafelku jest pole odpowiedzi; w trakcie pracy kafelek pokazuje etap",
-  "Zadania: bez przycisku „→ Poczekalnia” (skończone zadanie przechodzi do Poczekalni samo), „Zobacz wyniki” jako wyraźny zielony przycisk na początku"
+  "Szablony rolek: suwak wielkości przy każdym tekście i „Wielkość wszystkich tekstów” (40–250%, dwuklik wraca do 100%); działa w podglądzie, w renderze na oś, przy poprawkach z osi i w kompozycji After Effects",
+  "Szablony → After Effects: gdy projekt AE nie jest jeszcze zapisany, od razu pokazuje się zwykłe okno Windows „Zapisz jako” z podpowiedzią miejsca; potem projekt jest otwierany, więc ekran startowy AE (Nowy projekt / Otwórz / Ostatnie) znika, a na wierzchu jest kompozycja szablonu; After Effects sam wychodzi na wierzch"
  ]
 }
