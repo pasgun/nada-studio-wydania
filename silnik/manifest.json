@@ -1,15 +1,15 @@
 {
- "wersja": "19.13",
- "data": "2026-10-28 11:49",
- "plik": "silnik-19.13.zip",
- "sha256": "8eb23d109960e9479265f7ec065d8523ecad32f3047403ae06810d41c9c35178",
- "rozmiar": 1721529,
+ "wersja": "19.14",
+ "data": "2026-10-28 11:59",
+ "plik": "silnik-19.14.zip",
+ "sha256": "5879d88a47104daceaa94191a90bd65649887ec576a47d408fd4dd86399c5fdf",
+ "rozmiar": 1723149,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "2033a19e8ae7293cff9ead6a78f881b0f6a6e95d15915b1818e6a163b7910446",
   "npm_animacje": "6ab06082a4d919222baaca09052ad5d4febcd097722d679aa689204e48816871",
   "npm_psd": "a81115dd7fceaae3841b73512578e85925e7661ceb22c1fb20a98006d08579d0",
-  "panel_adobe": "fbd6208ac14b4bef8b1c77515d712d104918dda2c131cefd7a9d6d6cb23a8b0a",
+  "panel_adobe": "0e55b1e1f58b34ec6ab3ef65f8ee44c073d749f02f242840ad724adbe6c6e5de",
   "davinci": "0150ecc7497408e734e654a8ec48699d57d1f3b28899b6fc618769f1f9bac3b8"
  },
  "pliki": {
@@ -31,9 +31,9 @@
   ".claude/skills/transkrypcja/SKILL.md": "688f42a2f66df0a636d2bf78bfb549ce7322b1b114b361443f57aa5e91353c42",
   ".env.przyklad": "6f37395330beb28969e1f49d72dba5579bb8e5990442681e4ef8fe0e1a7a98ca",
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
-  "CLAUDE.md": "67f74043526bbbc8bbd3f38299b066e87767a63086c0843a1491d82049e8620b",
+  "CLAUDE.md": "9ac3f6ec53ccfb103c2070fc87dc59ade1b54dca336609c2f3c0f25035e46937",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "27a3a43c455f661844cb5290b9ea612b8c0a483442b89ff31c917a6ec2ae2f36",
+  "WERSJA.txt": "5eff35b379ee18c2768fec99198c2fed60a3a0564fa2d20fd2371d1cb4410a89",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -126,20 +126,18 @@
   "narzedzia/wzor.py": "0441c7a1891ea27b86d450e4f1a0147375d8eabbaae210161630af984623f903",
   "premiere/.debug": "f4107daa16ebb7c5c0fcc077998e2c4786ffe340e69fcc1f43cbc6a5872a78c6",
   "premiere/CSXS/manifest.xml": "b56df67964c72c205bc5f7d8c7f31ea5fed61ef4b77e01c6f8f759ce05c1cb1c",
-  "premiere/host/host.jsx": "b50c7d6e08baf2d0c5b0830a9fc1aa735ccc4d7355516ba421b0ef9fb69145e4",
-  "premiere/index.html": "5e9d6c48715babec0fe73dcffea4d583f17a013b45332a3fa311088ca10cb436",
+  "premiere/host/host.jsx": "3b56ff1838a4e0be304971020cf27ec2330beb3d869d71eac692cf50b0ad7a3a",
+  "premiere/index.html": "fd4c824fc6d87a3a810f3f295b98394b1967a4523a282e75f8a056b2fe711697",
   "premiere/kolor.js": "3660edaf01b26859d1390ef42c933883c3a26ecbb3a860fb1612b7ebff1f8673",
-  "premiere/panel.js": "68560f9e9515b35af5658c6be6c74de0666b8a901d59aaa5da85d75cdc5fe75a",
+  "premiere/panel.js": "ec1cdbdadcd5816e85e1b2ccee7558e1d367fc73d0831f0457dbd424ab660df5",
   "premiere/pisownia.js": "7dad72cf21db7ac466bf51d612b76bffc5d332a27f193c5deac281a7f882e98f",
   "requirements.txt": "f843cd56d5204dcab074d200c3016ca7a4ff94ea611e4d9042bf18cc7718d1e1",
   "studio/i18n/en.json": "f7e88e5a5809e19615b98bbae76f2130db15de669894c38945d07e0e67cce1e2",
   "studio/studio.html": "fb686eb21d435ed68737fca7409a317f4e07e02bab4e7267296c732c16c64a6b"
  },
  "zmiany": [
-  "asystent audio i cięcie ciszy pracują na dźwięku z osi tak, jak gra w Premiere: panel eksportuje z Premiere każdą ścieżkę osobno (a do rozpoznania mowy cały miks, który słychać), więc liczą się Twoje ustawienia kanałów (np. tylko lewy kanał, Fill Left), głośności klipów i ścieżek, efekty audio i wyciszenia; nic nie jest czytane z oryginalnych plików (np. BRAW) z pominięciem tych ustawień",
-  "z pliku sekwencji brane jest już tylko to, gdzie leżą klipy i z jakiego nagrania są (każde nagranie dostaje osobną diagnozę i obróbkę)",
-  "gdy Premiere nie da się wyeksportować dźwięku (brak presetu WAV), panel mówi o tym wprost i dopiero wtedy czyta pliki",
-  "lepsze rozpoznanie rodzaju ścieżki: dźwięk z kamery i nagrań ekranu to mowa, a mowę od muzyki odróżnia barwa i rytm (wcześniej czysta mowa potrafiła wyjść jako muzyka)",
-  "duże pliki WAV z Premiere są usuwane po zrobieniu miksu i po rozpoznaniu mowy"
+  "asystent audio nie rusza już Twojej sekwencji: gotowy miks (albo osobne ścieżki) trafia do nowej kopii sekwencji „… - miks AI” i tam są też wyciszenia oryginalnych ścieżek; po każdym wstawieniu panel sprawdza, czy w kopii nie ubył żaden klip, a jeśli coś pójdzie nie tak, kopia dostaje dopisek „(NIEDOKOŃCZONE)”, a oryginał zostaje nietknięty",
+  "gdy wszystkie ścieżki audio są zajęte, nowa ścieżka jest dodawana tylko w kopii i tylko wtedy, gdy Premiere na pewno pokazuje kopię (wcześniej panel dodawał ścieżkę w Twojej sekwencji wewnętrzną funkcją Premiere)",
+  "asystent audio bierze dźwięk wyłącznie z osi: gdy Premiere nie wyeksportuje ścieżki, asystent przerywa zamiast sięgać po oryginalne pliki nagrań"
  ]
 }
