@@ -1,15 +1,15 @@
 {
- "wersja": "19.10",
- "data": "2026-10-28 01:18",
- "plik": "silnik-19.10.zip",
- "sha256": "1c3dc9d5b47c63c6e3f93a1df8b1c9a31fcd2ccb8eaf3a76680a32209fd87cbe",
- "rozmiar": 1715823,
+ "wersja": "19.11",
+ "data": "2026-10-28 11:05",
+ "plik": "silnik-19.11.zip",
+ "sha256": "943e2ebd8685040ec3567ab2214e526ea0a8087e0e38242bc933a7bc97f3eda0",
+ "rozmiar": 1717114,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "2033a19e8ae7293cff9ead6a78f881b0f6a6e95d15915b1818e6a163b7910446",
   "npm_animacje": "6ab06082a4d919222baaca09052ad5d4febcd097722d679aa689204e48816871",
   "npm_psd": "a81115dd7fceaae3841b73512578e85925e7661ceb22c1fb20a98006d08579d0",
-  "panel_adobe": "45e98e557462888b3517bc42a6a0d1e35572fe14a8b5d19c9dc2598c1a941877",
+  "panel_adobe": "6b513c37d9c4171909655a6c99de0d065520c0a9518556a8cb92036b011e52b9",
   "davinci": "0150ecc7497408e734e654a8ec48699d57d1f3b28899b6fc618769f1f9bac3b8"
  },
  "pliki": {
@@ -33,7 +33,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "3f3fed581064e3e7e08b84b003ba430e5d40436c9992d098ee85687fbacc3039",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "8dabbcee5b5dafea2ae103bb8a11be257a893079714a9fd48d6936d4b822f89b",
+  "WERSJA.txt": "45a8f1e7b44496f0ae80c5e18aa784a6d94ead0f0982b162f75488f85cfd1049",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -55,13 +55,13 @@
   "narzedzia/animacje/wlasne/CZYTAJ.txt": "be4ec3c546c11a8f58fe9f59c9924a29890aaa8506c73763cbf88ecb19f5feae",
   "narzedzia/animacje/z_mowy.md": "397eadfa696c65f89c12cbe4672d0b93befe3ce25a1cd900cd107b2b8139cade",
   "narzedzia/animacje.py": "7471da90d606a63089d0c10f7edaa6d070668b85d847d3c7149f9add8848801f",
-  "narzedzia/audio_asystent.py": "3c93a1332d6d6d8a73c13f065c058499871ad397aef1be3f9c15a7c294a7e347",
+  "narzedzia/audio_asystent.py": "84ff0ed2898be59729fbbe75e0ad34784c46c74d14546222c2a8a27bcabcbbe7",
   "narzedzia/audio_dsp.py": "200080f5d1adec8301024c747a8fc2e32bb509de9559f72c5c7dcdbdd6eaa9f7",
   "narzedzia/audio_modele/CZYTAJ.txt": "4abe06586bf84edd53675dac8dc5ab0ca84f7317077e356d1477c2715984cb1d",
   "narzedzia/audio_modele/bd.rnnn": "ae3f7411e1e6a884f839a4a145c394408398f09854dbc1216ee02faafc98a17b",
   "narzedzia/bity.py": "d3127b9acde7f5bcbb03311a062db0b180ae18f8a68e0e3059b481de8036a12f",
   "narzedzia/brandbook.py": "98faaf6b00178337ba8661696c48091936392b7b2beae06727853f547ac6c33e",
-  "narzedzia/ciecie.py": "c4d4374e6056578ed1365a77b629d9feb30afc6d14b15390fbd05c76f7b5c860",
+  "narzedzia/ciecie.py": "3a35ed7aee59636a87c4e5b6694227fadbdf33a185b8b69aceb048624617db32",
   "narzedzia/davinci_most.py": "3fe08f9ada69083c3f9847cb7dda8891778f8a011a42cd041233b45dc8e83ed6",
   "narzedzia/dzwiek.py": "83352995ed9a25a3e9364c87fbc8ebcfbd7e4e9d2aa9498094c7b1e19fc2b428",
   "narzedzia/dzwieki/CZYTAJ.txt": "17117afb8a60300b17f95f7652e292c46b88845cc2aaa83328bdd59c71028cb5",
@@ -95,7 +95,7 @@
   "narzedzia/mowa.py": "8067c46dbbf5ccc17d468145086c4ca62f69d93727f508c89ea8fc9f57608387",
   "narzedzia/mozg.py": "ca453fb4db3aa2b28b269d4edc3114637b889d0fa825102308fca185f5c0d5de",
   "narzedzia/mozgi_inne.py": "837a0f506a82795f8dea371ac03415e60c9eb3daffc74aed8f9505fc156449d1",
-  "narzedzia/multicam.py": "9f7ce70d2d4f325ee3fb8f9812f88054836942f4d4a18860af17470e15f51bc8",
+  "narzedzia/multicam.py": "919c496a6454222c90ff8b4922750e4801d2a845936cac016fc8aa6844afb6ac",
   "narzedzia/napisy.py": "37e6f7531aa8165c8c554c1cadecacf560cef01bee713114eecd4a08608d2ac2",
   "narzedzia/napisy_podglad.js": "dcd750982dda8f6a1c859a565b945511e603c8807fef97f1ac9db158987a466f",
   "narzedzia/napisy_style.json": "c39d4f72839b94d8515c7665876882f25c75cd863499a4d47672802b09253e71",
@@ -127,16 +127,17 @@
   "premiere/.debug": "f4107daa16ebb7c5c0fcc077998e2c4786ffe340e69fcc1f43cbc6a5872a78c6",
   "premiere/CSXS/manifest.xml": "b56df67964c72c205bc5f7d8c7f31ea5fed61ef4b77e01c6f8f759ce05c1cb1c",
   "premiere/host/host.jsx": "23ab18cd9c1c5af96693dd311a4dea7becfc8de9dac29bb79a69559ef71a0068",
-  "premiere/index.html": "255b79e7814fcbf5b025ae5d0c462353cdf9c78aa98b2edd8d12cef500c18e61",
+  "premiere/index.html": "5e9d6c48715babec0fe73dcffea4d583f17a013b45332a3fa311088ca10cb436",
   "premiere/kolor.js": "3660edaf01b26859d1390ef42c933883c3a26ecbb3a860fb1612b7ebff1f8673",
-  "premiere/panel.js": "d69f296d187f1a2e0240a5c3d711cd708e805305fef04f22c2c76b12cf6cc389",
+  "premiere/panel.js": "deffec06dcf2e63aa58ef1cd6c89a09bc089e86a4bd44587bc79f6e534b595b2",
   "premiere/pisownia.js": "7dad72cf21db7ac466bf51d612b76bffc5d332a27f193c5deac281a7f882e98f",
   "requirements.txt": "f843cd56d5204dcab074d200c3016ca7a4ff94ea611e4d9042bf18cc7718d1e1",
   "studio/i18n/en.json": "f7e88e5a5809e19615b98bbae76f2130db15de669894c38945d07e0e67cce1e2",
   "studio/studio.html": "fb686eb21d435ed68737fca7409a317f4e07e02bab4e7267296c732c16c64a6b"
  },
  "zmiany": [
-  "asystent audio i cięcie ciszy pomijają ścieżki wyciszone w Premiere (przycisk M), np. dźwięk z kamery, którego nie używasz; opcja „Pomijaj wyciszone ścieżki (M)” jest domyślnie włączona (Premiere nie zapisuje wyciszenia w pliku XML, więc panel pyta o nie Premiere)",
-  "asystent audio: ta sama mowa na dwóch ścieżkach (ten sam plik i kanał) od razu ma „Pomiń” z wyjaśnieniem; jedno nagranie pokazane raz, nawet gdy na osi jest pocięte na kilka fragmentów"
+  "numery ścieżek audio jak w Premiere: Premiere zapisuje ścieżkę stereo w pliku XML jako dwie ścieżki (po jednej na kanał), przez co asystent audio pokazywał np. A6–A10, których w projekcie nie ma; teraz numery i nazwy ścieżek są takie jak w projekcie (panel pokazuje też nazwę ścieżki, jeśli ją zmieniłeś, i oznaczenie „wyciszona (M)”)",
+  "ta sama poprawka naprawia pomijanie wyciszonych ścieżek i wyciszanie oryginałów po miksie (trafiały w złe ścieżki), łączenie obrazu z dźwiękiem po cięciu ciszy w samym Premiere i wybór mikrofonów w multicamie",
+  "ścieżka stereo w asystencie audio zostaje stereo (muzyka nie zamienia się w mono), a dźwięk tylko z jednego kanału na obu słuchawkach liczy się raz"
  ]
 }
