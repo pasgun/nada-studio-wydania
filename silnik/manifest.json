@@ -1,15 +1,15 @@
 {
- "wersja": "19.22",
- "data": "2026-10-28 16:21",
- "plik": "silnik-19.22.zip",
- "sha256": "ddb7da6ebea1adf5c7613e24cfe20cd93363d0a95a369e2f89cae8ab6011ccec",
- "rozmiar": 1745382,
+ "wersja": "19.23",
+ "data": "2026-10-28 16:25",
+ "plik": "silnik-19.23.zip",
+ "sha256": "bdda742b46a8a79d55fc18251fb0ea44f5c82ef262086f06af151fbcf3a9b7eb",
+ "rozmiar": 1746650,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "a0220103bb5453778c5c172beb5a6bea861242aba109e67ca718d191bab2a88d",
   "npm_animacje": "6ab06082a4d919222baaca09052ad5d4febcd097722d679aa689204e48816871",
   "npm_psd": "a81115dd7fceaae3841b73512578e85925e7661ceb22c1fb20a98006d08579d0",
-  "panel_adobe": "819eaa6d3112d36c447b6f65a917afc62c39259643a3592eaaa46ea5efeebde0",
+  "panel_adobe": "2dc0bdf7d74a2a1d04ddd9b8662c0e06f55f6fcd594670f5465b6f6515149d22",
   "davinci": "0150ecc7497408e734e654a8ec48699d57d1f3b28899b6fc618769f1f9bac3b8"
  },
  "pliki": {
@@ -31,9 +31,9 @@
   ".claude/skills/transkrypcja/SKILL.md": "688f42a2f66df0a636d2bf78bfb549ce7322b1b114b361443f57aa5e91353c42",
   ".env.przyklad": "6f37395330beb28969e1f49d72dba5579bb8e5990442681e4ef8fe0e1a7a98ca",
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
-  "CLAUDE.md": "4fe08efbbcd01e32902e4afe9744a42fcb0827d65d8d7c212d1d6ea6047ae8b1",
+  "CLAUDE.md": "298f53d8e40756c866024c722b43c9d4981dbd4af4ea92e193378e227215faf0",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "85bcf3e5b546405e3d0face77053c9dd6c20c2e82bf628077faa6e29f61e1a72",
+  "WERSJA.txt": "5c7d656830b42e32113886423963e7f7d15b39ad4da3c418cbd08a7246bef9f1",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -127,18 +127,18 @@
   "narzedzia/wzor.py": "0441c7a1891ea27b86d450e4f1a0147375d8eabbaae210161630af984623f903",
   "premiere/.debug": "f4107daa16ebb7c5c0fcc077998e2c4786ffe340e69fcc1f43cbc6a5872a78c6",
   "premiere/CSXS/manifest.xml": "b56df67964c72c205bc5f7d8c7f31ea5fed61ef4b77e01c6f8f759ce05c1cb1c",
-  "premiere/host/host.jsx": "5d544d0f1abef8d0c8ccefecda844c3af23e4dd369bd1406a3c3fd9952aab4f0",
-  "premiere/index.html": "b6ecbbf871cd545517d357422a8e6dd644f251b75903763a9d50ecac8bd77510",
+  "premiere/host/host.jsx": "84bdfae5d7f0a2c47b252e37f33ee5194f8a973cd0c14d7f3fe3d9828eec0e09",
+  "premiere/index.html": "e0915072047e4ed6868981f676d6e06197478790fcafd4b8ef9b952267d77e76",
   "premiere/kolor.js": "3660edaf01b26859d1390ef42c933883c3a26ecbb3a860fb1612b7ebff1f8673",
-  "premiere/panel.js": "2255a0d2e1b9e3b46046e6d4600e6e6c2f9726b4b47ea0bc2ad2dde7b1a44511",
+  "premiere/panel.js": "6e2d12dc80df2579f8ed27baf7797f16a7205bce83bb7f1cf756fee3307005e0",
   "premiere/pisownia.js": "7dad72cf21db7ac466bf51d612b76bffc5d332a27f193c5deac281a7f882e98f",
   "requirements.txt": "f948410896ce1d7fd57b36d2a2aec787e8a4558ddf5fdf42c0f0b61d6e12ba46",
   "studio/i18n/en.json": "f7e88e5a5809e19615b98bbae76f2130db15de669894c38945d07e0e67cce1e2",
   "studio/studio.html": "1a3081a684433faf168a6c88326031ccd0a4c63f502c85e5f0e1c220a0a9e9db"
  },
  "zmiany": [
-  "Poprawa dźwięku zaznaczonych klipów: nowa obróbka jak w asystencie audio. Najpierw diagnoza (szum, pogłos, buczenie), potem tylko potrzebne kroki, każdy bez przesunięcia w czasie; dobre nagranie zostaje prawie nietknięte; głośność taka sama jak oryginału na osi; głos na oba kanały",
-  "naprawione: czysty dźwięk był opóźniony o ok. 25 ms względem oryginału i obrazu, a domieszka oryginału (suwak siły) dawała przez to echo i „podwójny” głos; do tego mocne ściskanie i normalizacja każdego klipu z osobna",
-  "domyślnie obróbka lokalna (za darmo); ElevenLabs tylko dla mocno brudnych nagrań, też wyrównany w czasie"
+  "Poprawa dźwięku: bez nowej sekwencji i bez wyłączania klipów; czyste pliki WAV trafiają na wolną ścieżkę audio Twojej sekwencji, dokładnie w miejsca klipów, a oryginalna ścieżka dźwięku jest tylko wyciszona (M); obraz zostaje nietknięty",
+  "Szablony rolek → „Zastąp kompozycją After Effects”: dźwięk klipu zostaje (wcześniej Premiere nadpisywał go cichym dźwiękiem kompozycji); na czas wstawiania ścieżki audio są zablokowane",
+  "Panel: nazwa otwartego narzędzia na górze, białymi literami, nad przyciskiem „Wszystkie narzędzia”"
  ]
 }
