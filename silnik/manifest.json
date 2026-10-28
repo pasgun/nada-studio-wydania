@@ -1,9 +1,9 @@
 {
- "wersja": "19.20",
- "data": "2026-10-28 15:42",
- "plik": "silnik-19.20.zip",
- "sha256": "3a739c751cf319531b74b90dd6136f8921c679146b8e891ab2d508e6bed986ad",
- "rozmiar": 1743265,
+ "wersja": "19.21",
+ "data": "2026-10-28 16:03",
+ "plik": "silnik-19.21.zip",
+ "sha256": "b28f699e745dda8ff9917894b57168ecdcc95bbd7163a15bb9ca2c8911f5435b",
+ "rozmiar": 1743838,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "a0220103bb5453778c5c172beb5a6bea861242aba109e67ca718d191bab2a88d",
@@ -33,7 +33,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "4fe08efbbcd01e32902e4afe9744a42fcb0827d65d8d7c212d1d6ea6047ae8b1",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "e657fb20dd2b34e7e2ab3ef5030d82aa248e539360d1f054a0b8433902a8cb0a",
+  "WERSJA.txt": "1cde4c52208e13ae941bcdd49c86c83e2caa5c316b9360bfda34383ffddd2db4",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -89,7 +89,7 @@
   "narzedzia/lektor.py": "3d7b427b96f9f9c18d550ccaca7c76eedcf19365bdd150d180e16ba013d4acfb",
   "narzedzia/limity.py": "67c4ac74305304d92448c1378c2db0038c90bbd462dcd33adbf8acb34bf527cc",
   "narzedzia/marka.py": "da416b37531b916bf46db39a8adbce38f44ed69c00e44297846c904dd1600f45",
-  "narzedzia/mcp_studio.py": "d3f04dfde2b0be16f0c2db1dcda1e7d6ec42cf6923cddf8aac2baf4da3c8fb24",
+  "narzedzia/mcp_studio.py": "a618a7a3906076bf9d20bde035eb86ea8e25fc0cb923de347916f60f02ca793e",
   "narzedzia/miniatury.py": "cac04fe3f3aef69d717ef29935e4ddd36d766e7c8608877a4ca60eab11cdec1c",
   "narzedzia/montaz.py": "7303cc2eba78546d3983c21dc74f4e82f2643a8f294af022ea3144b0c1d4266f",
   "narzedzia/mowa.py": "8067c46dbbf5ccc17d468145086c4ca62f69d93727f508c89ea8fc9f57608387",
@@ -134,10 +134,10 @@
   "premiere/pisownia.js": "7dad72cf21db7ac466bf51d612b76bffc5d332a27f193c5deac281a7f882e98f",
   "requirements.txt": "f948410896ce1d7fd57b36d2a2aec787e8a4558ddf5fdf42c0f0b61d6e12ba46",
   "studio/i18n/en.json": "f7e88e5a5809e19615b98bbae76f2130db15de669894c38945d07e0e67cce1e2",
-  "studio/studio.html": "244a5b0030766a16daae700d90bf740f7c7e493a2a27a7460854f23616715a59"
+  "studio/studio.html": "1a3081a684433faf168a6c88326031ccd0a4c63f502c85e5f0e1c220a0a9e9db"
  },
  "zmiany": [
-  "Szablony rolek: suwak wielkości przy każdym tekście i „Wielkość wszystkich tekstów” (40–250%, dwuklik wraca do 100%); działa w podglądzie, w renderze na oś, przy poprawkach z osi i w kompozycji After Effects",
-  "Szablony → After Effects: gdy projekt AE nie jest jeszcze zapisany, od razu pokazuje się zwykłe okno Windows „Zapisz jako” z podpowiedzią miejsca; potem projekt jest otwierany, więc ekran startowy AE (Nowy projekt / Otwórz / Ostatnie) znika, a na wierzchu jest kompozycja szablonu; After Effects sam wychodzi na wierzch"
+  "Zadania w Studio: „Zobacz wyniki” w kolorach strony (obramowany, bez białego podświetlenia), zaraz po „Wykonaj”; przycisk mózgu (Claude, Gemini…) w prawym górnym rogu kafelka, obok nazwy klienta, w pomarańczowym kolorze Studio (kliknięcie zmienia mózg)",
+  "Wyniki zadania: przycisk „Otwórz folder w Eksploratorze”"
  ]
 }
