@@ -1,9 +1,9 @@
 {
- "wersja": "19.15",
- "data": "2026-10-28 12:24",
- "plik": "silnik-19.15.zip",
- "sha256": "f36f3acb0d3bf16fd8c646108e593f9f405222f27a1250a6394ec015f35e7c33",
- "rozmiar": 1730710,
+ "wersja": "19.16",
+ "data": "2026-10-28 14:13",
+ "plik": "silnik-19.16.zip",
+ "sha256": "ed21f2fdd5dda39695698bb394de467360931dded64590eeee64a777087476a3",
+ "rozmiar": 1731535,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "2033a19e8ae7293cff9ead6a78f881b0f6a6e95d15915b1818e6a163b7910446",
@@ -33,7 +33,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "6279be9f79e8290e23224ea616abdea147fddd430399a6d81ccdf83a4786464d",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "79f06aad0e2bf0d6bb9e68ade78dae4bf32d02fa47c23ef555bfbc99c3e434ca",
+  "WERSJA.txt": "862128de8599e157fd9d7ea137d561b3dd52c18dcedb67ae536d5a89ae81824f",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -89,7 +89,7 @@
   "narzedzia/lektor.py": "3d7b427b96f9f9c18d550ccaca7c76eedcf19365bdd150d180e16ba013d4acfb",
   "narzedzia/limity.py": "67c4ac74305304d92448c1378c2db0038c90bbd462dcd33adbf8acb34bf527cc",
   "narzedzia/marka.py": "da416b37531b916bf46db39a8adbce38f44ed69c00e44297846c904dd1600f45",
-  "narzedzia/mcp_studio.py": "e2840a17edb92be0aeefb446d14ec57eb03b9452a73fd94484d8a1ffef117a2c",
+  "narzedzia/mcp_studio.py": "fc7577de0caf45858cfc7d0433a876ab0c1f34765501259af35295d3a7445ad7",
   "narzedzia/miniatury.py": "cac04fe3f3aef69d717ef29935e4ddd36d766e7c8608877a4ca60eab11cdec1c",
   "narzedzia/montaz.py": "7303cc2eba78546d3983c21dc74f4e82f2643a8f294af022ea3144b0c1d4266f",
   "narzedzia/mowa.py": "8067c46dbbf5ccc17d468145086c4ca62f69d93727f508c89ea8fc9f57608387",
@@ -133,7 +133,10 @@
   "premiere/pisownia.js": "7dad72cf21db7ac466bf51d612b76bffc5d332a27f193c5deac281a7f882e98f",
   "requirements.txt": "f843cd56d5204dcab074d200c3016ca7a4ff94ea611e4d9042bf18cc7718d1e1",
   "studio/i18n/en.json": "f7e88e5a5809e19615b98bbae76f2130db15de669894c38945d07e0e67cce1e2",
-  "studio/studio.html": "fb686eb21d435ed68737fca7409a317f4e07e02bab4e7267296c732c16c64a6b"
+  "studio/studio.html": "7b7d9f48db67a58b1f3864068a635ea23cdb193254bda1f00403e995f049327c"
  },
- "zmiany": []
+ "zmiany": [
+  "Console: po odpowiedzi (np. „Tak, rób”) przyciski odpowiedzi znikają od razu, a zlecenie pokazuje się jako „pracuje”; wcześniej na zajętym PC sprawdzanie, czy Claude jeszcze pracuje, potrafiło nie zdążyć i zlecenie wracało na chwilę do „Czeka na Ciebie”",
+  "Console: długie ścieżki w wiadomościach zawijają się, więc nie ma przewijania w bok, a Twoje odpowiedzi są widoczne (wcześniej uciekały poza prawą krawędź)"
+ ]
 }
