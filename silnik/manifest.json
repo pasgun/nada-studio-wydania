@@ -1,15 +1,15 @@
 {
- "wersja": "19.18",
- "data": "2026-10-28 14:51",
- "plik": "silnik-19.18.zip",
- "sha256": "82051915b20038d612a404fc9668edecc4e8ef441c6464eede6bebe27ca800a6",
- "rozmiar": 1739170,
+ "wersja": "19.19",
+ "data": "2026-10-28 15:30",
+ "plik": "silnik-19.19.zip",
+ "sha256": "ea462d783628317a6af8e7f078681c49d0ec991aa57fe9a496160a8895d39e2e",
+ "rozmiar": 1741953,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "a0220103bb5453778c5c172beb5a6bea861242aba109e67ca718d191bab2a88d",
   "npm_animacje": "6ab06082a4d919222baaca09052ad5d4febcd097722d679aa689204e48816871",
   "npm_psd": "a81115dd7fceaae3841b73512578e85925e7661ceb22c1fb20a98006d08579d0",
-  "panel_adobe": "2be177fa40e97d0dd44f4b2560cfbfda4011d01757f1a3e047e3c32f4d583b6b",
+  "panel_adobe": "aca799b81154d194c580826144d347920811a6bc5ea03a630e18275d083b995b",
   "davinci": "0150ecc7497408e734e654a8ec48699d57d1f3b28899b6fc618769f1f9bac3b8"
  },
  "pliki": {
@@ -33,7 +33,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "4fe08efbbcd01e32902e4afe9744a42fcb0827d65d8d7c212d1d6ea6047ae8b1",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "6f4bb985c5534b52fd98974f21084c6db39a929339f4a5d87b16b700911f2d10",
+  "WERSJA.txt": "f61c90cd55e098116aca8c5adfeed23b22a4f2c2ba9ff026433f5c0b925e9eb3",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -89,7 +89,7 @@
   "narzedzia/lektor.py": "3d7b427b96f9f9c18d550ccaca7c76eedcf19365bdd150d180e16ba013d4acfb",
   "narzedzia/limity.py": "67c4ac74305304d92448c1378c2db0038c90bbd462dcd33adbf8acb34bf527cc",
   "narzedzia/marka.py": "da416b37531b916bf46db39a8adbce38f44ed69c00e44297846c904dd1600f45",
-  "narzedzia/mcp_studio.py": "b2b270d3cf18de6149d9e3038b6d16bfb731cf923d4b0025680bb1c173ea2976",
+  "narzedzia/mcp_studio.py": "d3f04dfde2b0be16f0c2db1dcda1e7d6ec42cf6923cddf8aac2baf4da3c8fb24",
   "narzedzia/miniatury.py": "cac04fe3f3aef69d717ef29935e4ddd36d766e7c8608877a4ca60eab11cdec1c",
   "narzedzia/montaz.py": "7303cc2eba78546d3983c21dc74f4e82f2643a8f294af022ea3144b0c1d4266f",
   "narzedzia/mowa.py": "8067c46dbbf5ccc17d468145086c4ca62f69d93727f508c89ea8fc9f57608387",
@@ -127,19 +127,19 @@
   "narzedzia/wzor.py": "0441c7a1891ea27b86d450e4f1a0147375d8eabbaae210161630af984623f903",
   "premiere/.debug": "f4107daa16ebb7c5c0fcc077998e2c4786ffe340e69fcc1f43cbc6a5872a78c6",
   "premiere/CSXS/manifest.xml": "b56df67964c72c205bc5f7d8c7f31ea5fed61ef4b77e01c6f8f759ce05c1cb1c",
-  "premiere/host/host.jsx": "632f08c42120acfd98f81adea595b3e8f500843f8b2f967cb1d9f35b4375380e",
+  "premiere/host/host.jsx": "5d544d0f1abef8d0c8ccefecda844c3af23e4dd369bd1406a3c3fd9952aab4f0",
   "premiere/index.html": "f3b445ef5f045a71404d022147eceb1682f465bcba1e36ac6744a5337c7b0383",
   "premiere/kolor.js": "3660edaf01b26859d1390ef42c933883c3a26ecbb3a860fb1612b7ebff1f8673",
-  "premiere/panel.js": "c1eebb39043bf0ab49222c4254641bf43add55caf585ad7a26243e539a495c67",
+  "premiere/panel.js": "9a2d1c1c20f1ead8f971db3fd9122c0bacfc027c38fb0792a2c4fe77576d70b1",
   "premiere/pisownia.js": "7dad72cf21db7ac466bf51d612b76bffc5d332a27f193c5deac281a7f882e98f",
   "requirements.txt": "f948410896ce1d7fd57b36d2a2aec787e8a4558ddf5fdf42c0f0b61d6e12ba46",
   "studio/i18n/en.json": "f7e88e5a5809e19615b98bbae76f2130db15de669894c38945d07e0e67cce1e2",
-  "studio/studio.html": "50b50db6356eedcf50547c6f147ffae12e61f6bede2f1f96df553cb050ee34a9"
+  "studio/studio.html": "244a5b0030766a16daae700d90bf740f7c7e493a2a27a7460854f23616715a59"
  },
  "zmiany": [
-  "nowe narzędzie osoba.py: arkusz zdjęć prowadzącego z numerami (także RAW z aparatu, np. NEF) i wycinanie osoby z tła lokalnie, za darmo; grafiki i miniatury mają prowadzącego jako osobną warstwę w PSD (strona, lustro, biała obwódka); zadania z „Wykonaj” robią to same, bez własnych skryptów (wcześniej w tle nie mogły wyciąć twarzy)",
-  "gdy folder materiałów zadania jest pusty, Claude szuka zdjęć prowadzącego w innych folderach materiałów klienta (np. z poprzednich miniatur) i mówi, skąd je wziął",
-  "Higgsfield przez połączenie MCP: generuje z kredytów abonamentu higgsfield.ai (python narzedzia/mozg.py higgsfield + jednorazowe logowanie); saldo API tylko jako zapas",
-  "Console: zamiast „koszt API” jest „wycena API … (w abonamencie nie płacisz)”, bo przy abonamencie Claude ta kwota nie jest pobierana"
+  "Animacje i szablony w panelu: edycja z osi trwa tylko, dopóki ta animacja jest zaznaczona; po odznaczeniu panel jej już nie zmienia, a „Wstaw” kładzie nową animację w nowym miejscu (wcześniej zmiany w panelu i „Wstaw” poprawiały ostatnio edytowaną animację, nawet odznaczoną); po poprawce nowa wersja zostaje zaznaczona na osi",
+  "Animacje: pocięta żyletką albo przycięta od początku animacja nie jest już sama przerysowywana (zostaje tak, jak ją ustawiłeś); dopasowanie długości działa przy wydłużaniu i skracaniu końca",
+  "Zadania w Studio: po skończeniu zadania w kafelku jest pole „Coś poprawić?” i przycisk „Wyślij poprawkę” (Claude poprawia w tym samym zleceniu, zadanie wraca do produkcji); gdy Claude pyta, w kafelku jest pole odpowiedzi; w trakcie pracy kafelek pokazuje etap",
+  "Zadania: bez przycisku „→ Poczekalnia” (skończone zadanie przechodzi do Poczekalni samo), „Zobacz wyniki” jako wyraźny zielony przycisk na początku"
  ]
 }
