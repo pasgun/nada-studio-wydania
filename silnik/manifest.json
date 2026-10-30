@@ -1,9 +1,9 @@
 {
- "wersja": "19.34",
- "data": "2026-10-30 15:18",
- "plik": "silnik-19.34.zip",
- "sha256": "74787b024262c7a558f2f2272d843799d82a75e3b50e9b29b0d5dd6403810aae",
- "rozmiar": 1978306,
+ "wersja": "19.35",
+ "data": "2026-10-30 15:26",
+ "plik": "silnik-19.35.zip",
+ "sha256": "9389ba5992f3f9d95a2d482933362689d5be5e2363750c7861cf7479ada600d8",
+ "rozmiar": 1981636,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "a0220103bb5453778c5c172beb5a6bea861242aba109e67ca718d191bab2a88d",
@@ -24,7 +24,7 @@
   ".claude/skills/jak-wzor/SKILL.md": "eb1f3e164897a72dfc3529faeb457c89af80184ba651896fda2224d6d8c5993b",
   ".claude/skills/miniatury/SKILL.md": "9cca30a497df323d0b6fc90824db09a89b61c3d7e9362ba11439d9d72a6b0b30",
   ".claude/skills/multicam/SKILL.md": "96ddc987cc53d8849d59ddd8c0c7e2c4647e6417abf4cfc5feb0faaf57a34a86",
-  ".claude/skills/napisy/SKILL.md": "4a87a4d05cb7b045cff43ebe9be042803d607d8a474b7e2707a3e4e00117086c",
+  ".claude/skills/napisy/SKILL.md": "ef099327f4fe47e4a5b402dcdd30c01ab91c03b915ec52350608b300ad1392fa",
   ".claude/skills/pion/SKILL.md": "95deb8b857c9cf6fda9f578cd7cb298dbdc751dd3045e7d584d6b1abeae59511",
   ".claude/skills/rolka/SKILL.md": "58dd7dc1f7d18b18574b0e79dfeae12655d38e2c7528c4ed457abaa71b49cb79",
   ".claude/skills/tlumaczenie/SKILL.md": "6b9a112ad06ff9c4973a8eecf625a818691c6a992b5aaf3ce6472a85d8e66595",
@@ -33,7 +33,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "dd784dcaca9f6537b44b2529dd3a551bff64c30df42c1703d86caffbbbeafb46",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "2dae865da38b1f12a7503a1fb8aa4b24740df7ae1ba63d85cef943c330197e25",
+  "WERSJA.txt": "34ba9094d63f6bb3dd23ce5c17dc5ff5c7b62e9f5996b86e3b20d4ba7eaedf29",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -99,7 +99,7 @@
   "narzedzia/mozg.py": "4f71b662939313d1f29e56c718a864f62121e704a9c3ca592db3cbc87785398e",
   "narzedzia/mozgi_inne.py": "837a0f506a82795f8dea371ac03415e60c9eb3daffc74aed8f9505fc156449d1",
   "narzedzia/multicam.py": "1593d75c5e0a23b978aedfa4cab99c7e2e5d91dfd40e2e297b408dad0f2555ae",
-  "narzedzia/napisy.py": "279bbee9baf53fd68a152b216ae409f1ed6ce2ae10c4966b074752e1e9b832f1",
+  "narzedzia/napisy.py": "031a3a9cde0327cc4c392a4f9a29f56330ad94b77dc6667d8da14aaa129153b1",
   "narzedzia/napisy_podglad.js": "dcd750982dda8f6a1c859a565b945511e603c8807fef97f1ac9db158987a466f",
   "narzedzia/napisy_style.json": "c39d4f72839b94d8515c7665876882f25c75cd863499a4d47672802b09253e71",
   "narzedzia/obraz_agy.py": "29f438835cdbb20376635b859fbd57184568c191f54d68d4b37968fc36ae5a00",
@@ -137,11 +137,9 @@
   "premiere/pisownia.js": "2e4f518ff45dba405c290dea62a0662f7a7c258065cfe0188da4cb1a88b4da51",
   "requirements.txt": "f948410896ce1d7fd57b36d2a2aec787e8a4558ddf5fdf42c0f0b61d6e12ba46",
   "studio/i18n/en.json": "f7e88e5a5809e19615b98bbae76f2130db15de669894c38945d07e0e67cce1e2",
-  "studio/studio.html": "8eee32da3556bb81880b00dd1e610b9ecce5c16c481d4a852356aa8a7a7e1811"
+  "studio/studio.html": "dd0f3163847a44de3103a54ac5c4e31f84a368bfbc915b8410bb16b694d7aeec"
  },
  "zmiany": [
-  "Napisy w panelu: nowy układ. Na górze podgląd na żywo (słowa pojawiają się jak na osi, w proporcjach sekwencji, na kadrze spod głowicy z Premiere; przycisk „Kadr” odświeża tło, pole pod podglądem zmienia tekst próbny), ustawienia w trzech zakładkach: Styl, Wygląd, Mowa i rodzaj, przycisk „Zrób napisy” zawsze na dole. W szerszym panelu podgląd stoi z lewej, ustawienia z prawej",
-  "Panel: nic nie rozpycha go już w bok (wcześniej lista stylów wypychała część pól poza ekran, np. Wariant fontu i Kolor wyróżnienia), ciemne cienkie paski przewijania",
-  "Rozpoznawanie mowy „Whisper lokalnie”: gdy go brak, instaluje się sam przy pierwszym użyciu (wcześniej błąd „No module named faster_whisper”); wybrany Whisper nigdy nie przechodzi po cichu na płatny ElevenLabs; pod wyborem silnika widać, co jest na tym komputerze"
+  "Generator napisów w Studio: filmy można przeciągnąć (albo kliknąć i wybrać z dysku) z dowolnego folderu; gotowy film zapisuje się obok oryginału z dopiskiem _SUB (np. rolka_SUB.mp4 i rolka_SUB.srt) albo w wybranym folderze, oryginał zostaje nietknięty; wybór silnika rozpoznawania mowy (Whisper za darmo albo ElevenLabs). Przeciąganie wymaga apki Nada Studio 1.0.9"
  ]
 }
