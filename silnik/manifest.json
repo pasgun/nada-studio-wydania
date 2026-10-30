@@ -1,15 +1,15 @@
 {
- "wersja": "19.32",
- "data": "2026-10-30 13:15",
- "plik": "silnik-19.32.zip",
- "sha256": "a18beeb9e6811eb6b3cd3c8aa4a7ca4c645735fe32276a21a3b20215a357e9de",
- "rozmiar": 1973247,
+ "wersja": "19.33",
+ "data": "2026-10-30 13:40",
+ "plik": "silnik-19.33.zip",
+ "sha256": "febef5286ede5520afacb0a58ffd35a6fe755f050d23ec2649ff8b2029142855",
+ "rozmiar": 1975472,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "a0220103bb5453778c5c172beb5a6bea861242aba109e67ca718d191bab2a88d",
   "npm_animacje": "6ab06082a4d919222baaca09052ad5d4febcd097722d679aa689204e48816871",
   "npm_psd": "a81115dd7fceaae3841b73512578e85925e7661ceb22c1fb20a98006d08579d0",
-  "panel_adobe": "9b2664deb202237d58a57161c582368f1e3efcbdd41c470ddca43fad9b6bc0e1",
+  "panel_adobe": "9bf1040305e2ba5f8053e3a41a09129a8ae559aad7793569d6a7a66390915da3",
   "davinci": "0150ecc7497408e734e654a8ec48699d57d1f3b28899b6fc618769f1f9bac3b8"
  },
  "pliki": {
@@ -31,9 +31,9 @@
   ".claude/skills/transkrypcja/SKILL.md": "688f42a2f66df0a636d2bf78bfb549ce7322b1b114b361443f57aa5e91353c42",
   ".env.przyklad": "6f37395330beb28969e1f49d72dba5579bb8e5990442681e4ef8fe0e1a7a98ca",
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
-  "CLAUDE.md": "6a59d0f36cf0343bbc1a0a2457e3eeae24c53ad5136c47300e903220201f0c05",
+  "CLAUDE.md": "dd784dcaca9f6537b44b2529dd3a551bff64c30df42c1703d86caffbbbeafb46",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "30063e91a8ca9b9a7021851e206528e196ec77db8318d4527bf9f09ac926d275",
+  "WERSJA.txt": "8d7367e5cb865fea1ca33645648080a7afeb4253f6fc312bc2368dfce3897a9a",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -74,6 +74,7 @@
   "narzedzia/dzwieki/whoosh_2.wav": "48970805460c70732e69aaae512bb409931ea9877bd735ceb551b2c8d90eed9f",
   "narzedzia/dzwieki/whoosh_3.wav": "07f4113d60e15d5f24b0c1fd4715c67d254b836e0e3c65b5d0182d0fd159f397",
   "narzedzia/efekty.py": "33b7808584768773e7c914f6df86c15c9b9088e73f978db4606ff089fd439384",
+  "narzedzia/elevenlabs_zuzycie.py": "5f12747a0d384cc5d0919e60856ee252050b752be17bd5e4edc5c87a87d7994d",
   "narzedzia/foldery.py": "d79eb9e664b809afee68482b4e1b28f6ab343255551025a37e1c8b88d42329a0",
   "narzedzia/fonty.py": "1274c22cbf57c5dfb1a9d5adcb77ceaf64adf2661f03f258785750240ce06a85",
   "narzedzia/fonty_lista.json": "6fb8aa3e5e704e9fdf9d45cef3e5fc6719bdce4b5bdc0d805cc84c8ddb3388a9",
@@ -130,7 +131,7 @@
   "premiere/.debug": "f4107daa16ebb7c5c0fcc077998e2c4786ffe340e69fcc1f43cbc6a5872a78c6",
   "premiere/CSXS/manifest.xml": "b56df67964c72c205bc5f7d8c7f31ea5fed61ef4b77e01c6f8f759ce05c1cb1c",
   "premiere/host/host.jsx": "84bdfae5d7f0a2c47b252e37f33ee5194f8a973cd0c14d7f3fe3d9828eec0e09",
-  "premiere/index.html": "7441b95ab0c45f85ebe648de889c599c0f29f4bedffa259a9a70e7cedd2dfb32",
+  "premiere/index.html": "811770125ee81bb554cbb3699c982ef797f870d39cd94e248cac4770b5ad2531",
   "premiere/kolor.js": "fbeb7c47fddf4c4953ca9b9ce6b17d0421cbeb99a549886415429546852ff32b",
   "premiere/panel.js": "3cb10078e792acfc58b1a90d20b993b1c3169f1cfa7c5e43af4ab8425b036328",
   "premiere/pisownia.js": "2e4f518ff45dba405c290dea62a0662f7a7c258065cfe0188da4cb1a88b4da51",
@@ -139,6 +140,7 @@
   "studio/studio.html": "8eee32da3556bb81880b00dd1e610b9ecce5c16c481d4a852356aa8a7a7e1811"
  },
  "zmiany": [
-  "Animacje i szablony rolek w panelu: druga i każda kolejna poprawka animacji na osi działa (wcześniej po pierwszej podmianie panel nie rozpoznawał nowego pliku i pisał, że to „Twój materiał”)"
+  "Nowe narzędzie narzedzia/elevenlabs_zuzycie.py: ile kredytów ElevenLabs zostało, ile poszło każdego dnia i na co (lektor, rozpoznawanie mowy, czyszczenie dźwięku), bez kosztów",
+  "Poprawa dźwięku w panelu: przy opcji ElevenLabs widać, że to ok. 1000 kredytów za każdą minutę nagrania"
  ]
 }
