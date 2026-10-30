@@ -1,15 +1,15 @@
 {
- "wersja": "19.33",
- "data": "2026-10-30 13:40",
- "plik": "silnik-19.33.zip",
- "sha256": "febef5286ede5520afacb0a58ffd35a6fe755f050d23ec2649ff8b2029142855",
- "rozmiar": 1975472,
+ "wersja": "19.34",
+ "data": "2026-10-30 15:18",
+ "plik": "silnik-19.34.zip",
+ "sha256": "74787b024262c7a558f2f2272d843799d82a75e3b50e9b29b0d5dd6403810aae",
+ "rozmiar": 1978306,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "a0220103bb5453778c5c172beb5a6bea861242aba109e67ca718d191bab2a88d",
   "npm_animacje": "6ab06082a4d919222baaca09052ad5d4febcd097722d679aa689204e48816871",
   "npm_psd": "a81115dd7fceaae3841b73512578e85925e7661ceb22c1fb20a98006d08579d0",
-  "panel_adobe": "9bf1040305e2ba5f8053e3a41a09129a8ae559aad7793569d6a7a66390915da3",
+  "panel_adobe": "3a2d7d464fc2a906613d19044df298419cb5fa88565901eb6f47f0b92a76af7e",
   "davinci": "0150ecc7497408e734e654a8ec48699d57d1f3b28899b6fc618769f1f9bac3b8"
  },
  "pliki": {
@@ -33,7 +33,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "dd784dcaca9f6537b44b2529dd3a551bff64c30df42c1703d86caffbbbeafb46",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "8d7367e5cb865fea1ca33645648080a7afeb4253f6fc312bc2368dfce3897a9a",
+  "WERSJA.txt": "2dae865da38b1f12a7503a1fb8aa4b24740df7ae1ba63d85cef943c330197e25",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -95,7 +95,7 @@
   "narzedzia/modele/CZYTAJ.txt": "8bcd118956e7bbd399585860c5bcf2fc59e34b8a5e3f2b93da534027ec7190e7",
   "narzedzia/modele/twarze_yunet.onnx": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4",
   "narzedzia/montaz.py": "7303cc2eba78546d3983c21dc74f4e82f2643a8f294af022ea3144b0c1d4266f",
-  "narzedzia/mowa.py": "8067c46dbbf5ccc17d468145086c4ca62f69d93727f508c89ea8fc9f57608387",
+  "narzedzia/mowa.py": "77826b11be990bc636ec9b1f626be27668c0bb7c74edaf3820dd7218f4a94cb7",
   "narzedzia/mozg.py": "4f71b662939313d1f29e56c718a864f62121e704a9c3ca592db3cbc87785398e",
   "narzedzia/mozgi_inne.py": "837a0f506a82795f8dea371ac03415e60c9eb3daffc74aed8f9505fc156449d1",
   "narzedzia/multicam.py": "1593d75c5e0a23b978aedfa4cab99c7e2e5d91dfd40e2e297b408dad0f2555ae",
@@ -131,16 +131,17 @@
   "premiere/.debug": "f4107daa16ebb7c5c0fcc077998e2c4786ffe340e69fcc1f43cbc6a5872a78c6",
   "premiere/CSXS/manifest.xml": "b56df67964c72c205bc5f7d8c7f31ea5fed61ef4b77e01c6f8f759ce05c1cb1c",
   "premiere/host/host.jsx": "84bdfae5d7f0a2c47b252e37f33ee5194f8a973cd0c14d7f3fe3d9828eec0e09",
-  "premiere/index.html": "811770125ee81bb554cbb3699c982ef797f870d39cd94e248cac4770b5ad2531",
+  "premiere/index.html": "f03ae7f0583bd3b3edf2e729b87136c2106e626eb3e725760ed05d7a4f0c4c50",
   "premiere/kolor.js": "fbeb7c47fddf4c4953ca9b9ce6b17d0421cbeb99a549886415429546852ff32b",
-  "premiere/panel.js": "3cb10078e792acfc58b1a90d20b993b1c3169f1cfa7c5e43af4ab8425b036328",
+  "premiere/panel.js": "e88be36e73316f97f72581562d1afb64c6945eabb014f9ae3d3f6b0018c27f9d",
   "premiere/pisownia.js": "2e4f518ff45dba405c290dea62a0662f7a7c258065cfe0188da4cb1a88b4da51",
   "requirements.txt": "f948410896ce1d7fd57b36d2a2aec787e8a4558ddf5fdf42c0f0b61d6e12ba46",
   "studio/i18n/en.json": "f7e88e5a5809e19615b98bbae76f2130db15de669894c38945d07e0e67cce1e2",
   "studio/studio.html": "8eee32da3556bb81880b00dd1e610b9ecce5c16c481d4a852356aa8a7a7e1811"
  },
  "zmiany": [
-  "Nowe narzędzie narzedzia/elevenlabs_zuzycie.py: ile kredytów ElevenLabs zostało, ile poszło każdego dnia i na co (lektor, rozpoznawanie mowy, czyszczenie dźwięku), bez kosztów",
-  "Poprawa dźwięku w panelu: przy opcji ElevenLabs widać, że to ok. 1000 kredytów za każdą minutę nagrania"
+  "Napisy w panelu: nowy układ. Na górze podgląd na żywo (słowa pojawiają się jak na osi, w proporcjach sekwencji, na kadrze spod głowicy z Premiere; przycisk „Kadr” odświeża tło, pole pod podglądem zmienia tekst próbny), ustawienia w trzech zakładkach: Styl, Wygląd, Mowa i rodzaj, przycisk „Zrób napisy” zawsze na dole. W szerszym panelu podgląd stoi z lewej, ustawienia z prawej",
+  "Panel: nic nie rozpycha go już w bok (wcześniej lista stylów wypychała część pól poza ekran, np. Wariant fontu i Kolor wyróżnienia), ciemne cienkie paski przewijania",
+  "Rozpoznawanie mowy „Whisper lokalnie”: gdy go brak, instaluje się sam przy pierwszym użyciu (wcześniej błąd „No module named faster_whisper”); wybrany Whisper nigdy nie przechodzi po cichu na płatny ElevenLabs; pod wyborem silnika widać, co jest na tym komputerze"
  ]
 }
