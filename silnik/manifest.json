@@ -1,15 +1,15 @@
 {
- "wersja": "19.28",
- "data": "2026-10-30 09:40",
- "plik": "silnik-19.28.zip",
- "sha256": "27647ab33f05e11fefaa2d0fddadddf09447f7bb5d73be8a7c3ce59144924489",
- "rozmiar": 1971200,
+ "wersja": "19.29",
+ "data": "2026-10-30 12:49",
+ "plik": "silnik-19.29.zip",
+ "sha256": "32cb9b0d91634c04ca143337635e02a81ef9851f48b8bd3fbc93cc67136f0612",
+ "rozmiar": 1972092,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "a0220103bb5453778c5c172beb5a6bea861242aba109e67ca718d191bab2a88d",
   "npm_animacje": "6ab06082a4d919222baaca09052ad5d4febcd097722d679aa689204e48816871",
   "npm_psd": "a81115dd7fceaae3841b73512578e85925e7661ceb22c1fb20a98006d08579d0",
-  "panel_adobe": "dbd87a766e5e16ff3ac31e67d6e3f5cf1440b87f40c8ab4c035269e24c33aa53",
+  "panel_adobe": "d2e1dfd6944b8d9bec7938d5235b5ccb10468d09c58c56678bf4f4c73a4fdebd",
   "davinci": "0150ecc7497408e734e654a8ec48699d57d1f3b28899b6fc618769f1f9bac3b8"
  },
  "pliki": {
@@ -33,7 +33,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "6a59d0f36cf0343bbc1a0a2457e3eeae24c53ad5136c47300e903220201f0c05",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "1c1f6f719e90f8d50026ab74646d395fac6d36046d7362e0de33e9561fb96f16",
+  "WERSJA.txt": "d53e5abe7db9bee11cbde994f032d2c3be0c2486a317491ac02a52623b08368b",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -130,17 +130,17 @@
   "premiere/.debug": "f4107daa16ebb7c5c0fcc077998e2c4786ffe340e69fcc1f43cbc6a5872a78c6",
   "premiere/CSXS/manifest.xml": "b56df67964c72c205bc5f7d8c7f31ea5fed61ef4b77e01c6f8f759ce05c1cb1c",
   "premiere/host/host.jsx": "84bdfae5d7f0a2c47b252e37f33ee5194f8a973cd0c14d7f3fe3d9828eec0e09",
-  "premiere/index.html": "3a5ee3a61e9ae2a317cb317897cd07c0f79163ca06ce47542deb13e0198fec9b",
-  "premiere/kolor.js": "48b173abdaba0d257bb5d003f82e78593d14612be385ec60d1c9fd8b1a9907f1",
-  "premiere/panel.js": "7a6ac525fcf19da8afbb5ccac0fa7b084d803a67083f929543c4158c0077a457",
-  "premiere/pisownia.js": "7dad72cf21db7ac466bf51d612b76bffc5d332a27f193c5deac281a7f882e98f",
+  "premiere/index.html": "7441b95ab0c45f85ebe648de889c599c0f29f4bedffa259a9a70e7cedd2dfb32",
+  "premiere/kolor.js": "fbeb7c47fddf4c4953ca9b9ce6b17d0421cbeb99a549886415429546852ff32b",
+  "premiere/panel.js": "49e3be05cf4f800aad09516406f37bc7a16038e07b0fcc068fb48bc745885769",
+  "premiere/pisownia.js": "2e4f518ff45dba405c290dea62a0662f7a7c258065cfe0188da4cb1a88b4da51",
   "requirements.txt": "f948410896ce1d7fd57b36d2a2aec787e8a4558ddf5fdf42c0f0b61d6e12ba46",
   "studio/i18n/en.json": "f7e88e5a5809e19615b98bbae76f2130db15de669894c38945d07e0e67cce1e2",
-  "studio/studio.html": "bf54b151b9e50a646c5134733420c188654f0ff8b4e57a94d616a72a7793fd6b"
+  "studio/studio.html": "8eee32da3556bb81880b00dd1e610b9ecce5c16c481d4a852356aa8a7a7e1811"
  },
  "zmiany": [
-  "Panel w Premiere i After Effects: ochrona przed restartem w kółko; gdy panel kilka razy z rzędu sam się zamknie i otworzy, przechodzi w tryb awaryjny (ekran główny, bez kolorów klienta obok pól) i pokazuje komunikat zamiast migać",
-  "Panel zapisuje, na którym etapie uruchamiania się zatrzymał (_system/panel/start.json i bledy.txt), żeby dało się znaleźć przyczynę",
-  "Kolory klienta obok pól rysują się chwilę po starcie panelu, nie w trakcie uruchamiania"
+  "Panel w Premiere i After Effects: naprawione wywracanie się przy starcie. Strona przełączająca z folderu rozszerzenia nie uruchamia już całego panelu (wcześniej panel startował w dwóch stronach naraz i Adobe go zamykał, zwłaszcza gdy ostatnio otwartym narzędziem były Animacje)",
+  "Panel zawsze startuje od ekranu głównego, a ostatnie narzędzie otwiera się samo chwilę później; gdy poprzednio panel się wywrócił, zostaje na ekranie głównym",
+  "Zapis przebiegu (_system/panel/start.json) pokazuje też ostatni skrypt wysłany do Premiere, zwykłe zamknięcie panelu nie jest liczone jako awaria"
  ]
 }
