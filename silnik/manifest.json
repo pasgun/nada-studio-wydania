@@ -1,15 +1,15 @@
 {
- "wersja": "19.27",
- "data": "2026-10-29 21:07",
- "plik": "silnik-19.27.zip",
- "sha256": "c110b4ec20e5b3090b00cd8d73841ce38d70f56f884978ced7a9bce052a738eb",
- "rozmiar": 1969817,
+ "wersja": "19.28",
+ "data": "2026-10-30 09:40",
+ "plik": "silnik-19.28.zip",
+ "sha256": "27647ab33f05e11fefaa2d0fddadddf09447f7bb5d73be8a7c3ce59144924489",
+ "rozmiar": 1971200,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "a0220103bb5453778c5c172beb5a6bea861242aba109e67ca718d191bab2a88d",
   "npm_animacje": "6ab06082a4d919222baaca09052ad5d4febcd097722d679aa689204e48816871",
   "npm_psd": "a81115dd7fceaae3841b73512578e85925e7661ceb22c1fb20a98006d08579d0",
-  "panel_adobe": "f6766b298ed586abd6e72e5d09d39175daa75f90ba4fd7e530fa5ec802b89ae9",
+  "panel_adobe": "dbd87a766e5e16ff3ac31e67d6e3f5cf1440b87f40c8ab4c035269e24c33aa53",
   "davinci": "0150ecc7497408e734e654a8ec48699d57d1f3b28899b6fc618769f1f9bac3b8"
  },
  "pliki": {
@@ -33,7 +33,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "6a59d0f36cf0343bbc1a0a2457e3eeae24c53ad5136c47300e903220201f0c05",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "72de019e4a413f4e94ef61bb8f3620a3910886b4875a524c5a7ae495d711276a",
+  "WERSJA.txt": "1c1f6f719e90f8d50026ab74646d395fac6d36046d7362e0de33e9561fb96f16",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -130,17 +130,17 @@
   "premiere/.debug": "f4107daa16ebb7c5c0fcc077998e2c4786ffe340e69fcc1f43cbc6a5872a78c6",
   "premiere/CSXS/manifest.xml": "b56df67964c72c205bc5f7d8c7f31ea5fed61ef4b77e01c6f8f759ce05c1cb1c",
   "premiere/host/host.jsx": "84bdfae5d7f0a2c47b252e37f33ee5194f8a973cd0c14d7f3fe3d9828eec0e09",
-  "premiere/index.html": "e0915072047e4ed6868981f676d6e06197478790fcafd4b8ef9b952267d77e76",
-  "premiere/kolor.js": "fb866031ef05ca23ad3de0fd19bc35d438907e48939fa724aa3e1e370a5f8514",
-  "premiere/panel.js": "71a2808b6a76f4cc6dd3531c4976d2d8a41398f3858cc3a57301830dc85065f3",
+  "premiere/index.html": "3a5ee3a61e9ae2a317cb317897cd07c0f79163ca06ce47542deb13e0198fec9b",
+  "premiere/kolor.js": "48b173abdaba0d257bb5d003f82e78593d14612be385ec60d1c9fd8b1a9907f1",
+  "premiere/panel.js": "7a6ac525fcf19da8afbb5ccac0fa7b084d803a67083f929543c4158c0077a457",
   "premiere/pisownia.js": "7dad72cf21db7ac466bf51d612b76bffc5d332a27f193c5deac281a7f882e98f",
   "requirements.txt": "f948410896ce1d7fd57b36d2a2aec787e8a4558ddf5fdf42c0f0b61d6e12ba46",
   "studio/i18n/en.json": "f7e88e5a5809e19615b98bbae76f2130db15de669894c38945d07e0e67cce1e2",
-  "studio/studio.html": "dd3a3108e4d31c8952a41e65231ae26da59c92044d57f2b9c6ae90401a9212a2"
+  "studio/studio.html": "bf54b151b9e50a646c5134733420c188654f0ff8b4e57a94d616a72a7793fd6b"
  },
  "zmiany": [
-  "Kolory klienta przy każdym wyborze koloru (Studio: zadanie, napisy, animacje; panel w Premiere i After Effects): obok pola z kodem koloru stoją kolory z karty wybranego klienta, jedno kliknięcie ustawia kolor; zmiana klienta od razu zmienia te kolory; są też na górze okienka wyboru koloru",
-  "Fonty klienta: po wybraniu klienta napisy i animacje od razu dostają font i kolory z jego karty (dalej wszystko można zmienić), a pod polem fontu są przyciski z fontami klienta",
-  "Panel w Premiere i After Effects czyta też kolory i fonty wpisane w karcie klienta w Studio"
+  "Panel w Premiere i After Effects: ochrona przed restartem w kółko; gdy panel kilka razy z rzędu sam się zamknie i otworzy, przechodzi w tryb awaryjny (ekran główny, bez kolorów klienta obok pól) i pokazuje komunikat zamiast migać",
+  "Panel zapisuje, na którym etapie uruchamiania się zatrzymał (_system/panel/start.json i bledy.txt), żeby dało się znaleźć przyczynę",
+  "Kolory klienta obok pól rysują się chwilę po starcie panelu, nie w trakcie uruchamiania"
  ]
 }
