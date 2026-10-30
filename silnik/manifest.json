@@ -1,9 +1,9 @@
 {
- "wersja": "19.35",
- "data": "2026-10-30 15:26",
- "plik": "silnik-19.35.zip",
- "sha256": "9389ba5992f3f9d95a2d482933362689d5be5e2363750c7861cf7479ada600d8",
- "rozmiar": 1981636,
+ "wersja": "19.36",
+ "data": "2026-10-30 15:29",
+ "plik": "silnik-19.36.zip",
+ "sha256": "bc63da411f4fc66c2221ab2f1be2fc15e22cc2f0f35e779785eba461ec3eb959",
+ "rozmiar": 1981663,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "a0220103bb5453778c5c172beb5a6bea861242aba109e67ca718d191bab2a88d",
@@ -33,7 +33,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "dd784dcaca9f6537b44b2529dd3a551bff64c30df42c1703d86caffbbbeafb46",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "34ba9094d63f6bb3dd23ce5c17dc5ff5c7b62e9f5996b86e3b20d4ba7eaedf29",
+  "WERSJA.txt": "2d1f0e026b004fcf49a666cc6917f93cd37fe603a00ab600c5c15ab6524dd486",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -137,9 +137,9 @@
   "premiere/pisownia.js": "2e4f518ff45dba405c290dea62a0662f7a7c258065cfe0188da4cb1a88b4da51",
   "requirements.txt": "f948410896ce1d7fd57b36d2a2aec787e8a4558ddf5fdf42c0f0b61d6e12ba46",
   "studio/i18n/en.json": "f7e88e5a5809e19615b98bbae76f2130db15de669894c38945d07e0e67cce1e2",
-  "studio/studio.html": "dd0f3163847a44de3103a54ac5c4e31f84a368bfbc915b8410bb16b694d7aeec"
+  "studio/studio.html": "ac6fb785f83f2d5f2873725e166e7449c9b8eeb21b3343d78b2ee8d02869b5f6"
  },
  "zmiany": [
-  "Generator napisów w Studio: filmy można przeciągnąć (albo kliknąć i wybrać z dysku) z dowolnego folderu; gotowy film zapisuje się obok oryginału z dopiskiem _SUB (np. rolka_SUB.mp4 i rolka_SUB.srt) albo w wybranym folderze, oryginał zostaje nietknięty; wybór silnika rozpoznawania mowy (Whisper za darmo albo ElevenLabs). Przeciąganie wymaga apki Nada Studio 1.0.9"
+  "Drobna poprawka podpowiedzi o aktualizacji apki w generatorze napisów"
  ]
 }
