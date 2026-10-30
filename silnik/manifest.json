@@ -1,15 +1,15 @@
 {
- "wersja": "19.36",
- "data": "2026-10-30 15:29",
- "plik": "silnik-19.36.zip",
- "sha256": "bc63da411f4fc66c2221ab2f1be2fc15e22cc2f0f35e779785eba461ec3eb959",
- "rozmiar": 1981663,
+ "wersja": "19.37",
+ "data": "2026-10-30 18:12",
+ "plik": "silnik-19.37.zip",
+ "sha256": "6278a69a1af0f5a31938af6f155145788f9873984d9c554dd5afd4a67a3d90b6",
+ "rozmiar": 1984965,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "a0220103bb5453778c5c172beb5a6bea861242aba109e67ca718d191bab2a88d",
   "npm_animacje": "6ab06082a4d919222baaca09052ad5d4febcd097722d679aa689204e48816871",
   "npm_psd": "a81115dd7fceaae3841b73512578e85925e7661ceb22c1fb20a98006d08579d0",
-  "panel_adobe": "3a2d7d464fc2a906613d19044df298419cb5fa88565901eb6f47f0b92a76af7e",
+  "panel_adobe": "06a44bee32ca719aa6d63dee236da4880c58eb4a282cb64b3511bd9c8425949c",
   "davinci": "0150ecc7497408e734e654a8ec48699d57d1f3b28899b6fc618769f1f9bac3b8"
  },
  "pliki": {
@@ -33,7 +33,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "dd784dcaca9f6537b44b2529dd3a551bff64c30df42c1703d86caffbbbeafb46",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "2d1f0e026b004fcf49a666cc6917f93cd37fe603a00ab600c5c15ab6524dd486",
+  "WERSJA.txt": "a5d9f9f256b7f25dcfff67ca0e31a18b6774229c933122e6f79ed0cc94f3190a",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -55,8 +55,8 @@
   "narzedzia/animacje/wlasne/CZYTAJ.txt": "2b0b1c0e650b5aaaa87a92a67203a302163e8116e26fb91238db6ec84c19f70c",
   "narzedzia/animacje/z_mowy.md": "397eadfa696c65f89c12cbe4672d0b93befe3ce25a1cd900cd107b2b8139cade",
   "narzedzia/animacje.py": "7471da90d606a63089d0c10f7edaa6d070668b85d847d3c7149f9add8848801f",
-  "narzedzia/audio_asystent.py": "87587792e890913c0ab08c345670b8526db2776e2e1d8a417585fa843fce60a5",
-  "narzedzia/audio_dsp.py": "6be2f0ebecf47a0abef21ac640c4994062b4c6e03deee325fdc9335059540ca6",
+  "narzedzia/audio_asystent.py": "05d4af2c2a4e36d76455c99a717225bcf176e062a114fb2bc25d535084d82fb8",
+  "narzedzia/audio_dsp.py": "7f9e2d42d566a9a93493334cc44fd353b3b494bff58ce845bbb93e8bd2673c74",
   "narzedzia/audio_modele/CZYTAJ.txt": "4abe06586bf84edd53675dac8dc5ab0ca84f7317077e356d1477c2715984cb1d",
   "narzedzia/audio_modele/bd.rnnn": "ae3f7411e1e6a884f839a4a145c394408398f09854dbc1216ee02faafc98a17b",
   "narzedzia/bity.py": "d3127b9acde7f5bcbb03311a062db0b180ae18f8a68e0e3059b481de8036a12f",
@@ -95,7 +95,7 @@
   "narzedzia/modele/CZYTAJ.txt": "8bcd118956e7bbd399585860c5bcf2fc59e34b8a5e3f2b93da534027ec7190e7",
   "narzedzia/modele/twarze_yunet.onnx": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4",
   "narzedzia/montaz.py": "7303cc2eba78546d3983c21dc74f4e82f2643a8f294af022ea3144b0c1d4266f",
-  "narzedzia/mowa.py": "77826b11be990bc636ec9b1f626be27668c0bb7c74edaf3820dd7218f4a94cb7",
+  "narzedzia/mowa.py": "1044fa8901d7d4108f25cc98757356c742b01daac0b4f67ffd33d2af2f9d9552",
   "narzedzia/mozg.py": "4f71b662939313d1f29e56c718a864f62121e704a9c3ca592db3cbc87785398e",
   "narzedzia/mozgi_inne.py": "837a0f506a82795f8dea371ac03415e60c9eb3daffc74aed8f9505fc156449d1",
   "narzedzia/multicam.py": "1593d75c5e0a23b978aedfa4cab99c7e2e5d91dfd40e2e297b408dad0f2555ae",
@@ -130,16 +130,22 @@
   "narzedzia/wzor.py": "0441c7a1891ea27b86d450e4f1a0147375d8eabbaae210161630af984623f903",
   "premiere/.debug": "f4107daa16ebb7c5c0fcc077998e2c4786ffe340e69fcc1f43cbc6a5872a78c6",
   "premiere/CSXS/manifest.xml": "b56df67964c72c205bc5f7d8c7f31ea5fed61ef4b77e01c6f8f759ce05c1cb1c",
-  "premiere/host/host.jsx": "84bdfae5d7f0a2c47b252e37f33ee5194f8a973cd0c14d7f3fe3d9828eec0e09",
-  "premiere/index.html": "f03ae7f0583bd3b3edf2e729b87136c2106e626eb3e725760ed05d7a4f0c4c50",
+  "premiere/host/host.jsx": "2823523a587583cd18cd0ad9f569f21d6045f415bb7cb3fafc30ce9d4e299bb1",
+  "premiere/index.html": "bc628be0c2a1e1b00a711453fde125c53fbe6e0841aaf2046cf286ba7fdb9894",
   "premiere/kolor.js": "fbeb7c47fddf4c4953ca9b9ce6b17d0421cbeb99a549886415429546852ff32b",
-  "premiere/panel.js": "e88be36e73316f97f72581562d1afb64c6945eabb014f9ae3d3f6b0018c27f9d",
+  "premiere/panel.js": "f29a0b49031d2a579429f9cc4594fca51869b5819bb4a51a493f843fb317330b",
   "premiere/pisownia.js": "2e4f518ff45dba405c290dea62a0662f7a7c258065cfe0188da4cb1a88b4da51",
   "requirements.txt": "f948410896ce1d7fd57b36d2a2aec787e8a4558ddf5fdf42c0f0b61d6e12ba46",
   "studio/i18n/en.json": "f7e88e5a5809e19615b98bbae76f2130db15de669894c38945d07e0e67cce1e2",
-  "studio/studio.html": "ac6fb785f83f2d5f2873725e166e7449c9b8eeb21b3343d78b2ee8d02869b5f6"
+  "studio/studio.html": "0e4ba2e93ef41ba8293ae1dbf989da7a91951e80f0340799ea54aa9b7932df41"
  },
  "zmiany": [
-  "Drobna poprawka podpowiedzi o aktualizacji apki w generatorze napisów"
+  "Rozpoznawanie mowy „Automatycznie” najpierw używa darmowego Whispera na tym komputerze; płatny ElevenLabs tylko, gdy trzeba rozpoznać mówców albo Whispera nie ma",
+  "Szablony rolek: klip z osi w formacie, którego podgląd panelu nie pokazywał (np. H.265 z DJI), dostaje lekką kopię do podglądu i renderu, więc w szablonie widać prawdziwy obraz zamiast pustego pola",
+  "Kolor: bez warstwy korekcyjnej „Nada Kolor” klimat idzie na klipy (zamiast błędu po zrobieniu kopii sekwencji); klarowność (Unsharp Mask) i winieta ustawiają się poprawnie w nowym Premiere; powtarzające się uwagi pokazane raz",
+  "Asystent audio: oczyszczona mowa z Premiere (Enhance Speech, „…-esv2-…-music-10p.wav”) rozpoznawana jako mowa, pliki MP3 jako muzyka; cichą muzykę i tło z osi podgłaśnia najwyżej o 3 dB (zostaje tak, jak ją ustawiłeś)",
+  "Cięcie ciszy: gdy nie ma nic do wycięcia, nie robi kopii sekwencji identycznej z oryginałem",
+  "Panel: każde narzędzie ma swoje okno przebiegu (Kolor nie pokazuje logu z cięcia), błędy widać od razu w oknie przebiegu, „Wstawione na V7 ✓” zostaje dłużej na przycisku, wyszukiwarka stocka bez podpowiedzi pisowni",
+  "Studio: limity Claude po czasie odnowienia pokazują 0% i „już odnowione” (zamiast starych procentów), długie nazwy stylów napisów mieszczą się w kafelkach"
  ]
 }
