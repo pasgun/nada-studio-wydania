@@ -1,15 +1,15 @@
 {
- "wersja": "19.29",
- "data": "2026-10-30 12:49",
- "plik": "silnik-19.29.zip",
- "sha256": "32cb9b0d91634c04ca143337635e02a81ef9851f48b8bd3fbc93cc67136f0612",
- "rozmiar": 1972092,
+ "wersja": "19.30",
+ "data": "2026-10-30 12:53",
+ "plik": "silnik-19.30.zip",
+ "sha256": "32d94c9c57de3d52f959ff8300900a14bd0e654ad652b861b8ea16414d3cde3d",
+ "rozmiar": 1972885,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "a0220103bb5453778c5c172beb5a6bea861242aba109e67ca718d191bab2a88d",
   "npm_animacje": "6ab06082a4d919222baaca09052ad5d4febcd097722d679aa689204e48816871",
   "npm_psd": "a81115dd7fceaae3841b73512578e85925e7661ceb22c1fb20a98006d08579d0",
-  "panel_adobe": "d2e1dfd6944b8d9bec7938d5235b5ccb10468d09c58c56678bf4f4c73a4fdebd",
+  "panel_adobe": "019fb99a4b70bf9d5e82fae916fb04d1a203f9559710b18ffc1b0842fc2886b6",
   "davinci": "0150ecc7497408e734e654a8ec48699d57d1f3b28899b6fc618769f1f9bac3b8"
  },
  "pliki": {
@@ -33,7 +33,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "6a59d0f36cf0343bbc1a0a2457e3eeae24c53ad5136c47300e903220201f0c05",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "d53e5abe7db9bee11cbde994f032d2c3be0c2486a317491ac02a52623b08368b",
+  "WERSJA.txt": "f8b98a49b190085e172971adc3d6444231e7f275f039383dc773578615bacf8a",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -52,7 +52,7 @@
   "narzedzia/animacje/package-lock.json": "487f05a95d1b08c201919842981b3f7d9f1efec5c23fa70a212a92a4c4cc3e8e",
   "narzedzia/animacje/package.json": "9b0b3c3604115a6ecb235d13b40f3db7cd73ef8c0164ab836eb71fe42018776e",
   "narzedzia/animacje/render.js": "e92ccb00a5aecc309e41feb58b179d475edbfb5f349a62769c47059c0b97cd7a",
-  "narzedzia/animacje/wlasne/CZYTAJ.txt": "be4ec3c546c11a8f58fe9f59c9924a29890aaa8506c73763cbf88ecb19f5feae",
+  "narzedzia/animacje/wlasne/CZYTAJ.txt": "2b0b1c0e650b5aaaa87a92a67203a302163e8116e26fb91238db6ec84c19f70c",
   "narzedzia/animacje/z_mowy.md": "397eadfa696c65f89c12cbe4672d0b93befe3ce25a1cd900cd107b2b8139cade",
   "narzedzia/animacje.py": "7471da90d606a63089d0c10f7edaa6d070668b85d847d3c7149f9add8848801f",
   "narzedzia/audio_asystent.py": "87587792e890913c0ab08c345670b8526db2776e2e1d8a417585fa843fce60a5",
@@ -132,15 +132,14 @@
   "premiere/host/host.jsx": "84bdfae5d7f0a2c47b252e37f33ee5194f8a973cd0c14d7f3fe3d9828eec0e09",
   "premiere/index.html": "7441b95ab0c45f85ebe648de889c599c0f29f4bedffa259a9a70e7cedd2dfb32",
   "premiere/kolor.js": "fbeb7c47fddf4c4953ca9b9ce6b17d0421cbeb99a549886415429546852ff32b",
-  "premiere/panel.js": "49e3be05cf4f800aad09516406f37bc7a16038e07b0fcc068fb48bc745885769",
+  "premiere/panel.js": "76ea6b01354fc3cdce6ede96966b762069ee5523fd3fa1eb3a94df0877312242",
   "premiere/pisownia.js": "2e4f518ff45dba405c290dea62a0662f7a7c258065cfe0188da4cb1a88b4da51",
   "requirements.txt": "f948410896ce1d7fd57b36d2a2aec787e8a4558ddf5fdf42c0f0b61d6e12ba46",
   "studio/i18n/en.json": "f7e88e5a5809e19615b98bbae76f2130db15de669894c38945d07e0e67cce1e2",
   "studio/studio.html": "8eee32da3556bb81880b00dd1e610b9ecce5c16c481d4a852356aa8a7a7e1811"
  },
  "zmiany": [
-  "Panel w Premiere i After Effects: naprawione wywracanie się przy starcie. Strona przełączająca z folderu rozszerzenia nie uruchamia już całego panelu (wcześniej panel startował w dwóch stronach naraz i Adobe go zamykał, zwłaszcza gdy ostatnio otwartym narzędziem były Animacje)",
-  "Panel zawsze startuje od ekranu głównego, a ostatnie narzędzie otwiera się samo chwilę później; gdy poprzednio panel się wywrócił, zostaje na ekranie głównym",
-  "Zapis przebiegu (_system/panel/start.json) pokazuje też ostatni skrypt wysłany do Premiere, zwykłe zamknięcie panelu nie jest liczone jako awaria"
+  "Panel w Premiere i After Effects: naprawione wywracanie się przy otwieraniu Animacji. Przyczyną był własny preset „topwosk-slajdy” (zrobiony w zadaniu Top Wosk), który wczytywał moduł do renderu w tle; w Adobe taki moduł zamyka panel bez komunikatu. Panel nie wczytuje już takich modułów, a preset działa dalej",
+  "Kolory klienta obok pól są na razie wyłączone w panelu (w Studio zostają)"
  ]
 }
