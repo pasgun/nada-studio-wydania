@@ -1,9 +1,9 @@
 {
- "wersja": "19.45",
- "data": "2026-11-09 13:09",
- "plik": "silnik-19.45.zip",
- "sha256": "144205b6361db36eb4dff12a489007b688f6650bc2ab62829dd7da34122ec43c",
- "rozmiar": 3596802,
+ "wersja": "19.46",
+ "data": "2026-11-09 13:13",
+ "plik": "silnik-19.46.zip",
+ "sha256": "3ee54b6281339cb55df79e82799259fb3f3162a9f3f136d4d35edd78526f6236",
+ "rozmiar": 3598185,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "a0220103bb5453778c5c172beb5a6bea861242aba109e67ca718d191bab2a88d",
@@ -46,7 +46,7 @@
   ".claude/skills/elevenlabs-sfx/LICENSE": "4ab5e9af2296f748eefa6c0696667f83aa9c0edda7b6972785966b60644b3da6",
   ".claude/skills/elevenlabs-sfx/SKILL.md": "324c885f7eebdfcf7cd05a04478b9f747d57d663e779d9b5d072679d9a79235d",
   ".claude/skills/formaty/SKILL.md": "4625ef82eb420dc6e78b133686bbd380dbf48ed021375735ac6480388295e3ec",
-  ".claude/skills/grafika/SKILL.md": "fa9be81862fffc87a130e48ebec13bfa7a09c0848c3bb8aad2d22f1825f6bd2d",
+  ".claude/skills/grafika/SKILL.md": "95359e57af897839d199ceecc8202b4615ae9dfd4ccad440dab17ed47fc103c0",
   ".claude/skills/hyperframes/LICENSE": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8",
   ".claude/skills/hyperframes/SKILL.md": "3cfb8440d8cd3fdd54e8bfd66c74fea68955c9828891748967f744b1994656f4",
   ".claude/skills/hyperframes/assets/frame-presets/biennale-yellow/FRAME.md": "76d22cced9c152b0edb520543cf34c4ce772a312caa7211c40d4315b53c053cf",
@@ -168,9 +168,9 @@
   ".claude/skills/transkrypcja/SKILL.md": "688f42a2f66df0a636d2bf78bfb549ce7322b1b114b361443f57aa5e91353c42",
   ".env.przyklad": "6f37395330beb28969e1f49d72dba5579bb8e5990442681e4ef8fe0e1a7a98ca",
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
-  "CLAUDE.md": "64950d93937097487a878a18317e1db59ed6dbdaef1355f3cc79a8246e5e392c",
+  "CLAUDE.md": "c37ad3f59e0ef61a97146715cf9f4ae7919e648e4f667ee4cff0f29c57fccc10",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "ec72f24d089894b5cd86e4a063493efe118b197db8c19c6f62e8d31d7e0d3e1b",
+  "WERSJA.txt": "a856ef2f4b3ed82352b4c3426717d0c395c9af8ef8db93113117486dbc461978",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -229,7 +229,7 @@
   "narzedzia/lektor.py": "3d7b427b96f9f9c18d550ccaca7c76eedcf19365bdd150d180e16ba013d4acfb",
   "narzedzia/limity.py": "67c4ac74305304d92448c1378c2db0038c90bbd462dcd33adbf8acb34bf527cc",
   "narzedzia/marka.py": "da416b37531b916bf46db39a8adbce38f44ed69c00e44297846c904dd1600f45",
-  "narzedzia/mcp_studio.py": "8e1d930b7852dfa62f6285b9772f10b61a6b7d5229782e6d89f598f9acb30053",
+  "narzedzia/mcp_studio.py": "3c9bd916b713011b95f40f27b41e65a581c0770fddd0b7329890b76d8268ccfd",
   "narzedzia/miniatury.py": "cac04fe3f3aef69d717ef29935e4ddd36d766e7c8608877a4ca60eab11cdec1c",
   "narzedzia/modele/CZYTAJ.txt": "8bcd118956e7bbd399585860c5bcf2fc59e34b8a5e3f2b93da534027ec7190e7",
   "narzedzia/modele/twarze_yunet.onnx": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4",
@@ -246,7 +246,7 @@
   "narzedzia/panel_premiere.py": "36238a5265687f343e549989be60f27815dca9bc0141f8ed03cf2eca2d213807",
   "narzedzia/pion.py": "5f329fe4c70607e8b983aa72b43cf69a91f7cd7409bdfb411eaf27719460c75c",
   "narzedzia/pobierz.py": "1e493d30cf0dc47c6009bc2afabaeaa6e48753c13e809404833a2e69e075bbcd",
-  "narzedzia/porzadek.py": "a3a57b0855445cb9d39f08ecb5231db81b25defbf746f9f863fa8acbf84ca829",
+  "narzedzia/porzadek.py": "3479b225b880eace521bbc17c0f711e1df9c52a4722f2f57d9b07f407b6fcae9",
   "narzedzia/postep.py": "24b4781e6a1c867ab8b21f36264ff56a21cf04107a4ac5ea45793650c9dc0850",
   "narzedzia/premiere.py": "d7a03eab3b4c6fb436b0947a3af884888fea08b704087db04639c165c2de666f",
   "narzedzia/prompty/wpadki.md": "25b75898afd8daa65fafab79f83c53dbe674bcc391693513dff9ade1049aa0b7",
@@ -475,7 +475,7 @@
   "studio/studio.html": "f2350b6ee18a845525cf2e12c348d8dec44cdd4b715bdc5aeb1f005ec14bc95d"
  },
  "zmiany": [
-  "Rolka w kilku rozdzielczościach: gotowe pliki nazywają się „Rolka 1.mp4”, „Rolka 1 - kwadrat.mp4”, „Rolka 1 - 1080x1350.mp4” (wcześniej porządek robił z wersji kwadratowej „Rolka 1 (2).mp4”, a Claude dorabiał kopię z dobrą nazwą, więc plików było za dużo)",
-  "Porządek wyników: arkusze kontrolne grafik (…_podglad.jpg) zawsze trafiają do Materiały"
+  "Projekty nazwane po kliencie: Premiere „<klient>_<szerokość>x<wysokość>_rolka1.xml” (i taka sama nazwa sekwencji po imporcie), Photoshop „<klient>_grafiki1.psd”; wcześniej każda rolka miała w Premiere tę samą nazwę „rolka”",
+  "„Zobacz wyniki” w Studio nie pokazuje arkuszy kontrolnych grafik (…_podglad.jpg)"
  ]
 }
