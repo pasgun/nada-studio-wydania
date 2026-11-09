@@ -1,9 +1,9 @@
 {
- "wersja": "19.44",
- "data": "2026-11-09 12:32",
- "plik": "silnik-19.44.zip",
- "sha256": "912c1c430ad52d1bdbb246feb729c2dbd165389e6b167f5d803122c6158e1fbd",
- "rozmiar": 3596161,
+ "wersja": "19.45",
+ "data": "2026-11-09 13:09",
+ "plik": "silnik-19.45.zip",
+ "sha256": "144205b6361db36eb4dff12a489007b688f6650bc2ab62829dd7da34122ec43c",
+ "rozmiar": 3596802,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "a0220103bb5453778c5c172beb5a6bea861242aba109e67ca718d191bab2a88d",
@@ -154,7 +154,7 @@
   ".claude/skills/pion/SKILL.md": "95deb8b857c9cf6fda9f578cd7cb298dbdc751dd3045e7d584d6b1abeae59511",
   ".claude/skills/reel-export/LICENSE": "ed17713237d18555a34c208bf0cb1ce347faa937731d509e265ce91be660e218",
   ".claude/skills/reel-export/SKILL.md": "82094b671e279a076e3799eae92b0ffa8d788680b074f25f6ea50874804fc368",
-  ".claude/skills/rolka/SKILL.md": "8c95f0bb2144849246aa9889ef609233e15706cdda8f5e66ab465603fcaf2688",
+  ".claude/skills/rolka/SKILL.md": "9275183c897ad1a1c0b5a6456fa7184ab2d4194b0f99aeb95e5f136e234aa5c0",
   ".claude/skills/social/LICENSE": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
   ".claude/skills/social/SKILL.md": "1b2f92950fbb0ab47a117008bfbb4030eff13f6e7fc2e9e353e3f1142d5e14fc",
   ".claude/skills/social/references/carousel-frameworks.md": "e703aa530ec9f68cdf5b58e8e0d4d1a5cc3f22b9e2d3e3222f16a9763d423247",
@@ -170,7 +170,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "64950d93937097487a878a18317e1db59ed6dbdaef1355f3cc79a8246e5e392c",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "3b654b8d9d25a7033b2800e57faa8e610970a2441cafa1dca1adc4c8d25938b3",
+  "WERSJA.txt": "ec72f24d089894b5cd86e4a063493efe118b197db8c19c6f62e8d31d7e0d3e1b",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -246,7 +246,7 @@
   "narzedzia/panel_premiere.py": "36238a5265687f343e549989be60f27815dca9bc0141f8ed03cf2eca2d213807",
   "narzedzia/pion.py": "5f329fe4c70607e8b983aa72b43cf69a91f7cd7409bdfb411eaf27719460c75c",
   "narzedzia/pobierz.py": "1e493d30cf0dc47c6009bc2afabaeaa6e48753c13e809404833a2e69e075bbcd",
-  "narzedzia/porzadek.py": "4df4440c86f45d32f33e55c2f18c47cd14bf3edbc64d7f7350f048a9b45967c6",
+  "narzedzia/porzadek.py": "a3a57b0855445cb9d39f08ecb5231db81b25defbf746f9f863fa8acbf84ca829",
   "narzedzia/postep.py": "24b4781e6a1c867ab8b21f36264ff56a21cf04107a4ac5ea45793650c9dc0850",
   "narzedzia/premiere.py": "d7a03eab3b4c6fb436b0947a3af884888fea08b704087db04639c165c2de666f",
   "narzedzia/prompty/wpadki.md": "25b75898afd8daa65fafab79f83c53dbe674bcc391693513dff9ade1049aa0b7",
@@ -475,6 +475,7 @@
   "studio/studio.html": "f2350b6ee18a845525cf2e12c348d8dec44cdd4b715bdc5aeb1f005ec14bc95d"
  },
  "zmiany": [
-  "Studio, rolka: kilka rozdzielczości naraz (pion, kwadrat, własna); każda rolka powstaje w każdej z nich, a na kafelku zadania widać, w jakich"
+  "Rolka w kilku rozdzielczościach: gotowe pliki nazywają się „Rolka 1.mp4”, „Rolka 1 - kwadrat.mp4”, „Rolka 1 - 1080x1350.mp4” (wcześniej porządek robił z wersji kwadratowej „Rolka 1 (2).mp4”, a Claude dorabiał kopię z dobrą nazwą, więc plików było za dużo)",
+  "Porządek wyników: arkusze kontrolne grafik (…_podglad.jpg) zawsze trafiają do Materiały"
  ]
 }
