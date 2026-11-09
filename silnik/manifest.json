@@ -1,9 +1,9 @@
 {
- "wersja": "19.47",
- "data": "2026-11-09 15:03",
- "plik": "silnik-19.47.zip",
- "sha256": "d2a9cd59034c9bb24f0d2b1e5574a0ede6dfc20afd26c439779fd1828c68fdee",
- "rozmiar": 3599545,
+ "wersja": "19.48",
+ "data": "2026-11-09 15:31",
+ "plik": "silnik-19.48.zip",
+ "sha256": "07e12ab79e394a4abd110e0b28da25561916f1b9e81c01cae36a68c6cd16b5db",
+ "rozmiar": 3601070,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "a0220103bb5453778c5c172beb5a6bea861242aba109e67ca718d191bab2a88d",
@@ -170,7 +170,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "c37ad3f59e0ef61a97146715cf9f4ae7919e648e4f667ee4cff0f29c57fccc10",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "99c66d7e7fbb384d8ae18f70094aec38f8e8234111870684959620da13828479",
+  "WERSJA.txt": "2f58f75add95177bda593482f3cc8c833b86ee79c43b13c59170e6dc863ae449",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -214,7 +214,7 @@
   "narzedzia/dzwieki/whoosh_3.wav": "07f4113d60e15d5f24b0c1fd4715c67d254b836e0e3c65b5d0182d0fd159f397",
   "narzedzia/efekty.py": "f36b980b8b41649feac4a3ea73f42294722bc27a697b2c2d2e9c6720c048da24",
   "narzedzia/elevenlabs_zuzycie.py": "5f12747a0d384cc5d0919e60856ee252050b752be17bd5e4edc5c87a87d7994d",
-  "narzedzia/foldery.py": "d79eb9e664b809afee68482b4e1b28f6ab343255551025a37e1c8b88d42329a0",
+  "narzedzia/foldery.py": "5ebc5f2937ae1f481f82db161b3ba4caf78babbbaf0b0ca1dd2640200e844988",
   "narzedzia/fonty.py": "1274c22cbf57c5dfb1a9d5adcb77ceaf64adf2661f03f258785750240ce06a85",
   "narzedzia/fonty_lista.json": "6fb8aa3e5e704e9fdf9d45cef3e5fc6719bdce4b5bdc0d805cc84c8ddb3388a9",
   "narzedzia/formaty.py": "136be81240658cf41b0988cdfc8fe87d700fffd171c03a7b1b684d820ab0bcee",
@@ -229,7 +229,7 @@
   "narzedzia/lektor.py": "3d7b427b96f9f9c18d550ccaca7c76eedcf19365bdd150d180e16ba013d4acfb",
   "narzedzia/limity.py": "67c4ac74305304d92448c1378c2db0038c90bbd462dcd33adbf8acb34bf527cc",
   "narzedzia/marka.py": "da416b37531b916bf46db39a8adbce38f44ed69c00e44297846c904dd1600f45",
-  "narzedzia/mcp_studio.py": "79b70796c4101712405c82c303c9c4ddc082216d22614742aee5a8b4ef6e8f2b",
+  "narzedzia/mcp_studio.py": "7d93b4b74caf248b6540ea717ac5a87458dd12893d2c183a5e298447a701d5b6",
   "narzedzia/miniatury.py": "cac04fe3f3aef69d717ef29935e4ddd36d766e7c8608877a4ca60eab11cdec1c",
   "narzedzia/modele/CZYTAJ.txt": "8bcd118956e7bbd399585860c5bcf2fc59e34b8a5e3f2b93da534027ec7190e7",
   "narzedzia/modele/twarze_yunet.onnx": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4",
@@ -475,8 +475,6 @@
   "studio/studio.html": "d795981ad7597f0584fc6c29a4b6ffd3cc32738bb1e4ff0d769223af09c6c9d6"
  },
  "zmiany": [
-  "Zadania: kafelki krótsze; lista „Gotowe pliki” zwinięta (kliknij, żeby rozwinąć; Studio pamięta wybór), pole poprawki schowane pod przyciskiem „✎ Poprawka” (otwarte samo, gdy mózg czeka na odpowiedź)",
-  "Zadania: przycisk „📁 Folder” otwiera folder z wynikami zadania w Eksploratorze",
-  "Gotowe pliki na kafelku tylko z folderu tego zadania (wcześniej dochodziły pliki z folderów innych zadań); bez gotowe.json, raport.md, arkuszy kontrolnych i dubli „(2)”; grafiki z serii (podfoldery 1, 2, 3…) liczą się jako gotowe"
+  "Foldery otwierane ze Studio (przycisk „📁 Folder”, „Otwórz folder w Eksploratorze”, „Pokaż w folderze”, foldery klientów) wyskakują na wierzchu, a nie pod innymi oknami"
  ]
 }
