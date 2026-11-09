@@ -1,9 +1,9 @@
 {
- "wersja": "19.42",
- "data": "2026-11-06 15:53",
- "plik": "silnik-19.42.zip",
- "sha256": "73d570958c2e6ff7169c96f05b620c2c19a5af288b447631844a3537f767fc7a",
- "rozmiar": 3594594,
+ "wersja": "19.43",
+ "data": "2026-11-09 12:14",
+ "plik": "silnik-19.43.zip",
+ "sha256": "1547079f7a975e49dbf278e60acba9ca6a0e299e82773996585c17477b9105b4",
+ "rozmiar": 3595545,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "a0220103bb5453778c5c172beb5a6bea861242aba109e67ca718d191bab2a88d",
@@ -154,7 +154,7 @@
   ".claude/skills/pion/SKILL.md": "95deb8b857c9cf6fda9f578cd7cb298dbdc751dd3045e7d584d6b1abeae59511",
   ".claude/skills/reel-export/LICENSE": "ed17713237d18555a34c208bf0cb1ce347faa937731d509e265ce91be660e218",
   ".claude/skills/reel-export/SKILL.md": "82094b671e279a076e3799eae92b0ffa8d788680b074f25f6ea50874804fc368",
-  ".claude/skills/rolka/SKILL.md": "94f69d3f63b0c8a2c1738790c42e8872463c1092923b2f0c8e3f2e5456852761",
+  ".claude/skills/rolka/SKILL.md": "c81e1377eeb7eb454d53524da4a055be2770387600b5d8c2cdca796559c84634",
   ".claude/skills/social/LICENSE": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
   ".claude/skills/social/SKILL.md": "1b2f92950fbb0ab47a117008bfbb4030eff13f6e7fc2e9e353e3f1142d5e14fc",
   ".claude/skills/social/references/carousel-frameworks.md": "e703aa530ec9f68cdf5b58e8e0d4d1a5cc3f22b9e2d3e3222f16a9763d423247",
@@ -170,7 +170,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "64950d93937097487a878a18317e1db59ed6dbdaef1355f3cc79a8246e5e392c",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "60e5e94bb11acccd2165871c7c95a0559d280ed56b77f6489a61ecb1bd7f8d08",
+  "WERSJA.txt": "097dacbb843c95170df1c8963d4208bb1dd69569e31cd99e50f75b844b8a5fbf",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -472,9 +472,10 @@
   "premiere/pisownia.js": "2e4f518ff45dba405c290dea62a0662f7a7c258065cfe0188da4cb1a88b4da51",
   "requirements.txt": "f948410896ce1d7fd57b36d2a2aec787e8a4558ddf5fdf42c0f0b61d6e12ba46",
   "studio/i18n/en.json": "f7e88e5a5809e19615b98bbae76f2130db15de669894c38945d07e0e67cce1e2",
-  "studio/studio.html": "2ed540fc28783214795475c9715102b6f8adfe54e8b284f8cb98913ab76f1fb4"
+  "studio/studio.html": "13adef74f8b5293b677d42f3fa33427f2ab1a18a3890bb6227f75b3b53906307"
  },
  "zmiany": [
-  "Galeria „Nowe” w panelu Premiere: miniatury wszystkich 62 animacji"
+  "Studio, nowe zadanie „Rolka”: wybór rozdzielczości (pion 1080×1920, kwadrat 1080×1080 albo własna szerokość × wysokość); Claude robi rolkę w tym rozmiarze",
+  "Studio: zakładka Klienci w menu zaraz pod Dashboardem"
  ]
 }
