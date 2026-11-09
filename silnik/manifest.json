@@ -1,9 +1,9 @@
 {
- "wersja": "19.46",
- "data": "2026-11-09 13:13",
- "plik": "silnik-19.46.zip",
- "sha256": "3ee54b6281339cb55df79e82799259fb3f3162a9f3f136d4d35edd78526f6236",
- "rozmiar": 3598185,
+ "wersja": "19.47",
+ "data": "2026-11-09 15:03",
+ "plik": "silnik-19.47.zip",
+ "sha256": "d2a9cd59034c9bb24f0d2b1e5574a0ede6dfc20afd26c439779fd1828c68fdee",
+ "rozmiar": 3599545,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "a0220103bb5453778c5c172beb5a6bea861242aba109e67ca718d191bab2a88d",
@@ -170,7 +170,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "c37ad3f59e0ef61a97146715cf9f4ae7919e648e4f667ee4cff0f29c57fccc10",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "a856ef2f4b3ed82352b4c3426717d0c395c9af8ef8db93113117486dbc461978",
+  "WERSJA.txt": "99c66d7e7fbb384d8ae18f70094aec38f8e8234111870684959620da13828479",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -229,7 +229,7 @@
   "narzedzia/lektor.py": "3d7b427b96f9f9c18d550ccaca7c76eedcf19365bdd150d180e16ba013d4acfb",
   "narzedzia/limity.py": "67c4ac74305304d92448c1378c2db0038c90bbd462dcd33adbf8acb34bf527cc",
   "narzedzia/marka.py": "da416b37531b916bf46db39a8adbce38f44ed69c00e44297846c904dd1600f45",
-  "narzedzia/mcp_studio.py": "3c9bd916b713011b95f40f27b41e65a581c0770fddd0b7329890b76d8268ccfd",
+  "narzedzia/mcp_studio.py": "79b70796c4101712405c82c303c9c4ddc082216d22614742aee5a8b4ef6e8f2b",
   "narzedzia/miniatury.py": "cac04fe3f3aef69d717ef29935e4ddd36d766e7c8608877a4ca60eab11cdec1c",
   "narzedzia/modele/CZYTAJ.txt": "8bcd118956e7bbd399585860c5bcf2fc59e34b8a5e3f2b93da534027ec7190e7",
   "narzedzia/modele/twarze_yunet.onnx": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4",
@@ -472,10 +472,11 @@
   "premiere/pisownia.js": "2e4f518ff45dba405c290dea62a0662f7a7c258065cfe0188da4cb1a88b4da51",
   "requirements.txt": "f948410896ce1d7fd57b36d2a2aec787e8a4558ddf5fdf42c0f0b61d6e12ba46",
   "studio/i18n/en.json": "f7e88e5a5809e19615b98bbae76f2130db15de669894c38945d07e0e67cce1e2",
-  "studio/studio.html": "f2350b6ee18a845525cf2e12c348d8dec44cdd4b715bdc5aeb1f005ec14bc95d"
+  "studio/studio.html": "d795981ad7597f0584fc6c29a4b6ffd3cc32738bb1e4ff0d769223af09c6c9d6"
  },
  "zmiany": [
-  "Projekty nazwane po kliencie: Premiere „<klient>_<szerokość>x<wysokość>_rolka1.xml” (i taka sama nazwa sekwencji po imporcie), Photoshop „<klient>_grafiki1.psd”; wcześniej każda rolka miała w Premiere tę samą nazwę „rolka”",
-  "„Zobacz wyniki” w Studio nie pokazuje arkuszy kontrolnych grafik (…_podglad.jpg)"
+  "Zadania: kafelki krótsze; lista „Gotowe pliki” zwinięta (kliknij, żeby rozwinąć; Studio pamięta wybór), pole poprawki schowane pod przyciskiem „✎ Poprawka” (otwarte samo, gdy mózg czeka na odpowiedź)",
+  "Zadania: przycisk „📁 Folder” otwiera folder z wynikami zadania w Eksploratorze",
+  "Gotowe pliki na kafelku tylko z folderu tego zadania (wcześniej dochodziły pliki z folderów innych zadań); bez gotowe.json, raport.md, arkuszy kontrolnych i dubli „(2)”; grafiki z serii (podfoldery 1, 2, 3…) liczą się jako gotowe"
  ]
 }
