@@ -1,9 +1,9 @@
 {
- "wersja": "19.52",
- "data": "2026-11-12 15:00",
- "plik": "silnik-19.52.zip",
- "sha256": "f391aa021b3f7aa4fa0b55b9840167ff04e1a2f0f37722a94120f7f91b291141",
- "rozmiar": 3622156,
+ "wersja": "19.53",
+ "data": "2026-11-12 16:52",
+ "plik": "silnik-19.53.zip",
+ "sha256": "ee3cfd6cc073778a46b0fbda97bb375d732cf8873d998c53ffb191eb528d465e",
+ "rozmiar": 3628679,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "a0220103bb5453778c5c172beb5a6bea861242aba109e67ca718d191bab2a88d",
@@ -170,7 +170,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "6f9b1b7128e906fba37ae11ec41e3ab5920f794ccc116fdef3e0beb23c32d71b",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "dff9127bc11f56f2c00f6d2ec2593e69f909884c53852c005578a124a2970071",
+  "WERSJA.txt": "c26bab7143085ff7564824a0a11c0f11a9c305c98db600a286ef0762e3b65068",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -472,11 +472,15 @@
   "premiere/panel.js": "b4ed925e398c678f5cfcb69ef6c50f077a8e77abd7f3cce9cbe70f4feabcfea2",
   "premiere/pisownia.js": "2e4f518ff45dba405c290dea62a0662f7a7c258065cfe0188da4cb1a88b4da51",
   "requirements.txt": "f948410896ce1d7fd57b36d2a2aec787e8a4558ddf5fdf42c0f0b61d6e12ba46",
-  "studio/i18n/en.json": "9ea0a18b2118ffae255d960df30acbb9cb700a3de57945e70ed006ec9345b7a0",
-  "studio/studio.html": "7116760c5dce52905a5f33a6aa27a7610941c52fbe4eeac50e5289ddbc01f83b"
+  "studio/i18n/en.json": "edcdd2dd1d6ca2ce542c2a6f4d611f90f28e0cc4a815c9ed17ac4d39f0ae1aa9",
+  "studio/studio.html": "b6739af8f924ae16639291bb8217826addcdf3e9e36cb21479c05748e5b46fe3"
  },
  "zmiany": [
-  "Rolki z własnych nagrań montowane na oryginalnych plikach: kadr i przybliżenia przy cięciach to skala i pozycja jak w Premiere (Effect Controls > Motion), a nie wycięte i przeskalowane kopie; w projekcie Premiere na osi leży oryginalne nagranie (np. 4K) z ustawioną skalą i pozycją, więc kadr poprawiasz w Premiere jak przy własnym montażu",
-  "Ruch kamery (przybliżenie/oddalenie) na takich ujęciach trafia do Premiere jako klatki kluczowe skali na tym samym kadrze"
+  "Studio startuje od zakładki Zadania, która jest teraz pierwsza w menu po lewej; kolumna „Poczekalnia” nazywa się „Wykonane”",
+  "Kafelki zadań, które jeszcze nie ruszyły, nie mają przycisków Wyniki, Folder i Premiere (pojawiają się po „Wykonaj”)",
+  "„⏰ Zaplanuj” na kafelku: dzień (domyślnie dzień utworzenia zadania) i godzina, potem „Zaplanuj”; o tej porze zadanie rusza samo, jeśli apka jest włączona (gdy była zamknięta dłużej niż 6 h po terminie, kafelek to pokaże i nic nie startuje samo)",
+  "Domyślne ustawienia zadań w karcie klienta: rodzaj zadania, opis (prompt), napisy, projekt Premiere; pełny zestaw zapisuje przycisk „Zapisz jako domyślne klienta” w oknie zadania; nowe zadanie tego klienta zaczyna się od nich",
+  "Tablica Zadania: szerokość kolumn zmieniasz, przeciągając krawędź nagłówka (dwa kliknięcia: domyślne), „+ Kolumna” dodaje kolumnę, nazwę zmieniasz dwuklikiem",
+  "Przycisk „Sprawdź aktualizacje” nad profilem w lewym panelu; licznik limitów Claude usunięty (Claude Code w tle nie podaje zużycia, więc licznik stał w miejscu)"
  ]
 }
