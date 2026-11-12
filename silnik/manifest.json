@@ -1,9 +1,9 @@
 {
- "wersja": "19.48",
- "data": "2026-11-09 15:31",
- "plik": "silnik-19.48.zip",
- "sha256": "07e12ab79e394a4abd110e0b28da25561916f1b9e81c01cae36a68c6cd16b5db",
- "rozmiar": 3601070,
+ "wersja": "19.49",
+ "data": "2026-11-12 11:30",
+ "plik": "silnik-19.49.zip",
+ "sha256": "3c4b148966a4def63ce0c588a0e136cd5d586eb141d5be7cc512e57bfb9b80f4",
+ "rozmiar": 3602101,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "a0220103bb5453778c5c172beb5a6bea861242aba109e67ca718d191bab2a88d",
@@ -142,7 +142,7 @@
   ".claude/skills/hyperframes-registry/references/search.md": "5561a6c6feb6d69380e63cbb5b3578758d639665a4ff47e3b5147e3b998fd46f",
   ".claude/skills/hyperframes-registry/references/wiring-blocks.md": "397f9ad5a9244d173b97bb5a5dfe76ea3cbccfb8dde16cba8b3dabc6044b011a",
   ".claude/skills/hyperframes-registry/references/wiring-components.md": "6c8341c29fdae6de4f9fd1560a668d11cf34731b81fe5a06c9aeb4a000047b2a",
-  ".claude/skills/jak-wzor/SKILL.md": "c872a9d0888a7062e41c3f856274854fce63eca9fcf97e2e1f5755a5b0c0129e",
+  ".claude/skills/jak-wzor/SKILL.md": "cfcf054b878cf39173d19a755f582c653a154a687ce5c54ded265370f09e7ca8",
   ".claude/skills/marketing-psychology/LICENSE": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
   ".claude/skills/marketing-psychology/SKILL.md": "c3b664e27989f4fe61df79851e8f0f810f5631104ceac8e9465a339fbe732965",
   ".claude/skills/miniatury/SKILL.md": "9cca30a497df323d0b6fc90824db09a89b61c3d7e9362ba11439d9d72a6b0b30",
@@ -154,7 +154,7 @@
   ".claude/skills/pion/SKILL.md": "95deb8b857c9cf6fda9f578cd7cb298dbdc751dd3045e7d584d6b1abeae59511",
   ".claude/skills/reel-export/LICENSE": "ed17713237d18555a34c208bf0cb1ce347faa937731d509e265ce91be660e218",
   ".claude/skills/reel-export/SKILL.md": "82094b671e279a076e3799eae92b0ffa8d788680b074f25f6ea50874804fc368",
-  ".claude/skills/rolka/SKILL.md": "9275183c897ad1a1c0b5a6456fa7184ab2d4194b0f99aeb95e5f136e234aa5c0",
+  ".claude/skills/rolka/SKILL.md": "8ca882012f03de26ceaa7fbf4f8b9a4be32a4dd3bd73c48ea035c2d540340ff8",
   ".claude/skills/social/LICENSE": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
   ".claude/skills/social/SKILL.md": "1b2f92950fbb0ab47a117008bfbb4030eff13f6e7fc2e9e353e3f1142d5e14fc",
   ".claude/skills/social/references/carousel-frameworks.md": "e703aa530ec9f68cdf5b58e8e0d4d1a5cc3f22b9e2d3e3222f16a9763d423247",
@@ -170,7 +170,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "c37ad3f59e0ef61a97146715cf9f4ae7919e648e4f667ee4cff0f29c57fccc10",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "2f58f75add95177bda593482f3cc8c833b86ee79c43b13c59170e6dc863ae449",
+  "WERSJA.txt": "d8e41437fa5b26a8b9be7c3ddfa0d28538200f9449db77a1e11abd0e7d7a14df",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -234,7 +234,7 @@
   "narzedzia/modele/CZYTAJ.txt": "8bcd118956e7bbd399585860c5bcf2fc59e34b8a5e3f2b93da534027ec7190e7",
   "narzedzia/modele/twarze_yunet.onnx": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4",
   "narzedzia/montaz.py": "57ea0e7008d3a40c6adcb6c1708d6d4f43fb614da1889b91ccd308ed2641b32d",
-  "narzedzia/mowa.py": "1044fa8901d7d4108f25cc98757356c742b01daac0b4f67ffd33d2af2f9d9552",
+  "narzedzia/mowa.py": "b94fadea26b73602c06ed2a80eaf4d1fb48b62582518a1f3d05fedaa3eae4fe1",
   "narzedzia/mozg.py": "4f71b662939313d1f29e56c718a864f62121e704a9c3ca592db3cbc87785398e",
   "narzedzia/mozgi_inne.py": "837a0f506a82795f8dea371ac03415e60c9eb3daffc74aed8f9505fc156449d1",
   "narzedzia/multicam.py": "1593d75c5e0a23b978aedfa4cab99c7e2e5d91dfd40e2e297b408dad0f2555ae",
@@ -246,7 +246,7 @@
   "narzedzia/panel_premiere.py": "36238a5265687f343e549989be60f27815dca9bc0141f8ed03cf2eca2d213807",
   "narzedzia/pion.py": "5f329fe4c70607e8b983aa72b43cf69a91f7cd7409bdfb411eaf27719460c75c",
   "narzedzia/pobierz.py": "1e493d30cf0dc47c6009bc2afabaeaa6e48753c13e809404833a2e69e075bbcd",
-  "narzedzia/porzadek.py": "3479b225b880eace521bbc17c0f711e1df9c52a4722f2f57d9b07f407b6fcae9",
+  "narzedzia/porzadek.py": "d1d63e7b3276b541e0d8580f2610e582e553d8ebcf74d05614fb1c3ea39ad518",
   "narzedzia/postep.py": "24b4781e6a1c867ab8b21f36264ff56a21cf04107a4ac5ea45793650c9dc0850",
   "narzedzia/premiere.py": "d7a03eab3b4c6fb436b0947a3af884888fea08b704087db04639c165c2de666f",
   "narzedzia/prompty/wpadki.md": "25b75898afd8daa65fafab79f83c53dbe674bcc391693513dff9ade1049aa0b7",
@@ -471,10 +471,12 @@
   "premiere/panel.js": "570ce645ce580e0a61fb2cbb8d5d116885ba54c0e88b96c13c391747651cd029",
   "premiere/pisownia.js": "2e4f518ff45dba405c290dea62a0662f7a7c258065cfe0188da4cb1a88b4da51",
   "requirements.txt": "f948410896ce1d7fd57b36d2a2aec787e8a4558ddf5fdf42c0f0b61d6e12ba46",
-  "studio/i18n/en.json": "f7e88e5a5809e19615b98bbae76f2130db15de669894c38945d07e0e67cce1e2",
-  "studio/studio.html": "d795981ad7597f0584fc6c29a4b6ffd3cc32738bb1e4ff0d769223af09c6c9d6"
+  "studio/i18n/en.json": "9ea0a18b2118ffae255d960df30acbb9cb700a3de57945e70ed006ec9345b7a0",
+  "studio/studio.html": "b9baceaf7bcd57c5eec0ffe9b3827db98a75e63a41f750257e368468494bb017"
  },
  "zmiany": [
-  "Foldery otwierane ze Studio (przycisk „📁 Folder”, „Otwórz folder w Eksploratorze”, „Pokaż w folderze”, foldery klientów) wyskakują na wierzchu, a nie pod innymi oknami"
+  "koniec pikania w słuchawkach: Whisper z Subtitle Edit (Faster-Whisper-XXL) po każdym rozpoznanym klipie odtwarzał sygnał dźwiękowy; teraz jest uruchamiany z wyłączonym sygnałem (--beep_off, tylko gdy dana wersja Whispera zna tę opcję)",
+  "porządek wyników: arkusze kontrolne animacji (…_podglad.jpg z folderu grafiki) nie lądują już na wierzchu jako gotowe pliki",
+  "rolki dłuższe niż 60 s: w zadaniu rolki i w narzędziu „Rolka jak wzór” długość 90 s, 2 min, 3 min albo „Jak materiały klienta (bez limitu)”; wtedy silnik nie skraca ani nie przyspiesza wypowiedzi pod zadany czas"
  ]
 }
