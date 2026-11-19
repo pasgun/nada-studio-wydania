@@ -1,9 +1,9 @@
 {
- "wersja": "19.63",
- "data": "2026-11-19 12:38",
- "plik": "silnik-19.63.zip",
- "sha256": "32c2b8dc0ea71948224cea43e460c76a8a5dcaca101b0e8086bf4d9ee3fd8d46",
- "rozmiar": 3718132,
+ "wersja": "19.64",
+ "data": "2026-11-19 14:24",
+ "plik": "silnik-19.64.zip",
+ "sha256": "63467edea59bfeb4f376bbbee213560f846f0a391b20a286f1c2c655758c31c4",
+ "rozmiar": 3718276,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "a0220103bb5453778c5c172beb5a6bea861242aba109e67ca718d191bab2a88d",
@@ -172,7 +172,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "2b6753e85785e83255f6a79ac90872b669e087cd9c99d6928188e15294b0e481",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "a1ea4c4a287ba53158b1ec05433b094853de783c6dd2170df2b76ff5364e8721",
+  "WERSJA.txt": "9c48e0201c62dcda2ef6c2f8c612d7af05006876a14012d3cc10cc23d685ae10",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -484,17 +484,9 @@
   "premiere/pisownia.js": "2e4f518ff45dba405c290dea62a0662f7a7c258065cfe0188da4cb1a88b4da51",
   "requirements.txt": "f948410896ce1d7fd57b36d2a2aec787e8a4558ddf5fdf42c0f0b61d6e12ba46",
   "studio/i18n/en.json": "045c93fe57565ef2bb9457b14b221c2fdf455617a09adef27a15afc92dd82fac",
-  "studio/studio.html": "cea96a18a4b8b731ec3c1ea101e7e3d14d802dcfecae19292034063cf7bfce52"
+  "studio/studio.html": "aababd0ab6377fee437e95c13a967ffdb380ce399abd747d8ba300b7d839cf5a"
  },
  "zmiany": [
-  "Nowy układ folderów: wszystko jednego klienta w jednym miejscu. W C:\\Studio są tylko Klienci, Biblioteka i folder programu (studio-rolek). Każdy klient ma numer według kolejności dodania (01 Instytut Edukacji Finansowej, 02 Emerald Media...) i trzy foldery: Filmy, Grafika i Assety. W Filmy i Grafika są ponumerowane zadania: na wierzchu gotowy plik (np. „Rolka 1.mp4”), obok folder Premiere albo Photoshop i Assety z całą resztą. Nagrania i zdjęcia do zadania wrzucasz do Assety tego zadania (przyciski „Utwórz folder” w Studio tworzą je same we właściwym miejscu). Assety klienta: Brandbook, Logo, Fonty, Makiety, Referencje (notatki AI są tam ukryte). Muzyka, Envato i stock w Biblioteka",
-  "Stare pliki przenosi przycisk w Studio: Ustawienia > Foldery > „Uporządkuj foldery teraz” (najpierw „Pokaż, co gdzie trafi”). Niczego nie usuwa, poprawia ścieżki w osiach Premiere zrobionych przez Studio, a „Cofnij” przenosi wszystko z powrotem. Przed startem zamknij Premiere, Photoshop i After Effects",
-  "Narzędzia (transkrypcja, pion, dźwięk, tłumaczenie, napisy, formaty, miniatury) kładą gotowe pliki na wierzchu folderu zadania",
-  "Console: po skończonym zadaniu przyciski „Otwórz folder” i „Projekt Premiere” (przy grafikach „Projekt Photoshop”)",
-  "„Projekt Premiere” nie otwiera już kopii z folderu Auto-Save",
-  "Kafelek zadania dużo mniejszy: w jednej linii kolor klienta, nazwa klienta i nazwa zadania, mózg małą etykietą (bez daty w rogu); opis zadania rozwijany; gotowe pliki jako małe ikonki z nazwą (kliknięcie: podgląd, kopiowanie, pokaż w folderze); kciuki oceny przy prawej krawędzi w rzędzie z przyciskami (po kliknięciu 👎 albo 👍 pole na powód, Enter zapisuje)",
-  "Poprawka: pierwsze kliknięcie „Poprawka” wysuwa pole, drugie kliknięcie albo Enter wysyła (Shift+Enter nowa linia, Esc zwija). Wysłane poprawki zostają pod kafelkiem jako „Poprawka 1, 2…” do rozwinięcia",
-  "Zużycie na samym dole kafelka: „Claude: 9 USD | 1,8% Max 5x” (tylko dla planu wybranego w Console)",
-  "Naprawione: przyciski w kafelku (Folder, Premiere, pliki) czasem trzeba było kliknąć dwa razy, bo tablica odświeżała się w trakcie kliknięcia; okno Eksploratora, które otwiera się wolno, i tak wychodzi na wierzch"
+  "Zamknięte zadania na tablicy to mały kafelek w jednej linii: nazwa zadania i przyciski 📁 (folder) i 🎬 (projekt Premiere)"
  ]
 }
