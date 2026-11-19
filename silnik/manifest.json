@@ -1,9 +1,9 @@
 {
- "wersja": "19.60",
- "data": "2026-11-16 20:34",
- "plik": "silnik-19.60.zip",
- "sha256": "cb09feab31b331a583d2aac9739c4b102b04d4169051d0e628070692f950ff50",
- "rozmiar": 3682322,
+ "wersja": "19.61",
+ "data": "2026-11-19 10:10",
+ "plik": "silnik-19.61.zip",
+ "sha256": "e51782b22057ecb7af207ccd0b57b70a61612aa6ce5b6b789e7eee1b00f0fd1f",
+ "rozmiar": 3686733,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "a0220103bb5453778c5c172beb5a6bea861242aba109e67ca718d191bab2a88d",
@@ -172,7 +172,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "e3882d9c6ece8bc7dab16864e7fa12d34d8cf8c2e7bc174de20a6e69fcd6b364",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "e1904e3315e00e1fd2b2d1e684422910ecc5b3972c19fa5a9072cd244355a4d6",
+  "WERSJA.txt": "ecf201578e8781a5dd05355f97b50d5da994bcad387f1ed0e2a32bc82aafafac",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -184,8 +184,8 @@
   "davinci/wtyczka/panel.js": "deb9aefbbe3a916e25b501f2e7a7d7e2e4ac891326cf89993c1433bbeeab07a6",
   "davinci/wtyczka/preload.js": "1efe53b9436233cb89067ab6e7d8439e61d6f0dc6dc56dced4d4c517870fc60a",
   "davinci/wtyczka/styl.css": "2719d249fd5d9e0b58b6f755c7c6b7c16235bbe8dbb3c22cf3ecc5e3e1da360e",
-  "narzedzia/adobe_podcast.json": "41e4131c6fa3995e076d8cfd9818f39f5fe8f4dae551beb6ff80ae984d142614",
-  "narzedzia/adobe_podcast.py": "59f1c4fe03e3c9b04f76dd6f778d00846d8e884d465a676d4ce345bbc87ff764",
+  "narzedzia/adobe_podcast.json": "04476aaf40573e950fc314f9f686b90e7d1ec9e0ac55a764d3979834def81033",
+  "narzedzia/adobe_podcast.py": "66fa63d672da787a8d0c69706553a0292482f78eb661abf16e496cec31da52c2",
   "narzedzia/aftermovie.py": "ebc3f90240513437939c00d20fd8c682e00b07a74c440876a61a4fc927ebe625",
   "narzedzia/analiza.py": "b2671f74e823a518fa8e669cbfbc90001df13dc58f25693eb63a613c195eb50b",
   "narzedzia/animacje/ae_mogrt.jsx": "e497b118861c88957da21af5aa525c57fe436c08dd04ab5df680f23b42ce9424",
@@ -207,7 +207,7 @@
   "narzedzia/ciecie.py": "42aabe78ee08207e0213785a76b376d9ade81b7528b186b99d85e891dd26c8db",
   "narzedzia/claude_start.json": "c8e1a3569224356e0f97f57dcaf71a0f9e6dd139cfe0c2e53c2fa9521c6d424e",
   "narzedzia/davinci_most.py": "3fe08f9ada69083c3f9847cb7dda8891778f8a011a42cd041233b45dc8e83ed6",
-  "narzedzia/dzwiek.py": "e677ef091c3817fb98a02513043738c9da9da4f5805ee76fb32e3fb8bc7af467",
+  "narzedzia/dzwiek.py": "f576632eeb3092ccb57d547c874552e977eb4c03f591c33aaf000c1199b99556",
   "narzedzia/dzwieki/CZYTAJ.txt": "17117afb8a60300b17f95f7652e292c46b88845cc2aaa83328bdd59c71028cb5",
   "narzedzia/dzwieki/flash_1.wav": "f5fca3f9441932999f763363110abf26c2bfae9ffd55110a3c5f9fa8db265471",
   "narzedzia/dzwieki/hit_1.wav": "9da064f01fcdf8d2c4a8fe01e95f6c36ab1a433bba73d55db8d47b583e44d693",
@@ -481,14 +481,14 @@
   "premiere/panel.js": "34a5297def82be8e53e1b5a0b4f5be9bd779b6ae174231089e9113886c337408",
   "premiere/pisownia.js": "2e4f518ff45dba405c290dea62a0662f7a7c258065cfe0188da4cb1a88b4da51",
   "requirements.txt": "f948410896ce1d7fd57b36d2a2aec787e8a4558ddf5fdf42c0f0b61d6e12ba46",
-  "studio/i18n/en.json": "b718b5e7c406702d554fec005447bf5de34be005f1a6a35adff6e6f9ef00d8a4",
-  "studio/studio.html": "4b10f2dd643dd420757b795cfa682bdbda714c506c8efc5f677ae719dd6bd2df"
+  "studio/i18n/en.json": "7b8eb411600ac5850d26b2b6c5753e5e1117234188e2e7e53e628553f9b51336",
+  "studio/studio.html": "381573a683a9666b80c009f31b93b7c38c2a109b2efb603e30a4c66ad8adba7c"
  },
  "zmiany": [
-  "Zadania zjadają dużo mniej limitu Claude. Studio wybiera model zamiast domyślnego z konta (było nim Fable, najdroższy): Sonnet do wszystkich zadań, a agent kontroli jakości na końcu zadania pracuje na Opusie. W Console wybierzesz: Auto, Sonnet, Opus albo Fable (Opus i Fable tylko, gdy przy danym zadaniu chcesz mocniejszy mózg)",
-  "Poprawka gotowego zadania (i odpowiedź w bardzo długiej rozmowie) zaczyna nową rozmowę z krótkim przekazaniem: polecenie, ostatni raport i Twoja wiadomość. Wcześniej wznawiała starą i przy każdym kroku czytała od nowa 300–700 tys. tokenów",
-  "Zadania w tle nie ładują niepotrzebnych narzędzi i połączeń (Gmail, Dysk, Kalendarz, Blender, CAD, wtyczki) ani serwisów spoza zadania (sam Higgsfield to ok. 180 narzędzi czytanych przy każdym kroku); to samo w panelu Premiere",
-  "Kontrola filmu na jednym arkuszu klatek zamiast kilkunastu osobnych obrazów; zasady oszczędzania limitów dla mózgu w CLAUDE.md",
-  "Console pokazuje przy każdym zleceniu zużycie (przeliczone na cennik API)"
+  "Adobe Podcast: naprawiony poważny błąd. Adobe nie zaznacza sam nowo wgranego pliku, a automat brał przycisk pobierania od pliku, który był akurat zaznaczony, więc mógł zapisać dźwięk innego nagrania (tak było w Bogmat Rolki_48: wszystkie trzy nagrania dostały ten sam dźwięk). Teraz automat zaznacza swój plik na liście, pobiera go głównym przyciskiem „Download” i sprawdza, czy pobrany dźwięk ma tę samą długość i ten sam przebieg co wysłany; jeśli nie, nic nie zapisuje. Stare wyniki bez tego sprawdzenia robią się od nowa",
+  "Adobe Podcast: suwaki Speech, Music i Background ustawiane po ich miejscu na stronie; okienka z reklamą zamykane same",
+  "Adobe Podcast: pliki wysyłane do Adobe mają krótkie nazwy (poprawka, którą dziś zrobił mózg na Twoim PC przy Rolki_48, scalona z tą wersją), a pobrany plik musi mieć nazwę wysłanego",
+  "„Zaloguj” i „Sprawdź” w Adobe Podcast: gdy automat właśnie pracuje, Studio mówi to wprost zamiast mylącego błędu; okno przeglądarki, które zostało po przerwanym przebiegu, zamyka się samo (tylko okna automatu, nie Twój Chrome)",
+  "Pasek Adobe Podcast w Studio pokazuje prawdziwą przyczynę; „Zaloguj ponownie” tylko wtedy, gdy naprawdę trzeba się zalogować"
  ]
 }
