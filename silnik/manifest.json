@@ -1,9 +1,9 @@
 {
- "wersja": "19.65",
- "data": "2026-11-20 15:49",
- "plik": "silnik-19.65.zip",
- "sha256": "2e32ba67c9eb6884ce662951ff5f2b03dfb50d70356e86c470b0f92988450662",
- "rozmiar": 3863976,
+ "wersja": "19.66",
+ "data": "2026-11-20 15:54",
+ "plik": "silnik-19.66.zip",
+ "sha256": "8736730681cb9c8085955016c9345d52c4a71dc5bee29b7b8c137b21ac2d04f2",
+ "rozmiar": 3865308,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "a0220103bb5453778c5c172beb5a6bea861242aba109e67ca718d191bab2a88d",
@@ -173,7 +173,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "4e387d943c49926703788846c270a412d01a3e2a64e25dcb799e615b88896eb3",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "7cceca75ee33cb36e72e239805669b0a5dbc89c0f871b2511451fd55cd187a7a",
+  "WERSJA.txt": "856fe64d11a13f532396a4f884d16830fef316c543b3fc6665525a0e1c7c89f5",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -238,7 +238,7 @@
   "narzedzia/lektor.py": "3d7b427b96f9f9c18d550ccaca7c76eedcf19365bdd150d180e16ba013d4acfb",
   "narzedzia/limity.py": "67c4ac74305304d92448c1378c2db0038c90bbd462dcd33adbf8acb34bf527cc",
   "narzedzia/marka.py": "da416b37531b916bf46db39a8adbce38f44ed69c00e44297846c904dd1600f45",
-  "narzedzia/mcp_studio.py": "442b837e460ea413b2eba02b7c68245872198fb5d962b6e67c6d9095917abb19",
+  "narzedzia/mcp_studio.py": "1bd72567f291936bec9d9bc254ee33718b384d3cb36caba8193c60b8238030cb",
   "narzedzia/miniatury.py": "26b6100af387d94028d20d3cff58c206f91e90fca6f4c13f16ec9fed8b51cd5e",
   "narzedzia/modele/CZYTAJ.txt": "8bcd118956e7bbd399585860c5bcf2fc59e34b8a5e3f2b93da534027ec7190e7",
   "narzedzia/modele/twarze_yunet.onnx": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4",
@@ -255,7 +255,7 @@
   "narzedzia/panel_premiere.py": "36238a5265687f343e549989be60f27815dca9bc0141f8ed03cf2eca2d213807",
   "narzedzia/pion.py": "84dcb3150ae0223174bff8db1937f743a7aba9201e0be696285b13e57e545d00",
   "narzedzia/pobierz.py": "1e493d30cf0dc47c6009bc2afabaeaa6e48753c13e809404833a2e69e075bbcd",
-  "narzedzia/porzadek.py": "e1a93c34b54928fb609122ad9c457a1a41d5e70672bd28f46eb74aaa73f7ba4a",
+  "narzedzia/porzadek.py": "f7cb3eb2551efa93300785d77c5b60c4c0099d60d72d4bbb8d2d3c8290e10583",
   "narzedzia/postep.py": "24b4781e6a1c867ab8b21f36264ff56a21cf04107a4ac5ea45793650c9dc0850",
   "narzedzia/premiere.py": "b98e57ebc085c29706d5f4568ea4486cd0f3ccc949db47f62399556a223b0532",
   "narzedzia/prompty/wpadki.md": "25b75898afd8daa65fafab79f83c53dbe674bcc391693513dff9ade1049aa0b7",
@@ -496,7 +496,7 @@
   "narzedzia/szablony.py": "fd93b933d8a458f8f2ce0292c473153a91444a22fbceba4b92cabf7b0b5a885a",
   "narzedzia/tlumacz.py": "3b4707ddf34e48194cd613af7148be4e591a19cfefb4036bfdd88b5409804d1e",
   "narzedzia/transkrypcja.py": "c6ea5a76dee593724b82bfee1af2e1e6704b5c63cb61ff81e33dc204ea202cae",
-  "narzedzia/uklad.py": "8118c82d50e0c451f65446adff216f9f617ee034e259aa6afe96e1789f1b1e1f",
+  "narzedzia/uklad.py": "36a9454a6da7313b3094da33efb1d3c58f22b0fc1a14e652ca632fc7c6bf5fc5",
   "narzedzia/uklad_przenies.py": "47f5034f0fa212fa5e36c5ed2bfb3f1b1623fa21c29654129fd37d5fd72f2ba6",
   "narzedzia/uruchom.py": "6f588bfb1eefbaed9f3c52bf8e80dc12e8b86d43d1533a5e42cfa0eedadfa2ae",
   "narzedzia/w_tle.py": "23bd621ad8a3a71973f13fe92f7fe35efda32e8ce1d8181c219ddd7b7635faa4",
@@ -517,12 +517,6 @@
   "studio/studio.html": "aababd0ab6377fee437e95c13a967ffdb380ce399abd747d8ba300b7d839cf5a"
  },
  "zmiany": [
-  "Panel Premiere, Animacje > „Na żywo”: przejścia i ruch klipów zrobione efektami samego Premiere (Transform, Gaussian Blur, Offset, Directional Blur), jak w Animation Studio: bez renderu, grają od razu, a każda zmiana suwaka poprawia klip na osi w ułamku sekundy. Przejścia na cięciu: Zoom w przód, Zoom z rozmyciem, Wjazd z bliska, Obrót z zoomem (bez czarnych rogów), Whip w lewo/prawo/górę/dół (obraz się zawija, bez czarnych pasów), Rozmycie, Wstrząs. Przycisk „Na wszystkie cięcia w zaznaczeniu” robi przejścia na całej zaznaczonej części osi naraz. Ruch klipu (grafiki, napisy, zdjęcia, ujęcia): wejście i wyjście (z dołu, z boku, zza kadru, powiększenie, pop, z rozmycia, zanik, obrót), powolne przybliżenie albo dryf przez cały klip, uderzenie i wstrząs w miejscu głowicy. Zaznaczony klip z ruchem wraca do suwaków",
-  "Animacje z „Ruchu”: nowa sekcja „Tekst i położenie”: font nagłówka i dopisków, grubość, rozmiar tekstu, przesunięcie w bok i w pionie, skala, obrót i krycie całej grafiki, odstęp liter, interlinia, wielkie litery. Działa w każdej animacji z biblioteki, „Moje” i z rolek, zapisuje się razem z animacją",
-  "Poprawki animacji na osi szybciej: najpierw szybki render (bez rozmycia ruchu), a gdy przestaniesz zmieniać, sam podmienia go na pełną jakość. Pamięć renderów: powrót do ustawień, które już były, wstawia gotowy plik od razu (bez renderu)",
-  "9 nowych pozycji w „Ruchu”: Lista z odhaczaniem, Nagłówek kinetyczny (słowo po słowie), Porównanie bez / z nami, Taśma z przewijanym napisem, Postęp „krok 2 z 4”, Przejście: ukośne pasy, Przejście z tytułem rozdziału, szablony rolek „Hak: film + duże pytanie” i „Podzielony ekran: dwa ujęcia”",
-  "Podgląd animacji w panelu bliżej gotowego pliku (kolory półprzezroczystych plakietek w starszym Chrome panelu)",
-  "Zadania zjadają mniej limitu Claude: staranność według rodzaju zadania (rolki i grafiki „high”, proste narzędzia „medium”), krótsze wyniki narzędzi w rozmowie, długa rozmowa streszcza się sama przy ok. 300 tys. tokenów zamiast rosnąć do miliona, muzykę wybiera osobny agent „muzyka” (długie wyniki Epidemic nie zostają w rozmowie zadania), stock przez krótką wyszukiwarkę silnika z jednym arkuszem podglądów zamiast kilkunastu obrazów, ffmpeg bez długich wypisów, krótszy CLAUDE.md (pełne opisy narzędzi w narzedzia/NARZEDZIA.md). Ustawienia w narzedzia/claude_start.json",
-  "Napisy: napis kończy się tuż przed startem następnego (poprawka zrobiona dziś przez mózg na Twoim PC, scalona z tą wersją), więc w pliku SRT napisy na siebie nie nachodzą"
+  "Naprawione: porządek na koniec zadania zatrzymywał się na „Permission denied” przy zapisie Assety\\_info.json (tak było przy grafikach 20.11). Windows nie pozwala nadpisać zwykłym zapisem pliku z atrybutem „ukryty”, a wersje 19.63–19.65 ukrywały pliki, które zadania zapisują wiele razy (_info.json, notatki AI klienta jak marka.md i oceny.md, pliki postępu). Pliki nie są już ukrywane (ukryte zostają tylko foldery robocze), a te ukryte wcześniej odkrywają się same raz po aktualizacji i przy każdym porządku zadania. Notatki AI (marka.md, styl, oceny, muzyka.md, klient.json) będą więc widoczne w Assety klienta: nie usuwaj ich, to pamięć studia o kliencie"
  ]
 }
