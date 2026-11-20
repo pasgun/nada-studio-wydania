@@ -1,16 +1,16 @@
 {
- "wersja": "19.67",
- "data": "2026-11-20 16:24",
- "plik": "silnik-19.67.zip",
- "sha256": "4456b4e990ba13af097462f191dafbec0353a01f99b7678abed296cb9eee1d49",
- "rozmiar": 3866489,
+ "wersja": "19.68",
+ "data": "2026-11-21 00:09",
+ "plik": "silnik-19.68.zip",
+ "sha256": "2bf8a2ff1d924e4d19c5b166001058b57a4a80b4ad8e969a06b39fe24dda74ae",
+ "rozmiar": 3867570,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "a0220103bb5453778c5c172beb5a6bea861242aba109e67ca718d191bab2a88d",
   "npm_animacje": "6ab06082a4d919222baaca09052ad5d4febcd097722d679aa689204e48816871",
   "npm_psd": "a81115dd7fceaae3841b73512578e85925e7661ceb22c1fb20a98006d08579d0",
   "npm_ruch": "3cddeb9571522c7b6e6f347a1904f975cbb1062b4f354d34c9b495f3aa1bfec5",
-  "panel_adobe": "f67cac2414eff021776df23ba8cdc5ef5df4284bafe4c0853888a726b73a4ad3",
+  "panel_adobe": "e8bd77ef507ad419314e455a7969920cb5a79e407426753961c2f68bc2329f8a",
   "davinci": "0150ecc7497408e734e654a8ec48699d57d1f3b28899b6fc618769f1f9bac3b8"
  },
  "pliki": {
@@ -173,7 +173,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "4e387d943c49926703788846c270a412d01a3e2a64e25dcb799e615b88896eb3",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "e4a272c7bca637563a4063ff58c5a772b751cbbe4672a67100fdfed48fb5e5a0",
+  "WERSJA.txt": "09afb129fd0a809610fd5184303a1a2bd617f0ee70d5d98fdcac2218f4584605",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -504,7 +504,7 @@
   "narzedzia/wzor.py": "0441c7a1891ea27b86d450e4f1a0147375d8eabbaae210161630af984623f903",
   "premiere/.debug": "f4107daa16ebb7c5c0fcc077998e2c4786ffe340e69fcc1f43cbc6a5872a78c6",
   "premiere/CSXS/manifest.xml": "b56df67964c72c205bc5f7d8c7f31ea5fed61ef4b77e01c6f8f759ce05c1cb1c",
-  "premiere/host/host.jsx": "31f620e155797f913d553c2e25963234c2e108590816298c12a85f31078e12ac",
+  "premiere/host/host.jsx": "2dc07f5c07f14d3aa075f37cb4d62943d0b9e1463b72728b37a846eb450a8777",
   "premiere/index.html": "0bb227ecb56becaff44c6167de20a8b8ff1d1a0eda924e0276359bae12ef0dbb",
   "premiere/kolor.js": "fbeb7c47fddf4c4953ca9b9ce6b17d0421cbeb99a549886415429546852ff32b",
   "premiere/limiter_glos.json": "a01d9d857bc2c17230ebccfde161200747d0444be1d36f0acc05e76a3f2d5a1b",
@@ -517,7 +517,6 @@
   "studio/studio.html": "fe7d2b226ef380f4f45898ef83088cb70a153bdd3bcb838b5096054db4b7d110"
  },
  "zmiany": [
-  "Poprawka niesie aktualną kartę zadania: gdy po pierwszym uruchomieniu zmienisz w zadaniu brief, styl („według referencji”), formaty albo serwisy, poprawka dostaje te zmiany (wcześniej mózg dostawał tylko tekst poprawki i pierwotne polecenie, więc np. styl „referencje” dodany później w ogóle do niego nie docierał, jak w zadaniu zloto24 „Kolczyki”)",
-  "Poprawka typu „zrób od nowa”, „nie jest według referencji”, „to jest złe”: mózg najpierw ogląda referencje klienta, wypisuje różnice i robi nową wersję według nich, zamiast poprawiać punktowo starą (wcześniej instrukcja poprawki zabraniała ponownego oglądania referencji)"
+  "Animacje > „Na żywo”: naprawiony błąd „Invalid parameter (linia 1939)” przy wstawianiu przejścia. Panel szuka parametrów efektów Premiere (Skala, Położenie, Obrót, Krycie, rozmycia) po nazwie i po rodzaju wartości, także w polskim Premiere, i nie trafia już w zły parametr (np. przełącznik zamiast skali). Gdy Premiere mimo to odrzuci jakąś klatkę, reszta przejścia i tak się wstawia, a panel pokazuje na żółto, który parametr nie przeszedł, i listę parametrów efektu (wyślij zrzut, to dopasuję)"
  ]
 }
