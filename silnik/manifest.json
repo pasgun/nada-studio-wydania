@@ -1,9 +1,9 @@
 {
- "wersja": "19.68",
- "data": "2026-11-21 00:09",
- "plik": "silnik-19.68.zip",
- "sha256": "2bf8a2ff1d924e4d19c5b166001058b57a4a80b4ad8e969a06b39fe24dda74ae",
- "rozmiar": 3867570,
+ "wersja": "19.69",
+ "data": "2026-11-23 10:08",
+ "plik": "silnik-19.69.zip",
+ "sha256": "8b4a32876c4cfe748dc67a4d3fee4b5f809ef1a7d46a5271992919ee2b98c75b",
+ "rozmiar": 3870922,
  "apka_min": "1.0.0",
  "odciski": {
   "pip": "a0220103bb5453778c5c172beb5a6bea861242aba109e67ca718d191bab2a88d",
@@ -173,7 +173,7 @@
   "AGENTS.md": "77d25bfe53508a1a4158c9c93e185e46fa038314cc287acad1e3144713d480bd",
   "CLAUDE.md": "4e387d943c49926703788846c270a412d01a3e2a64e25dcb799e615b88896eb3",
   "GEMINI.md": "6dec4390ebf6e8e398edebeb0f354233fe6d9ab22a4ec68020bdb0358ab860b5",
-  "WERSJA.txt": "09afb129fd0a809610fd5184303a1a2bd617f0ee70d5d98fdcac2218f4584605",
+  "WERSJA.txt": "f04fbef7858510760700b523a556a3b7608cd237d3369af95275ab16fc109dd7",
   "davinci/CZYTAJ.txt": "c0992456f22d80b25ce2810bf4df4c60442c61a4bd76c34a6dd6f966f76e6ce1",
   "davinci/skrypty/Napisy SRT.lua": "e72d6d10e8a16c06025723b89d3725211cfc9e0815d82c8b659745390879f390",
   "davinci/skrypty/Tnij cisze i wpadki.lua": "704d6eb599ca8a75c62810c3c96d4b7d2d4c7c0bac9b2a50cb47220ae7b746bb",
@@ -187,7 +187,7 @@
   "davinci/wtyczka/styl.css": "2719d249fd5d9e0b58b6f755c7c6b7c16235bbe8dbb3c22cf3ecc5e3e1da360e",
   "narzedzia/NARZEDZIA.md": "58e44f148db7938c41a0989105fc8f8c7804559c047563301c3011573e4b5aa7",
   "narzedzia/adobe_podcast.json": "04476aaf40573e950fc314f9f686b90e7d1ec9e0ac55a764d3979834def81033",
-  "narzedzia/adobe_podcast.py": "66fa63d672da787a8d0c69706553a0292482f78eb661abf16e496cec31da52c2",
+  "narzedzia/adobe_podcast.py": "f2b8e7839f1543fae07be5d8ee8dc7ac3bd9cd91ea7c56729f162bb91381f21f",
   "narzedzia/aftermovie.py": "ebc3f90240513437939c00d20fd8c682e00b07a74c440876a61a4fc927ebe625",
   "narzedzia/analiza.py": "b2671f74e823a518fa8e669cbfbc90001df13dc58f25693eb63a613c195eb50b",
   "narzedzia/animacje/ae_mogrt.jsx": "e497b118861c88957da21af5aa525c57fe436c08dd04ab5df680f23b42ce9424",
@@ -514,9 +514,12 @@
   "premiere/ruch_natywny.js": "778bf40548bb1d0268c90b6bd32d7feba862f879222f06f392e70e008a2f8137",
   "requirements.txt": "f948410896ce1d7fd57b36d2a2aec787e8a4558ddf5fdf42c0f0b61d6e12ba46",
   "studio/i18n/en.json": "045c93fe57565ef2bb9457b14b221c2fdf455617a09adef27a15afc92dd82fac",
-  "studio/studio.html": "fe7d2b226ef380f4f45898ef83088cb70a153bdd3bcb838b5096054db4b7d110"
+  "studio/studio.html": "3f02127fb817efcd30ddc31cda3f03e2cc3ec1d9a5ebeaf1f0f33a1923427d8f"
  },
  "zmiany": [
-  "Animacje > „Na żywo”: naprawiony błąd „Invalid parameter (linia 1939)” przy wstawianiu przejścia. Panel szuka parametrów efektów Premiere (Skala, Położenie, Obrót, Krycie, rozmycia) po nazwie i po rodzaju wartości, także w polskim Premiere, i nie trafia już w zły parametr (np. przełącznik zamiast skali). Gdy Premiere mimo to odrzuci jakąś klatkę, reszta przejścia i tak się wstawia, a panel pokazuje na żółto, który parametr nie przeszedł, i listę parametrów efektu (wyślij zrzut, to dopasuję)"
+  "Adobe Podcast: od 23.11 strona Enhance w przeglądarce bez okna zostaje pusta (automat pisał „Adobe Podcast zmienił stronę: nie widzę miejsca na wgranie pliku”). Automat próbuje wtedy jeszcze raz w zwykłym oknie ustawionym poza ekranem i zapamiętuje, że tak działa; to samo przy zadaniach i przy „Sprawdź jeszcze raz”",
+  "Pasek Adobe w Studio: „Sprawdź jeszcze raz” pokazuje „Sprawdzam… (do 2 min)”, a na końcu wynik (działa / dalej nie działa i dlaczego); przy kłopocie ze stroną jest też przycisk „Otwórz okno Adobe”, żeby zobaczyć stronę i w razie potrzeby się zalogować",
+  "Tablica zadań: w każdej kolumnie najnowsze zadania są na górze, najstarsze na dole",
+  "Zamknięte zadania (małe kafelki) mają przycisk „Usuń”: pierwsze kliknięcie pyta „Na pewno?”, drugie usuwa zadanie z tablicy (pliki w folderze zadania zostają)"
  ]
 }
